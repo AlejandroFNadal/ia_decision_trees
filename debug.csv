@@ -1,0 +1,5 @@
+,index,Hipertenso,Colesterol,Trigliceridos,Edad,Diabeico,ProblemasCardiacos
+0,0,F,bajo,normal,menos_40,T,F
+1,4,F,medio,elevado,menos_40,F,T
+2,5,F,medio,normal,entre_40_60,T,F
+3,9,F,alto,normal,menos_40,F,F
