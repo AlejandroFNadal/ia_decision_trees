@@ -1,1 +1,6 @@
 iatp/
+utits/__pycache__/
+utils/decisionTree/__pycache__/
+utils/node/__pycache__/
+utils/predictions/__pycache__/
+utils/setCases/__pycache__/
