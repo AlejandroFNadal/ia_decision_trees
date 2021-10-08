@@ -1,0 +1,11 @@
+NivelIngreso,Edad,CreditoPrendarioActual,CuentaSueldo,AltaGama
+medio,mayor35,si,no,si
+bajo,mayor35,si,si,no
+medio,mayor35,si,no,no
+medio,mayor35,no,no,no
+alto,menor35,si,no,no
+alto,menor35,si,si,si
+bajo,mayor35,si,si,no
+bajo,menor35,no,no,no
+alto,menor35,si,no,no
+alto,mayor35,si,si,si
