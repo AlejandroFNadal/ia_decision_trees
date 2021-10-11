@@ -1,9 +1,9 @@
 import pandas as pd
 import graphviz
-from utils.setCases.setCases import SetCases
-from utils.node.Node import Node
-from utils.decisionTree.DecisionTree import decisionTree
-from utils.predictions.Predictions import predict_cases
+from src.setCases.setCases import SetCases
+from src.node.Node import Node
+from src.decisionTree.DecisionTree import decisionTree
+from src.predictions.Predictions import predict_cases
 from config.config import name_counter
 
 
