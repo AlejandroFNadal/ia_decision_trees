@@ -13,8 +13,8 @@ def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues :
     else:
         print('Depth ' + str(guide_int))
         #gain = D.gain()
-        #gain = D.gain_ratio()
-        gain = D.gain2()[0]
+        gain = D.gain_ratio()
+        #gain = D.gain2()[0]
         print('Attribute chosen ', gain[0])
         print("ACA ESTA LA GANANCIA",gain[1])
         if gain[1] < threshold:
