@@ -108,7 +108,7 @@ class SetCases:
     
     def most_frequent_class(self) -> str:
         print(f'self.class_column_name {self.class_column_name}')
-        return self.cases[self.class_column_name].mode().tolist()
+        return self.cases[self.class_column_name].mode().tolist()[0]
     
     def separate_data(self, attr) -> list: # Esto retorna un arreglo con dataframes
         attr_values = list(self.cases[attr].unique())

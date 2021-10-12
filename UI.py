@@ -44,12 +44,12 @@ if button == True:
         if "test_slider" not in st.session_state:
             st.session_state["test_slider"] = -1
         
-        graphs = st.slider('Seleccione el paso de la ejecucion para graficar:', 0, len(graph_array), 0, 1,key="test_slider")
-        st.button("Update slider values", on_click=_update_slider, kwargs={"value": graphs})
+        #graphs = st.slider('Seleccione el paso de la ejecucion para graficar:', 0, len(graph_array), 0, 1,key="test_slider")
+        #st.button("Update slider values", on_click=_update_slider, kwargs={"value": graphs})
         #if st.session_state["test_slider"] > 0:
         #    st.graphviz_chart(graph_array[graphs])
-        #for graph in graph_array:  
-        #    st.graphviz_chart(graph)
+        for graph in graph_array:  
+            st.graphviz_chart(graph)
 
     elif uploaded_file is None:
         st.write('Por favor, ingrese un Archivo.')
