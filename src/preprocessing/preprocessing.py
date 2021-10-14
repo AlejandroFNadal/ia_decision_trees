@@ -29,7 +29,7 @@ def remove_continuous_columns(df):
     output[1] = df_without_floats
     return output    
     
-def imputation_mode(df, empty_char = ""):
+def impute_with_mode(df, empty_char = ""):
     df.replace(empty_char, np.nan, inplace=True)
     # we iterate over every column
     for name, values in df.iteritems():

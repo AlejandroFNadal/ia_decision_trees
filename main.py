@@ -7,9 +7,17 @@ from src.predictions.Predictions import predict_cases
 from config.config import name_counter
 from src.split.split import split_dataset
 from src.train.train import train
+from src.preprocessing.preprocessing import remove_continuous_columns,impute_with_mode
+
 
 df = pd.read_csv('data/mushrooms.csv')
 target = 'class'
+removed_continuous = remove_continuous_columns(df)
+df = removed_continuous[1]
+removed_columns = removed_continuous[0]
+
+df = impute_with_mode(df)
+
 df_train, df_test = split_dataset(df,0.7,target)
 print(df_train.shape)
 print(df_test.shape)
