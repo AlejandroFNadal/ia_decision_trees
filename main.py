@@ -8,7 +8,7 @@ from config.config import name_counter
 from src.split.split import split_dataset
 from src.train.train import train
 
-df = pd.read_csv('data/chess.csv')
+df = pd.read_csv('data/mushrooms.csv')
 target = 'class'
 df_train, df_test = split_dataset(df,0.7,target)
 print(df_train.shape)
@@ -28,3 +28,4 @@ print(df_test)
 print(df_test[df_test['correct_prediction']==1]['correct_prediction'].count())
 print(len(df_test))
 print('Accuracy',df_test[df_test['correct_prediction']==1]['correct_prediction'].count()/len(df_test))
+print(pd.crosstab(df_test['class'],df_test['test_result']))
