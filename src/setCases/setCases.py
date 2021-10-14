@@ -19,8 +19,13 @@ class SetCases:
     def entropy(self) -> float:  # Entropy Formula function
         entropy = 0
         counts = self.cases[self.class_column_name].value_counts()
+        print(f'counts {counts}')
         for item in self.classValues:
             prob = self.cases[self.cases[self.class_column_name]==item][self.class_column_name].count()/self.case_count
+            print(f'prob {prob}')
+            #No se suma porque el conjunto actual no posee casos pertenecientes a uno de los valores de la clase
+            if prob == 0:
+                continue
             entropy -= (prob)*(math.log2(prob))
         return round(entropy,3)
 

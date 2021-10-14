@@ -1,0 +1,23 @@
+digraph {
+	0 [label="BP 
+ Gain: 0.38"]
+	1 [label="Cholesterol 
+ Gain: 0.47"]
+	0 -> 1 [label=LOW splines=line]
+	2 [label="DrugY 
+ Gain: 0 
+ [12 11]" color=green]
+	1 -> 2 [label=HIGH splines=line]
+	3 [label="DrugY 
+ Gain: 0 
+ [13 11]" color=green]
+	1 -> 3 [label=NORMAL splines=line]
+	4 [label="DrugY 
+ Gain: 0 
+ [29 16 10]" color=green]
+	0 -> 4 [label=HIGH splines=line]
+	5 [label="drugX 
+ Gain: 0 
+ [24 14]" color=green]
+	0 -> 5 [label=NORMAL splines=line]
+}

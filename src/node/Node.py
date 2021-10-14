@@ -29,7 +29,7 @@ class Node:
         if depth != 0:
             print(f'Created edge between {name_previous_node} and {self.id_node}')
             #graph.edge with straight spline
-            graph.edge(str(name_previous_node), str(self.id_node),label=self.val_attr,splines='line')
+            graph.edge(str(name_previous_node), str(self.id_node),label=str(self.val_attr),splines='line')
         #name_counter+=1
         name_previous_node+=1
         for item in self.children:

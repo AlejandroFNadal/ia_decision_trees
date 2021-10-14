@@ -2,7 +2,7 @@ from src.setCases.setCases import SetCases
 from config.config import name_counter,threshold
 from src.node.Node import Node
 
-def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues : list):
+def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues : list,gain_ratio:bool):
     global name_counter
     if D.is_pure():
         class_name = D.most_frequent_class()
@@ -13,7 +13,13 @@ def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues :
     else:
         print('Depth ' + str(guide_int))
         #gain = D.gain()
-        gain = D.gain_ratio()
+        if gain_ratio:
+            print('VOY A USAR GAIN RATIO')
+            gain = D.gain_ratio()
+        else:
+            print('VOY A USAR GAIN')
+            gain = D.gain2()[0]
+        #gain = D.gain_ratio()
         #gain = D.gain2()[0]
         print('Attribute chosen ', gain[0])
         print("ACA ESTA LA GANANCIA",gain[1])
@@ -32,4 +38,4 @@ def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues :
                 new_node = Node(elem, name_counter, subset[0])
                 name_counter+=1
                 T.addChildren(new_node)
-                decisionTree(elem, A1, new_node, guide_int+1,classValues)
+                decisionTree(elem, A1, new_node, guide_int+1,classValues,gain_ratio)
