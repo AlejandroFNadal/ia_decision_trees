@@ -1,3 +1,4 @@
+from re import I
 import streamlit as st
 from io import StringIO
 import pandas as pd
@@ -39,14 +40,28 @@ if button == True:
         root_node = train(dataframe, target, threshold, function)
         root_node.printTree(0, graph, root_node, name_counter)
         
-        if "test_slider" not in st.session_state:
-            st.session_state["test_slider"] = -1
-        
-        #graphs = st.slider('Seleccione el paso de la ejecucion para graficar:', 0, len(graph_array), 0, 1,key="test_slider")
-        #st.button("Update slider values", on_click=_update_slider, kwargs={"value": graphs})
-        #if st.session_state["test_slider"] > 0:
-        #    st.graphviz_chart(graph_array[graphs])
-        for graph in graph_array:  
+        i = 0
+        exit = False
+        siguiente = False 
+        anterior = False
+        print = False
+        while exit == False:
+            siguiente = st.button('Siguiente')
+            anterior = st.button('Anterior')
+            print = st.button('Mostrar')
+            exit = st.button('Salir')
+            if siguiente:
+                ++i
+                siguiente = False
+            if anterior: 
+                --i
+                anterior = False
+            if print:
+                st.graphviz_chart(graph_array[i])
+
+        # st.graphviz_chart(graph_array[graphs], kwargs={"value": graphs})
+
+        # for graph in graph_array:  
             st.graphviz_chart(graph)
 
     elif uploaded_file is None:
