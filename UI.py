@@ -11,6 +11,7 @@ from src.node.Node import Node
 from src.decisionTree.DecisionTree import decisionTree
 from src.predictions.Predictions import predict_cases
 from config.config import name_counter,graph_array
+from src.train.train import train
 
 def _update_slider(value):
     st.session_state["test_slider"] = value
@@ -31,15 +32,12 @@ if button == True:
         elif (uploaded_file.name).split('.')[1] == 'xlsx':
             dataframe = pd.read_excel(uploaded_file, engine='openpyxl')     # EXCEL
             st.write(dataframe.head())
-            
-        target = 'class'
+        
+        function = 'gain'
+        target = dataframe.columns[-1]
         graph = graphviz.Digraph()
-        classValues = list(dataframe[target].value_counts().index) 
-
-        set_init = SetCases(dataframe,len(dataframe),target,classValues)
-        root_node = Node(set_init, 0)
-        decisionTree(set_init, set_init.get_attributes(),root_node,0,classValues)
-        root_node.printTree(0, graph, root_node,name_counter)
+        root_node = train(dataframe, target, threshold, function)
+        root_node.printTree(0, graph, root_node, name_counter)
         
         if "test_slider" not in st.session_state:
             st.session_state["test_slider"] = -1
