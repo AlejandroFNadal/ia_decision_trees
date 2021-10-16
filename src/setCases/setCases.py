@@ -29,7 +29,7 @@ class SetCases:
             entropy -= (prob)*(math.log2(prob))
         return round(entropy,3)
 
-    def entropy_attribute(self) -> float: # Entropia de cada tributo de 'A'
+    def entropy_attribute(self) -> dict: # Entropia de cada tributo de 'A'
         entropy_result = {}
         for attribute in self.attributes:  # Bucle sobre cada atributo de la lista
             result = 0
