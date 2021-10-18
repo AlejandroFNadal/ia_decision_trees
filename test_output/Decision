@@ -1,0 +1,67 @@
+digraph {
+	0 [label="Outlook 
+ Gain: 0.3"]
+	1 [label="Yes 
+ Gain: 0 
+ [1]" color=green]
+	0 -> 1 [label=Fog splines=line]
+	2 [label="Temp 
+ Gain: 0.32"]
+	0 -> 2 [label=Rain splines=line]
+	3 [label="Yes 
+ Gain: 0 
+ [3]" color=green]
+	2 -> 3 [label=Mild splines=line]
+	4 [label="Wind 
+ Gain: 1.0"]
+	2 -> 4 [label=Cool splines=line]
+	5 [label="No 
+ Gain: 0 
+ [1]" color=green]
+	4 -> 5 [label=Strong splines=line]
+	6 [label="Yes 
+ Gain: 0 
+ [1]" color=green]
+	4 -> 6 [label=Weak splines=line]
+	7 [label="No 
+ Gain: 0 
+ [2]" color=green]
+	0 -> 7 [label=Snow splines=line]
+	8 [label="Temp 
+ Gain: 0.92"]
+	0 -> 8 [label=Overcast splines=line]
+	9 [label="No 
+ Gain: 0 
+ [1]" color=green]
+	8 -> 9 [label=Cool splines=line]
+	10 [label="Yes 
+ Gain: 0 
+ [2]" color=green]
+	8 -> 10 [label=Hot splines=line]
+	11 [label="Wind 
+ Gain: 1.0"]
+	0 -> 11 [label=Sunny splines=line]
+	12 [label="Yes 
+ Gain: 0 
+ [2]" color=green]
+	11 -> 12 [label=Weak splines=line]
+	13 [label="No 
+ Gain: 0 
+ [2]" color=green]
+	11 -> 13 [label=Strong splines=line]
+	14 [label="No 
+ Gain: 0 
+ [1]" color=green]
+	0 -> 14 [label=Hail splines=line]
+	15 [label="Humidity 
+ Gain: 1.0"]
+	0 -> 15 [label=Drizzle splines=line]
+	16 [label="Yes 
+ Gain: 0 
+ [1]" color=green]
+	15 -> 16 [label=High splines=line]
+	17 [label="No 
+ Gain: 0 
+ [1]" color=green]
+	15 -> 17 [label=Normal splines=line]
+}

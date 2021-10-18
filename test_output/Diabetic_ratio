@@ -1,0 +1,83 @@
+digraph {
+	0 [label="RegularMedicine 
+ Gain: 0.27"]
+	68 [label="Pdiabetes 
+ Gain: 0.24"]
+	0 -> 68 [label=no splines=line]
+	69 [label="Gender 
+ Gain: 0.52"]
+	68 -> 69 [label=yes splines=line]
+	70 [label="Family_Diabetes 
+ Gain: 0.19"]
+	69 -> 70 [label=Female splines=line]
+	71 [label="Age 
+ Gain: 1.0"]
+	70 -> 71 [label=no splines=line]
+	72 [label="no 
+ Gain: 0 
+ [1]" color=green]
+	71 -> 72 [label="40-49" splines=line]
+	73 [label="yes 
+ Gain: 0 
+ [2]" color=green]
+	71 -> 73 [label="less than 40" splines=line]
+	74 [label="yes 
+ Gain: 0 
+ [3]" color=green]
+	70 -> 74 [label=yes splines=line]
+	75 [label="no 
+ Gain: 0 
+ [1]" color=green]
+	69 -> 75 [label=Male splines=line]
+	76 [label="no 
+ Gain: 0 
+ [397  32]" color=green]
+	68 -> 76 [label=0 splines=line]
+	77 [label="Family_Diabetes 
+ Gain: 0.1"]
+	0 -> 77 [label=yes splines=line]
+	78 [label="BPLevel 
+ Gain: 0.15"]
+	77 -> 78 [label=yes splines=line]
+	79 [label="Smoking 
+ Gain: 0.14"]
+	78 -> 79 [label=normal splines=line]
+	80 [label="yes 
+ Gain: 0 
+ [42 27]" color=green]
+	79 -> 80 [label=no splines=line]
+	81 [label="yes 
+ Gain: 0 
+ [6]" color=green]
+	79 -> 81 [label=yes splines=line]
+	82 [label="yes 
+ Gain: 0 
+ [58  1]" color=green]
+	78 -> 82 [label=high splines=line]
+	83 [label="yes 
+ Gain: 0 
+ [2]" color=green]
+	78 -> 83 [label=High splines=line]
+	84 [label="Smoking 
+ Gain: 0.17"]
+	77 -> 84 [label=no splines=line]
+	85 [label="Pdiabetes 
+ Gain: 0.13"]
+	84 -> 85 [label=no splines=line]
+	86 [label="no 
+ Gain: 0 
+ [45 40]" color=green]
+	85 -> 86 [label=0 splines=line]
+	87 [label="yes 
+ Gain: 0 
+ [1]" color=green]
+	85 -> 87 [label=yes splines=line]
+	88 [label="no 
+ Gain: 0 
+ [7]" color=green]
+	84 -> 88 [label=yes splines=line]
+	89 [label="no 
+ Gain: 0 
+ [1]" color=green]
+	0 -> 89 [label=o splines=line]
+}

@@ -1,0 +1,1102 @@
+digraph {
+	0 [label="safety 
+ Gain: 0.28"]
+	1 [label="unacc 
+ Gain: 0 
+ [418]" color=green]
+	0 -> 1 [label=low splines=line]
+	2 [label="persons 
+ Gain: 0.33"]
+	0 -> 2 [label=med splines=line]
+	3 [label="bind 
+ Gain: 0.24"]
+	2 -> 3 [label=4 splines=line]
+	4 [label="maint 
+ Gain: 0.63"]
+	3 -> 4 [label=low splines=line]
+	5 [label="look_good 
+ Gain: 0.57"]
+	4 -> 5 [label=med splines=line]
+	6 [label="good 
+ Gain: 0 
+ [4]" color=green]
+	5 -> 6 [label=big splines=line]
+	7 [label="doors 
+ Gain: 1.0"]
+	5 -> 7 [label=med splines=line]
+	8 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	7 -> 8 [label="5more" splines=line]
+	9 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	7 -> 9 [label=4 splines=line]
+	10 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	7 -> 10 [label=3 splines=line]
+	11 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	7 -> 11 [label=2 splines=line]
+	12 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	5 -> 12 [label=small splines=line]
+	13 [label="doors 
+ Gain: 0.61"]
+	4 -> 13 [label=vhigh splines=line]
+	14 [label="unacc 
+ Gain: 0 
+ [2]" color=green]
+	13 -> 14 [label=3 splines=line]
+	15 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	13 -> 15 [label=4 splines=line]
+	16 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	13 -> 16 [label="5more" splines=line]
+	17 [label="look_good 
+ Gain: 0.92"]
+	13 -> 17 [label=2 splines=line]
+	18 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	17 -> 18 [label=big splines=line]
+	19 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	17 -> 19 [label=small splines=line]
+	20 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	17 -> 20 [label=med splines=line]
+	21 [label="look_good 
+ Gain: 0.68"]
+	4 -> 21 [label=low splines=line]
+	22 [label="doors 
+ Gain: 0.92"]
+	21 -> 22 [label=med splines=line]
+	23 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	22 -> 23 [label=2 splines=line]
+	24 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	22 -> 24 [label=4 splines=line]
+	25 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	22 -> 25 [label=3 splines=line]
+	26 [label="good 
+ Gain: 0 
+ [3]" color=green]
+	21 -> 26 [label=big splines=line]
+	27 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	21 -> 27 [label=small splines=line]
+	28 [label="acc 
+ Gain: 0 
+ [9]" color=green]
+	4 -> 28 [label=high splines=line]
+	29 [label="look_good 
+ Gain: 0.33"]
+	3 -> 29 [label=high splines=line]
+	30 [label="doors 
+ Gain: 0.75"]
+	29 -> 30 [label=med splines=line]
+	31 [label="unacc 
+ Gain: 0 
+ [4]" color=green]
+	30 -> 31 [label=3 splines=line]
+	32 [label="unacc 
+ Gain: 0 
+ [3]" color=green]
+	30 -> 32 [label=2 splines=line]
+	33 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	30 -> 33 [label="5more" splines=line]
+	34 [label="maint 
+ Gain: 0.92"]
+	30 -> 34 [label=4 splines=line]
+	35 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	34 -> 35 [label=low splines=line]
+	36 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	34 -> 36 [label=med splines=line]
+	37 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	34 -> 37 [label=vhigh splines=line]
+	38 [label="maint 
+ Gain: 0.86"]
+	29 -> 38 [label=big splines=line]
+	39 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	38 -> 39 [label=low splines=line]
+	40 [label="acc 
+ Gain: 0 
+ [4]" color=green]
+	38 -> 40 [label=high splines=line]
+	41 [label="unacc 
+ Gain: 0 
+ [4]" color=green]
+	38 -> 41 [label=vhigh splines=line]
+	42 [label="acc 
+ Gain: 0 
+ [4]" color=green]
+	38 -> 42 [label=med splines=line]
+	43 [label="unacc 
+ Gain: 0 
+ [12]" color=green]
+	29 -> 43 [label=small splines=line]
+	44 [label="maint 
+ Gain: 0.37"]
+	3 -> 44 [label=vhigh splines=line]
+	45 [label="look_good 
+ Gain: 0.66"]
+	44 -> 45 [label=med splines=line]
+	46 [label="doors 
+ Gain: 0.92"]
+	45 -> 46 [label=med splines=line]
+	47 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	46 -> 47 [label=3 splines=line]
+	48 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	46 -> 48 [label=4 splines=line]
+	49 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	46 -> 49 [label=2 splines=line]
+	50 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	45 -> 50 [label=big splines=line]
+	51 [label="unacc 
+ Gain: 0 
+ [2]" color=green]
+	45 -> 51 [label=small splines=line]
+	52 [label="look_good 
+ Gain: 0.61"]
+	44 -> 52 [label=low splines=line]
+	53 [label="unacc 
+ Gain: 0 
+ [2]" color=green]
+	52 -> 53 [label=small splines=line]
+	54 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	52 -> 54 [label=big splines=line]
+	55 [label="doors 
+ Gain: 0.92"]
+	52 -> 55 [label=med splines=line]
+	56 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	55 -> 56 [label=4 splines=line]
+	57 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	55 -> 57 [label="5more" splines=line]
+	58 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	55 -> 58 [label=2 splines=line]
+	59 [label="unacc 
+ Gain: 0 
+ [10]" color=green]
+	44 -> 59 [label=high splines=line]
+	60 [label="unacc 
+ Gain: 0 
+ [6]" color=green]
+	44 -> 60 [label=vhigh splines=line]
+	61 [label="maint 
+ Gain: 0.53"]
+	3 -> 61 [label=med splines=line]
+	62 [label="look_good 
+ Gain: 0.67"]
+	61 -> 62 [label=high splines=line]
+	63 [label="unacc 
+ Gain: 0 
+ [4]" color=green]
+	62 -> 63 [label=small splines=line]
+	64 [label="doors 
+ Gain: 1.0"]
+	62 -> 64 [label=med splines=line]
+	65 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	64 -> 65 [label=2 splines=line]
+	66 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	64 -> 66 [label=4 splines=line]
+	67 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	64 -> 67 [label="5more" splines=line]
+	68 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	64 -> 68 [label=3 splines=line]
+	69 [label="acc 
+ Gain: 0 
+ [4]" color=green]
+	62 -> 69 [label=big splines=line]
+	70 [label="acc 
+ Gain: 0 
+ [6]" color=green]
+	61 -> 70 [label=med splines=line]
+	71 [label="doors 
+ Gain: 0.98"]
+	61 -> 71 [label=low splines=line]
+	72 [label="good 
+ Gain: 0 
+ [2]" color=green]
+	71 -> 72 [label="5more" splines=line]
+	73 [label="good 
+ Gain: 0 
+ [2]" color=green]
+	71 -> 73 [label=4 splines=line]
+	74 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	71 -> 74 [label=2 splines=line]
+	75 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	71 -> 75 [label=3 splines=line]
+	76 [label="look_good 
+ Gain: 0.66"]
+	61 -> 76 [label=vhigh splines=line]
+	77 [label="unacc 
+ Gain: 0 
+ [2]" color=green]
+	76 -> 77 [label=small splines=line]
+	78 [label="doors 
+ Gain: 0.92"]
+	76 -> 78 [label=med splines=line]
+	79 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	78 -> 79 [label="5more" splines=line]
+	80 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	78 -> 80 [label=2 splines=line]
+	81 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	78 -> 81 [label=3 splines=line]
+	82 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	76 -> 82 [label=big splines=line]
+	83 [label="look_good 
+ Gain: 0.19"]
+	2 -> 83 [label=more splines=line]
+	84 [label="maint 
+ Gain: 0.4"]
+	83 -> 84 [label=big splines=line]
+	85 [label="bind 
+ Gain: 0.47"]
+	84 -> 85 [label=med splines=line]
+	86 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	85 -> 86 [label=vhigh splines=line]
+	87 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	85 -> 87 [label=high splines=line]
+	88 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	85 -> 88 [label=med splines=line]
+	89 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	85 -> 89 [label=low splines=line]
+	90 [label="bind 
+ Gain: 0.65"]
+	84 -> 90 [label=high splines=line]
+	91 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	90 -> 91 [label=low splines=line]
+	92 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	90 -> 92 [label=med splines=line]
+	93 [label="unacc 
+ Gain: 0 
+ [2]" color=green]
+	90 -> 93 [label=vhigh splines=line]
+	94 [label="acc 
+ Gain: 0 
+ [4]" color=green]
+	90 -> 94 [label=high splines=line]
+	95 [label="bind 
+ Gain: 1.0"]
+	84 -> 95 [label=vhigh splines=line]
+	96 [label="unacc 
+ Gain: 0 
+ [4]" color=green]
+	95 -> 96 [label=vhigh splines=line]
+	97 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	95 -> 97 [label=med splines=line]
+	98 [label="acc 
+ Gain: 0 
+ [4]" color=green]
+	95 -> 98 [label=low splines=line]
+	99 [label="unacc 
+ Gain: 0 
+ [3]" color=green]
+	95 -> 99 [label=high splines=line]
+	100 [label="bind 
+ Gain: 0.98"]
+	84 -> 100 [label=low splines=line]
+	101 [label="good 
+ Gain: 0 
+ [2]" color=green]
+	100 -> 101 [label=low splines=line]
+	102 [label="good 
+ Gain: 0 
+ [3]" color=green]
+	100 -> 102 [label=med splines=line]
+	103 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	100 -> 103 [label=vhigh splines=line]
+	104 [label="acc 
+ Gain: 0 
+ [4]" color=green]
+	100 -> 104 [label=high splines=line]
+	105 [label="bind 
+ Gain: 0.48"]
+	83 -> 105 [label=med splines=line]
+	106 [label="maint 
+ Gain: 0.63"]
+	105 -> 106 [label=low splines=line]
+	107 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	106 -> 107 [label=vhigh splines=line]
+	108 [label="doors 
+ Gain: 0.81"]
+	106 -> 108 [label=med splines=line]
+	109 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	108 -> 109 [label="5more" splines=line]
+	110 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	108 -> 110 [label=4 splines=line]
+	111 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	108 -> 111 [label=3 splines=line]
+	112 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	108 -> 112 [label=2 splines=line]
+	113 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	106 -> 113 [label=high splines=line]
+	114 [label="good 
+ Gain: 0 
+ [2]" color=green]
+	106 -> 114 [label=low splines=line]
+	115 [label="maint 
+ Gain: 0.74"]
+	105 -> 115 [label=vhigh splines=line]
+	116 [label="doors 
+ Gain: 0.92"]
+	115 -> 116 [label=low splines=line]
+	117 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	116 -> 117 [label=4 splines=line]
+	118 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	116 -> 118 [label="5more" splines=line]
+	119 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	116 -> 119 [label=2 splines=line]
+	120 [label="unacc 
+ Gain: 0 
+ [3]" color=green]
+	115 -> 120 [label=high splines=line]
+	121 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	115 -> 121 [label=med splines=line]
+	122 [label="unacc 
+ Gain: 0 
+ [2]" color=green]
+	115 -> 122 [label=vhigh splines=line]
+	123 [label="doors 
+ Gain: 0.84"]
+	105 -> 123 [label=high splines=line]
+	124 [label="unacc 
+ Gain: 0 
+ [3]" color=green]
+	123 -> 124 [label=2 splines=line]
+	125 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	123 -> 125 [label="5more" splines=line]
+	126 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	123 -> 126 [label=3 splines=line]
+	127 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	123 -> 127 [label=4 splines=line]
+	128 [label="maint 
+ Gain: 0.5"]
+	105 -> 128 [label=med splines=line]
+	129 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	128 -> 129 [label=low splines=line]
+	130 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	128 -> 130 [label=high splines=line]
+	131 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	128 -> 131 [label=med splines=line]
+	132 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	128 -> 132 [label=vhigh splines=line]
+	133 [label="bind 
+ Gain: 0.32"]
+	83 -> 133 [label=small splines=line]
+	134 [label="unacc 
+ Gain: 0 
+ [10]" color=green]
+	133 -> 134 [label=high splines=line]
+	135 [label="maint 
+ Gain: 0.41"]
+	133 -> 135 [label=med splines=line]
+	136 [label="unacc 
+ Gain: 0 
+ [2]" color=green]
+	135 -> 136 [label=vhigh splines=line]
+	137 [label="doors 
+ Gain: 0.92"]
+	135 -> 137 [label=med splines=line]
+	138 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	137 -> 138 [label=3 splines=line]
+	139 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	137 -> 139 [label=4 splines=line]
+	140 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	137 -> 140 [label=2 splines=line]
+	141 [label="unacc 
+ Gain: 0 
+ [3]" color=green]
+	135 -> 141 [label=high splines=line]
+	142 [label="doors 
+ Gain: 1.0"]
+	135 -> 142 [label=low splines=line]
+	143 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	142 -> 143 [label="5more" splines=line]
+	144 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	142 -> 144 [label=2 splines=line]
+	145 [label="doors 
+ Gain: 0.7"]
+	133 -> 145 [label=low splines=line]
+	146 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	145 -> 146 [label=4 splines=line]
+	147 [label="unacc 
+ Gain: 0 
+ [3]" color=green]
+	145 -> 147 [label=2 splines=line]
+	148 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	145 -> 148 [label=3 splines=line]
+	149 [label="maint 
+ Gain: 0.92"]
+	145 -> 149 [label="5more" splines=line]
+	150 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	149 -> 150 [label=vhigh splines=line]
+	151 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	149 -> 151 [label=high splines=line]
+	152 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	149 -> 152 [label=med splines=line]
+	153 [label="unacc 
+ Gain: 0 
+ [5]" color=green]
+	133 -> 153 [label=vhigh splines=line]
+	154 [label="unacc 
+ Gain: 0 
+ [132]" color=green]
+	2 -> 154 [label=2 splines=line]
+	155 [label="persons 
+ Gain: 0.49"]
+	0 -> 155 [label=high splines=line]
+	156 [label="bind 
+ Gain: 0.42"]
+	155 -> 156 [label=more splines=line]
+	157 [label="maint 
+ Gain: 0.83"]
+	156 -> 157 [label=low splines=line]
+	158 [label="look_good 
+ Gain: 0.75"]
+	157 -> 158 [label=low splines=line]
+	159 [label="vgood 
+ Gain: 0 
+ [3]" color=green]
+	158 -> 159 [label=big splines=line]
+	160 [label="doors 
+ Gain: 1.0"]
+	158 -> 160 [label=med splines=line]
+	161 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	160 -> 161 [label=2 splines=line]
+	162 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	160 -> 162 [label="5more" splines=line]
+	163 [label="good 
+ Gain: 0 
+ [3]" color=green]
+	158 -> 163 [label=small splines=line]
+	164 [label="look_good 
+ Gain: 0.61"]
+	157 -> 164 [label=med splines=line]
+	165 [label="vgood 
+ Gain: 0 
+ [3]" color=green]
+	164 -> 165 [label=big splines=line]
+	166 [label="doors 
+ Gain: 0.92"]
+	164 -> 166 [label=med splines=line]
+	167 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	166 -> 167 [label="5more" splines=line]
+	168 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	166 -> 168 [label=2 splines=line]
+	169 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	166 -> 169 [label=4 splines=line]
+	170 [label="good 
+ Gain: 0 
+ [2]" color=green]
+	164 -> 170 [label=small splines=line]
+	171 [label="look_good 
+ Gain: 0.66"]
+	157 -> 171 [label=high splines=line]
+	172 [label="doors 
+ Gain: 0.92"]
+	171 -> 172 [label=med splines=line]
+	173 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	172 -> 173 [label="5more" splines=line]
+	174 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	172 -> 174 [label=2 splines=line]
+	175 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	172 -> 175 [label=4 splines=line]
+	176 [label="doors 
+ Gain: 0.81"]
+	171 -> 176 [label=small splines=line]
+	177 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	176 -> 177 [label="5more" splines=line]
+	178 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	176 -> 178 [label=2 splines=line]
+	179 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	176 -> 179 [label=3 splines=line]
+	180 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	176 -> 180 [label=4 splines=line]
+	181 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	171 -> 181 [label=big splines=line]
+	182 [label="doors 
+ Gain: 0.2"]
+	157 -> 182 [label=vhigh splines=line]
+	183 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	182 -> 183 [label=3 splines=line]
+	184 [label="look_good 
+ Gain: 0.92"]
+	182 -> 184 [label=2 splines=line]
+	185 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	184 -> 185 [label=big splines=line]
+	186 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	184 -> 186 [label=med splines=line]
+	187 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	184 -> 187 [label=small splines=line]
+	188 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	182 -> 188 [label=4 splines=line]
+	189 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	182 -> 189 [label="5more" splines=line]
+	190 [label="maint 
+ Gain: 0.86"]
+	156 -> 190 [label=vhigh splines=line]
+	191 [label="unacc 
+ Gain: 0 
+ [8]" color=green]
+	190 -> 191 [label=vhigh splines=line]
+	192 [label="acc 
+ Gain: 0 
+ [6]" color=green]
+	190 -> 192 [label=low splines=line]
+	193 [label="unacc 
+ Gain: 0 
+ [11]" color=green]
+	190 -> 193 [label=high splines=line]
+	194 [label="doors 
+ Gain: 0.19"]
+	190 -> 194 [label=med splines=line]
+	195 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	194 -> 195 [label=4 splines=line]
+	196 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	194 -> 196 [label="5more" splines=line]
+	197 [label="look_good 
+ Gain: 0.92"]
+	194 -> 197 [label=2 splines=line]
+	198 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	197 -> 198 [label=small splines=line]
+	199 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	197 -> 199 [label=big splines=line]
+	200 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	197 -> 200 [label=med splines=line]
+	201 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	194 -> 201 [label=3 splines=line]
+	202 [label="maint 
+ Gain: 0.36"]
+	156 -> 202 [label=high splines=line]
+	203 [label="look_good 
+ Gain: 0.29"]
+	202 -> 203 [label=low splines=line]
+	204 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	203 -> 204 [label=med splines=line]
+	205 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	203 -> 205 [label=big splines=line]
+	206 [label="doors 
+ Gain: 1.0"]
+	203 -> 206 [label=small splines=line]
+	207 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	206 -> 207 [label=2 splines=line]
+	208 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	206 -> 208 [label="5more" splines=line]
+	209 [label="doors 
+ Gain: 0.65"]
+	202 -> 209 [label=med splines=line]
+	210 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	209 -> 210 [label=2 splines=line]
+	211 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	209 -> 211 [label="5more" splines=line]
+	212 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	209 -> 212 [label=3 splines=line]
+	213 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	209 -> 213 [label=4 splines=line]
+	214 [label="unacc 
+ Gain: 0 
+ [4]" color=green]
+	202 -> 214 [label=vhigh splines=line]
+	215 [label="look_good 
+ Gain: 0.32"]
+	202 -> 215 [label=high splines=line]
+	216 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	215 -> 216 [label=med splines=line]
+	217 [label="acc 
+ Gain: 0 
+ [2]" color=green]
+	215 -> 217 [label=big splines=line]
+	218 [label="doors 
+ Gain: 1.0"]
+	215 -> 218 [label=small splines=line]
+	219 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	218 -> 219 [label=4 splines=line]
+	220 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	218 -> 220 [label=2 splines=line]
+	221 [label="maint 
+ Gain: 0.84"]
+	156 -> 221 [label=med splines=line]
+	222 [label="doors 
+ Gain: 0.7"]
+	221 -> 222 [label=med splines=line]
+	223 [label="vgood 
+ Gain: 0 
+ [2]" color=green]
+	222 -> 223 [label="5more" splines=line]
+	224 [label="vgood 
+ Gain: 0 
+ [2]" color=green]
+	222 -> 224 [label=3 splines=line]
+	225 [label="look_good 
+ Gain: 0.92"]
+	222 -> 225 [label=4 splines=line]
+	226 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	225 -> 226 [label=med splines=line]
+	227 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	225 -> 227 [label=small splines=line]
+	228 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	225 -> 228 [label=big splines=line]
+	229 [label="look_good 
+ Gain: 1.0"]
+	222 -> 229 [label=2 splines=line]
+	230 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	229 -> 230 [label=small splines=line]
+	231 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	229 -> 231 [label=med splines=line]
+	232 [label="look_good 
+ Gain: 0.63"]
+	221 -> 232 [label=low splines=line]
+	233 [label="doors 
+ Gain: 1.0"]
+	232 -> 233 [label=small splines=line]
+	234 [label="unacc 
+ Gain: 0 
+ [1]" color=green]
+	233 -> 234 [label=2 splines=line]
+	235 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	233 -> 235 [label="5more" splines=line]
+	236 [label="vgood 
+ Gain: 0 
+ [4]" color=green]
+	232 -> 236 [label=big splines=line]
+	237 [label="doors 
+ Gain: 0.81"]
+	232 -> 237 [label=med splines=line]
+	238 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	237 -> 238 [label="5more" splines=line]
+	239 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	237 -> 239 [label=2 splines=line]
+	240 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	237 -> 240 [label=4 splines=line]
+	241 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	237 -> 241 [label=3 splines=line]
+	242 [label="acc 
+ Gain: 0 
+ [7]" color=green]
+	221 -> 242 [label=high splines=line]
+	243 [label="acc 
+ Gain: 0 
+ [7]" color=green]
+	221 -> 243 [label=vhigh splines=line]
+	244 [label="unacc 
+ Gain: 0 
+ [128]" color=green]
+	155 -> 244 [label=2 splines=line]
+	245 [label="bind 
+ Gain: 0.49"]
+	155 -> 245 [label=4 splines=line]
+	246 [label="maint 
+ Gain: 0.9"]
+	245 -> 246 [label=high splines=line]
+	247 [label="acc 
+ Gain: 0 
+ [7]" color=green]
+	246 -> 247 [label=low splines=line]
+	248 [label="unacc 
+ Gain: 0 
+ [10]" color=green]
+	246 -> 248 [label=vhigh splines=line]
+	249 [label="acc 
+ Gain: 0 
+ [8]" color=green]
+	246 -> 249 [label=high splines=line]
+	250 [label="acc 
+ Gain: 0 
+ [7]" color=green]
+	246 -> 250 [label=med splines=line]
+	251 [label="maint 
+ Gain: 0.72"]
+	245 -> 251 [label=med splines=line]
+	252 [label="look_good 
+ Gain: 0.63"]
+	251 -> 252 [label=med splines=line]
+	253 [label="acc 
+ Gain: 0 
+ [4]" color=green]
+	252 -> 253 [label=small splines=line]
+	254 [label="vgood 
+ Gain: 0 
+ [3]" color=green]
+	252 -> 254 [label=big splines=line]
+	255 [label="doors 
+ Gain: 1.0"]
+	252 -> 255 [label=med splines=line]
+	256 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	255 -> 256 [label=3 splines=line]
+	257 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	255 -> 257 [label="5more" splines=line]
+	258 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	255 -> 258 [label=4 splines=line]
+	259 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	255 -> 259 [label=2 splines=line]
+	260 [label="acc 
+ Gain: 0 
+ [9]" color=green]
+	251 -> 260 [label=high splines=line]
+	261 [label="acc 
+ Gain: 0 
+ [7]" color=green]
+	251 -> 261 [label=vhigh splines=line]
+	262 [label="look_good 
+ Gain: 0.61"]
+	251 -> 262 [label=low splines=line]
+	263 [label="vgood 
+ Gain: 0 
+ [4]" color=green]
+	262 -> 263 [label=big splines=line]
+	264 [label="doors 
+ Gain: 0.92"]
+	262 -> 264 [label=med splines=line]
+	265 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	264 -> 265 [label="5more" splines=line]
+	266 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	264 -> 266 [label=4 splines=line]
+	267 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	264 -> 267 [label=2 splines=line]
+	268 [label="good 
+ Gain: 0 
+ [2]" color=green]
+	262 -> 268 [label=small splines=line]
+	269 [label="maint 
+ Gain: 0.86"]
+	245 -> 269 [label=low splines=line]
+	270 [label="look_good 
+ Gain: 0.61"]
+	269 -> 270 [label=med splines=line]
+	271 [label="doors 
+ Gain: 0.92"]
+	270 -> 271 [label=med splines=line]
+	272 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	271 -> 272 [label=4 splines=line]
+	273 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	271 -> 273 [label=3 splines=line]
+	274 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	271 -> 274 [label=2 splines=line]
+	275 [label="vgood 
+ Gain: 0 
+ [2]" color=green]
+	270 -> 275 [label=big splines=line]
+	276 [label="good 
+ Gain: 0 
+ [3]" color=green]
+	270 -> 276 [label=small splines=line]
+	277 [label="look_good 
+ Gain: 0.7"]
+	269 -> 277 [label=high splines=line]
+	278 [label="vgood 
+ Gain: 0 
+ [4]" color=green]
+	277 -> 278 [label=big splines=line]
+	279 [label="doors 
+ Gain: 0.92"]
+	277 -> 279 [label=med splines=line]
+	280 [label="acc 
+ Gain: 0 
+ [1]" color=green]
+	279 -> 280 [label=3 splines=line]
+	281 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	279 -> 281 [label=4 splines=line]
+	282 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	279 -> 282 [label="5more" splines=line]
+	283 [label="acc 
+ Gain: 0 
+ [3]" color=green]
+	277 -> 283 [label=small splines=line]
+	284 [label="look_good 
+ Gain: 0.66"]
+	269 -> 284 [label=low splines=line]
+	285 [label="good 
+ Gain: 0 
+ [3]" color=green]
+	284 -> 285 [label=small splines=line]
+	286 [label="vgood 
+ Gain: 0 
+ [2]" color=green]
+	284 -> 286 [label=big splines=line]
+	287 [label="doors 
+ Gain: 0.92"]
+	284 -> 287 [label=med splines=line]
+	288 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	287 -> 288 [label=4 splines=line]
+	289 [label="vgood 
+ Gain: 0 
+ [1]" color=green]
+	287 -> 289 [label="5more" splines=line]
+	290 [label="good 
+ Gain: 0 
+ [1]" color=green]
+	287 -> 290 [label=3 splines=line]
+	291 [label="acc 
+ Gain: 0 
+ [10]" color=green]
+	269 -> 291 [label=vhigh splines=line]
+	292 [label="maint 
+ Gain: 1.0"]
+	245 -> 292 [label=vhigh splines=line]
+	293 [label="unacc 
+ Gain: 0 
+ [6]" color=green]
+	292 -> 293 [label=vhigh splines=line]
+	294 [label="acc 
+ Gain: 0 
+ [10]" color=green]
+	292 -> 294 [label=med splines=line]
+	295 [label="acc 
+ Gain: 0 
+ [10]" color=green]
+	292 -> 295 [label=low splines=line]
+	296 [label="unacc 
+ Gain: 0 
+ [12]" color=green]
+	292 -> 296 [label=high splines=line]
+}

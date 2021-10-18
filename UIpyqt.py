@@ -38,7 +38,7 @@ class App(QMainWindow):
         self.model = TableModel(self.df.head()) # Aca se cargan los datos en el resumen de los datos
         self.tableView.setModel(self.model)
 
-        #MainFunction(df,self.thresholdSelector.value())
+        MainFunction(self.df,self.thresholdSelector.value())
 
 
 class TableModel(QtCore.QAbstractTableModel):

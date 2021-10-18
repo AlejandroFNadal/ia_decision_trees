@@ -1,4 +1,5 @@
 import math
+import numpy as np
 class SetCases:
     def __init__(self,cases,case_count,class_column_name,classValues):
         self.cases = cases
@@ -95,7 +96,7 @@ class SetCases:
             split_info = 0
             for attr_count in attr_counts:
                 split_info -= (attr_count/self.case_count) * (math.log2((attr_count/self.case_count)))
-            if ((split_info != 0.0) and (gain_per_att != 0.0)):
+            if (not np.isclose(0, split_info, atol=0.000000000000001) and not np.isclose(0,gain_per_att, atol=0.000000000000001)):
                 curr_gain_rate = gain_per_att / split_info
             else:
                 curr_gain_rate = 0
@@ -104,7 +105,30 @@ class SetCases:
                 result[0] = att_name
                 result[1] = curr_gain_rate
         return result
-
+    def gain_ratio2(self) -> list:
+        entropy = self.entropy()
+        gain = self.gain2()
+        split_info = 0
+        max_gain_rate = 0
+        result=[0,0,1]
+        for att_name, gain_per_att in gain: # gain is [Att, Value]
+            # We generate a list of all the quantities of occurences of each attribute
+            attr_counts = list(self.cases[att_name].value_counts().values) # 
+            split_info = 0
+            for attr_count in attr_counts:
+                split_info -= (attr_count/self.case_count) * (math.log2((attr_count/self.case_count)))
+            if (not np.isclose(0, split_info, atol=0.000000000000001) and not np.isclose(0,gain_per_att, atol=0.000000000000001)):
+                curr_gain_rate = gain_per_att / split_info
+            else:
+                curr_gain_rate = 0
+            if curr_gain_rate > max_gain_rate:
+                if not np.isclose(0, split_info, atol=0.000000000000001):
+                    result[2] = split_info
+                    print(f'Split Info {result[2]}') 
+                max_gain_rate = curr_gain_rate
+                result[0] = att_name
+                result[1] = curr_gain_rate
+        return result
     def is_pure(self) -> bool:
         classes = self.cases[self.class_column_name].unique()
         if len(classes) == 1:

@@ -11,7 +11,7 @@ from src.preprocessing.preprocessing import remove_continuous_columns,impute_wit
 
 def MainFunction(df,threshold):
 
-    target = df.columns[-1]
+    target = 'Diabetic'
     removed_continuous = remove_continuous_columns(df)
     df = removed_continuous[1]
 
@@ -22,6 +22,7 @@ def MainFunction(df,threshold):
     print(df_train.shape)
     print(df_test.shape)
     graph = graphviz.Digraph()
+    graph_ratio = graphviz.Digraph()
     """ 
     classValues = list(df[target].value_counts().index) 
 
@@ -29,8 +30,9 @@ def MainFunction(df,threshold):
     root_node = Node(set_init, 0)
     decisionTree(set_init, set_init.get_attributes(),root_node,0,classValues)
     """
-    tree_gain = train(df_train, target,threshold,'gain',separator)
-    tree_gain_ratio = train(df_train,target,threshold,'gain_ratio',separator)
+    separator = ','
+    tree_gain = train(df_train, target,threshold,'gain')
+    tree_gain_ratio = train(df_train,target,threshold,'gain_ratio')
 
     #tree_gain_ratio.printTree(0, graph, tree_gain_ratio,name_counter)
 
@@ -51,5 +53,8 @@ def MainFunction(df,threshold):
     print('---------------------GAIN RATIO--------------------------------')
     print('Accuracy',df_test[df_test['correct_prediction_gain_ratio']==1]['correct_prediction_gain_ratio'].count()/len(df_test))
     print(pd.crosstab(df_test[target],df_test['test_result_gain_ratio']))
+    tree_gain.printTree(0,graph,tree_gain,0)
+    tree_gain_ratio.printTree(0, graph_ratio, tree_gain_ratio,0)
 
-
+    graph.render(f'test_output/{target}')
+    graph_ratio.render(f'test_output/{target}_ratio')

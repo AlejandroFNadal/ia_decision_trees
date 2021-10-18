@@ -1,0 +1,11 @@
+AtributoA,AtributoB,AtributoC,AtributoD,Clase
+X,S,O,Q,2
+Y,T,P,R,1
+Z,T,O,R,3
+X,T,O,R,3
+X,T,P,Q,3
+Y,S,P,Q,1
+Z,S,P,Q,1
+Z,S,P,Q,2
+Y,T,P,R,2
+Z,S,P,Q,3
