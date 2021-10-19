@@ -29,6 +29,7 @@ def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues :
         #gain = D.gain2()[0]
         print('Attribute chosen ', gain[0])
         print("ACA ESTA LA GANANCIA",gain[1])
+        print(f'threshold {threshold}')
         if gain[1] < threshold:
             class_name = D.most_frequent_class()
             T.curr_class = class_name

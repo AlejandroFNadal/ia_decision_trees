@@ -10,7 +10,7 @@ from src.train.train import train
 from src.preprocessing.preprocessing import remove_continuous_columns,impute_with_mode
 
 def MainFunction(df,threshold):
-    threshold = 0.05
+    threshold = 0.03
     target = 'contraceptive'
     removed_continuous = remove_continuous_columns(df)
     df = removed_continuous[1]
@@ -54,3 +54,32 @@ def MainFunction(df,threshold):
     
     graph.render(f'test_output/{target}.pdf')
     graph_ratio.render(f'test_output/{target}_ratio.pdf')
+
+
+def SingleRun(df_train, df_test, threshold, gain_ratio:bool, target):
+    print(f'Running with gain_ratio: {gain_ratio} and threshold {threshold}')
+    if gain_ratio:
+        func = 'gain_ratio'
+    else:
+        func = 'gain'
+    tree_gain = train(df_train, target,threshold,func)
+    df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
+    df_test['correct_prediction_gain'] = df_test[['test_result_gain',target]].apply(lambda x: 1 if x['test_result_gain'] == x[target] else 0, axis=1)
+    return df_test[df_test['correct_prediction_gain']==1]['correct_prediction_gain'].count()/len(df_test)
+
+def hiperpar():
+    target = 'contraceptive'
+    df = pd.read_csv('data/cmc.csv')
+    removed_continuous = remove_continuous_columns(df)
+    df = removed_continuous[1]
+    df = impute_with_mode(df)
+    df_train, df_test = split_dataset(df,0.9,target)
+    thresholds = [0.06, 0.1, 0.2]
+    gain_results = []
+    for elem in thresholds:
+        val = SingleRun(df_train, df_test, elem, False, target)
+        print(val)
+        gain_results.append(val)
+    print(gain_results)
+
+hiperpar()
