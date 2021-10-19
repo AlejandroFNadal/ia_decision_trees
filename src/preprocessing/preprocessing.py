@@ -3,7 +3,6 @@ import numpy as np
 def remove_continuous_columns(df):
     """
     Removes continuous columns from the dataframe, leaving only categorical columns with low cardinality
-
     Args:
         df ([dataframe]): initial dataset read from csv file
         

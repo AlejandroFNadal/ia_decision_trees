@@ -1,0 +1,2481 @@
+('C:\\Users\\Facundo '
+ 'Cuzziol\\Documents\\IA\\ia_decision_trees\\build\\UIpyqt\\PYZ-00.pyz',
+ [('pkg_resources',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources.py2_warn',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\py2_warn.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\string.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\uuid.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\pickle.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\doctest.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\argparse.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\gettext.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\signal.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\difflib.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\random.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\bisect.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\selectors.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\bz2.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\pdb.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\getopt.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\base64.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\calendar.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\optparse.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ssl.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\tty.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\token.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\runpy.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\shlex.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\cmd.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\pprint.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\copy.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('pkg_resources.py31compat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\py31compat.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\imp.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ast.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\netrc.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\platform.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\stat.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\__future__.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('os',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\os.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('main',
+   'C:\\Users\\Facundo Cuzziol\\Documents\\IA\\ia_decision_trees\\main.py',
+   'PYMODULE'),
+  ('src.preprocessing.preprocessing',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\preprocessing\\preprocessing.py',
+   'PYMODULE'),
+  ('src.preprocessing',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\preprocessing\\__init__.py',
+   'PYMODULE'),
+  ('src',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\__init__.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\numbers.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy._version',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\_version.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('src.train.train',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\train\\train.py',
+   'PYMODULE'),
+  ('src.train',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\train\\__init__.py',
+   'PYMODULE'),
+  ('src.split.split',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\split\\split.py',
+   'PYMODULE'),
+  ('src.split',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\split\\__init__.py',
+   'PYMODULE'),
+  ('config.config',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\config\\config.py',
+   'PYMODULE'),
+  ('config',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\config\\__init__.py',
+   'PYMODULE'),
+  ('src.predictions.Predictions',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\predictions\\Predictions.py',
+   'PYMODULE'),
+  ('src.predictions',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\predictions\\__init__.py',
+   'PYMODULE'),
+  ('src.decisionTree.DecisionTree',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\decisionTree\\DecisionTree.py',
+   'PYMODULE'),
+  ('src.decisionTree',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\decisionTree\\__init__.py',
+   'PYMODULE'),
+  ('src.node.Node',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\node\\Node.py',
+   'PYMODULE'),
+  ('src.node',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\node\\__init__.py',
+   'PYMODULE'),
+  ('src.setCases.setCases',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\setCases\\setCases.py',
+   'PYMODULE'),
+  ('src.setCases',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\src\\setCases\\__init__.py',
+   'PYMODULE'),
+  ('graphviz',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\graphviz\\__init__.py',
+   'PYMODULE'),
+  ('graphviz.dot',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\graphviz\\dot.py',
+   'PYMODULE'),
+  ('graphviz.lang',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\graphviz\\lang.py',
+   'PYMODULE'),
+  ('graphviz.files',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\graphviz\\files.py',
+   'PYMODULE'),
+  ('graphviz.backend',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\graphviz\\backend.py',
+   'PYMODULE'),
+  ('graphviz.tools',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\graphviz\\tools.py',
+   'PYMODULE'),
+  ('PyQt5.uic',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.objcreator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\objcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.exceptions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\exceptions.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader.loader',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Loader\\loader.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Loader\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Loader.qobjectcreator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Loader\\qobjectcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.uiparser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\uiparser.py',
+   'PYMODULE'),
+  ('PyQt5.uic.properties',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\properties.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.ascii_upper',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v3\\ascii_upper.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v3\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.icon_cache',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\icon_cache.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v2.string_io',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v2\\string_io.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v2',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v2\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.string_io',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v3\\string_io.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.compiler',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Compiler\\compiler.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.qobjectcreator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Compiler\\qobjectcreator.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v2.as_string',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v2\\as_string.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.as_string',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v3\\as_string.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.qtproxies',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Compiler\\qtproxies.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v2.proxy_base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v2\\proxy_base.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.proxy_metaclass',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Compiler\\proxy_metaclass.py',
+   'PYMODULE'),
+  ('PyQt5.uic.port_v3.proxy_base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\port_v3\\proxy_base.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.misc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Compiler\\misc.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler.indenter',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Compiler\\indenter.py',
+   'PYMODULE'),
+  ('PyQt5.uic.Compiler',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\Compiler\\__init__.py',
+   'PYMODULE'),
+  ('PyQt5',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\__init__.py',
+   'PYMODULE'),
+  ('pandas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.latex',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.methods',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.util.version',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\util\\version\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util.testing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\util\\testing.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_testing\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing.contexts',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_testing\\contexts.py',
+   'PYMODULE'),
+  ('pandas._testing.compat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_testing\\compat.py',
+   'PYMODULE'),
+  ('pandas._testing.asserters',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_testing\\asserters.py',
+   'PYMODULE'),
+  ('pandas._testing._warnings',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_testing\\_warnings.py',
+   'PYMODULE'),
+  ('pandas._testing._random',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_testing\\_random.py',
+   'PYMODULE'),
+  ('pandas._testing._io',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_testing\\_io.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.roperator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.numeric',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.transforms',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_reductions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.replace',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.quantile',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\array_algos\\quantile.py',
+   'PYMODULE'),
+  ('pandas.core.internals.base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\base.py',
+   'PYMODULE'),
+  ('pandas.core.internals.array_manager',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\array_manager.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.take',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\array_algos\\take.py',
+   'PYMODULE'),
+  ('pandas.core.internals.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\api.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.window.online',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\online.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.indexers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.window.doc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\doc.py',
+   'PYMODULE'),
+  ('pandas.core.shared_docs',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\shared_docs.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.util.numba_',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.compat.chainmap',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\compat\\chainmap.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.io.formats.xml',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\xml.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.xml',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\xml.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.readers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\parsers\\readers.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.python_parser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\parsers\\python_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.c_parser_wrapper',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.base_parser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\parsers\\base_parser.py',
+   'PYMODULE'),
+  ('pandas.io.date_converters',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_utils',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\fractions.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlwt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_xlwt.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odswriter',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_odswriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.io.formats._color_data',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style_render',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\style_render.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.io.formats.info',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\info.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.aggregation',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\aggregation.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.core.flags',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\flags.py',
+   'PYMODULE'),
+  ('pandas.core.describe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\describe.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.putmask',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\array_algos\\putmask.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexers.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\csv.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pytz',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.dtype',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.pyarrow',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\compat\\pyarrow.py',
+   'PYMODULE')])

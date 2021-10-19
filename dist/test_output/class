@@ -1,0 +1,112 @@
+digraph {
+	0 [label="odor 
+ Gain: 0.91"]
+	1 [label="p 
+ Gain: 0 
+ [1516]" color=green]
+	0 -> 1 [label=f splines=line]
+	2 [label="spore-print-color 
+ Gain: 0.14"]
+	0 -> 2 [label=n splines=line]
+	3 [label="e 
+ Gain: 0 
+ [885]" color=green]
+	2 -> 3 [label=k splines=line]
+	4 [label="e 
+ Gain: 0 
+ [974]" color=green]
+	2 -> 4 [label=n splines=line]
+	5 [label="habitat 
+ Gain: 0.26"]
+	2 -> 5 [label=w splines=line]
+	6 [label="e 
+ Gain: 0 
+ [199]" color=green]
+	5 -> 6 [label=g splines=line]
+	7 [label="e 
+ Gain: 0 
+ [26]" color=green]
+	5 -> 7 [label=p splines=line]
+	8 [label="cap-color 
+ Gain: 0.84"]
+	5 -> 8 [label=l splines=line]
+	9 [label="p 
+ Gain: 0 
+ [5]" color=green]
+	8 -> 9 [label=w splines=line]
+	10 [label="e 
+ Gain: 0 
+ [17]" color=green]
+	8 -> 10 [label=c splines=line]
+	11 [label="e 
+ Gain: 0 
+ [13]" color=green]
+	8 -> 11 [label=n splines=line]
+	12 [label="p 
+ Gain: 0 
+ [6]" color=green]
+	8 -> 12 [label=y splines=line]
+	13 [label="e 
+ Gain: 0 
+ [128]" color=green]
+	5 -> 13 [label=w splines=line]
+	14 [label="gill-size 
+ Gain: 0.76"]
+	5 -> 14 [label=d splines=line]
+	15 [label="e 
+ Gain: 0 
+ [6]" color=green]
+	14 -> 15 [label=b splines=line]
+	16 [label="p 
+ Gain: 0 
+ [21]" color=green]
+	14 -> 16 [label=n splines=line]
+	17 [label="e 
+ Gain: 0 
+ [35]" color=green]
+	2 -> 17 [label=y splines=line]
+	18 [label="e 
+ Gain: 0 
+ [31]" color=green]
+	2 -> 18 [label=h splines=line]
+	19 [label="p 
+ Gain: 0 
+ [50]" color=green]
+	2 -> 19 [label=r splines=line]
+	20 [label="e 
+ Gain: 0 
+ [36]" color=green]
+	2 -> 20 [label=b splines=line]
+	21 [label="e 
+ Gain: 0 
+ [37]" color=green]
+	2 -> 21 [label=o splines=line]
+	22 [label="e 
+ Gain: 0 
+ [291]" color=green]
+	0 -> 22 [label=l splines=line]
+	23 [label="p 
+ Gain: 0 
+ [186]" color=green]
+	0 -> 23 [label=p splines=line]
+	24 [label="e 
+ Gain: 0 
+ [260]" color=green]
+	0 -> 24 [label=a splines=line]
+	25 [label="p 
+ Gain: 0 
+ [406]" color=green]
+	0 -> 25 [label=s splines=line]
+	26 [label="p 
+ Gain: 0 
+ [389]" color=green]
+	0 -> 26 [label=y splines=line]
+	27 [label="p 
+ Gain: 0 
+ [140]" color=green]
+	0 -> 27 [label=c splines=line]
+	28 [label="p 
+ Gain: 0 
+ [30]" color=green]
+	0 -> 28 [label=m splines=line]
+}

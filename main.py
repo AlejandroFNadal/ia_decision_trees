@@ -10,13 +10,13 @@ from src.train.train import train
 from src.preprocessing.preprocessing import remove_continuous_columns,impute_with_mode
 
 def MainFunction(df,threshold):
-
-    target = 'Diabetic'
+    threshold = 0.05
+    target = 'contraceptive'
     removed_continuous = remove_continuous_columns(df)
     df = removed_continuous[1]
 
     df = impute_with_mode(df)
-    print(df.head())
+    #print(df.head())
 
     df_train, df_test = split_dataset(df,0.7,target)
     print(df_train.shape)
@@ -34,13 +34,9 @@ def MainFunction(df,threshold):
     tree_gain = train(df_train, target,threshold,'gain')
     tree_gain_ratio = train(df_train,target,threshold,'gain_ratio')
 
-    #tree_gain_ratio.printTree(0, graph, tree_gain_ratio,name_counter)
-
-    #graph.view()
-
     df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
     df_test['correct_prediction_gain'] = df_test[['test_result_gain',target]].apply(lambda x: 1 if x['test_result_gain'] == x[target] else 0, axis=1)
-
+    print('ENTREEEEEEEEEEEEEEEEEEEEEEEEEEEEEE----')
 
 
     df_test['test_result_gain_ratio'] = predict_cases(df_test,tree_gain_ratio)
@@ -55,6 +51,6 @@ def MainFunction(df,threshold):
     print(pd.crosstab(df_test[target],df_test['test_result_gain_ratio']))
     tree_gain.printTree(0,graph,tree_gain,0)
     tree_gain_ratio.printTree(0, graph_ratio, tree_gain_ratio,0)
-
-    graph.render(f'test_output/{target}')
-    graph_ratio.render(f'test_output/{target}_ratio')
+    
+    graph.render(f'test_output/{target}.pdf')
+    graph_ratio.render(f'test_output/{target}_ratio.pdf')
