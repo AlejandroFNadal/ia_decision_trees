@@ -104,6 +104,7 @@ class SetCases:
                 max_gain_rate = curr_gain_rate
                 result[0] = att_name
                 result[1] = curr_gain_rate
+            print(f'Gain Rate de  {result[0]} es {result[1]}')
         return result
     def gain_ratio2(self) -> list:
         entropy = self.entropy()
@@ -128,6 +129,7 @@ class SetCases:
                 max_gain_rate = curr_gain_rate
                 result[0] = att_name
                 result[1] = curr_gain_rate
+            print(f'Gain Rate de  {result[0]} es {result[1]}')
         return result
     def is_pure(self) -> bool:
         classes = self.cases[self.class_column_name].unique()

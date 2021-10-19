@@ -1,0 +1,132 @@
+digraph {
+	0 [label="21 
+ Gain: 0.29"]
+	31 [label="10 
+ Gain: 0.32"]
+	0 -> 31 [label=f splines=line]
+	32 [label="nowin 
+ Gain: 0 
+ [522]" color=green]
+	31 -> 32 [label=t splines=line]
+	33 [label="33 
+ Gain: 0.4"]
+	31 -> 33 [label=f splines=line]
+	34 [label="32 
+ Gain: 0.49"]
+	33 -> 34 [label=f splines=line]
+	35 [label="14 
+ Gain: 0.36"]
+	34 -> 35 [label=f splines=line]
+	36 [label="28 
+ Gain: 0.26"]
+	35 -> 36 [label=f splines=line]
+	37 [label="6 
+ Gain: 0.13"]
+	36 -> 37 [label=f splines=line]
+	38 [label="35 
+ Gain: 0.15"]
+	37 -> 38 [label=f splines=line]
+	39 [label="1 
+ Gain: 0.4"]
+	38 -> 39 [label=f splines=line]
+	40 [label="15 
+ Gain: 0.58"]
+	39 -> 40 [label=f splines=line]
+	41 [label="nowin 
+ Gain: 0 
+ [57  2]" color=green]
+	40 -> 41 [label=n splines=line]
+	42 [label="nowin 
+ Gain: 0 
+ [12]" color=green]
+	40 -> 42 [label=b splines=line]
+	43 [label="won 
+ Gain: 0 
+ [30]" color=green]
+	40 -> 43 [label=w splines=line]
+	44 [label="won 
+ Gain: 0 
+ [35]" color=green]
+	39 -> 44 [label=t splines=line]
+	45 [label="15 
+ Gain: 0.2"]
+	38 -> 45 [label=t splines=line]
+	46 [label="23 
+ Gain: 0.12"]
+	45 -> 46 [label=n splines=line]
+	47 [label="won 
+ Gain: 0 
+ [171   2]" color=green]
+	46 -> 47 [label=f splines=line]
+	48 [label="17 
+ Gain: 1.0"]
+	46 -> 48 [label=t splines=line]
+	49 [label="won 
+ Gain: 0 
+ [21]" color=green]
+	48 -> 49 [label=t splines=line]
+	50 [label="nowin 
+ Gain: 0 
+ [7]" color=green]
+	48 -> 50 [label=f splines=line]
+	51 [label="1 
+ Gain: 1.0"]
+	45 -> 51 [label=b splines=line]
+	52 [label="nowin 
+ Gain: 0 
+ [17]" color=green]
+	51 -> 52 [label=f splines=line]
+	53 [label="won 
+ Gain: 0 
+ [6]" color=green]
+	51 -> 53 [label=t splines=line]
+	54 [label="won 
+ Gain: 0 
+ [34]" color=green]
+	45 -> 54 [label=w splines=line]
+	55 [label="won 
+ Gain: 0 
+ [424]" color=green]
+	37 -> 55 [label=t splines=line]
+	56 [label="nowin 
+ Gain: 0 
+ [1]" color=green]
+	36 -> 56 [label=t splines=line]
+	57 [label="nowin 
+ Gain: 0 
+ [6]" color=green]
+	35 -> 57 [label=t splines=line]
+	58 [label="2 
+ Gain: 0.14"]
+	34 -> 58 [label=t splines=line]
+	59 [label="nowin 
+ Gain: 0 
+ [71]" color=green]
+	58 -> 59 [label=f splines=line]
+	60 [label="18 
+ Gain: 0.24"]
+	58 -> 60 [label=t splines=line]
+	61 [label="nowin 
+ Gain: 0 
+ [5]" color=green]
+	60 -> 61 [label=t splines=line]
+	62 [label="24 
+ Gain: 1.0"]
+	60 -> 62 [label=f splines=line]
+	63 [label="won 
+ Gain: 0 
+ [2]" color=green]
+	62 -> 63 [label=f splines=line]
+	64 [label="nowin 
+ Gain: 0 
+ [3]" color=green]
+	62 -> 64 [label=t splines=line]
+	65 [label="nowin 
+ Gain: 0 
+ [365  32]" color=green]
+	33 -> 65 [label=t splines=line]
+	66 [label="won 
+ Gain: 0 
+ [412]" color=green]
+	0 -> 66 [label=t splines=line]
+}

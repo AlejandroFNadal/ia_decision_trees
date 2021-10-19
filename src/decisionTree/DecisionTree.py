@@ -2,7 +2,7 @@ from src.setCases.setCases import SetCases
 from config.config import name_counter
 from src.node.Node import Node
 
-def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues : list, threshold : float, gain_ratio:bool, x_t = True):
+def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues : list, threshold : float, gain_ratio:bool, x_t = False):
     global name_counter
     original_threshold = threshold
     if D.is_pure():

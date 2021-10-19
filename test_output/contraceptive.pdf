@@ -1,0 +1,3851 @@
+digraph {
+	0 [label="children 
+ Gain: 0.12"]
+	1 [label="wife_age 
+ Gain: 0.74"]
+	0 -> 1 [label=6 splines=line]
+	2 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	1 -> 2 [label=44 splines=line]
+	3 [label="standar_living 
+ Gain: 1.0"]
+	1 -> 3 [label=43 splines=line]
+	4 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	3 -> 4 [label=3 splines=line]
+	5 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	3 -> 5 [label=4 splines=line]
+	6 [label="wife_education 
+ Gain: 0.97"]
+	1 -> 6 [label=38 splines=line]
+	7 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	6 -> 7 [label=4 splines=line]
+	8 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	6 -> 8 [label=2 splines=line]
+	9 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	6 -> 9 [label=1 splines=line]
+	10 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1 -> 10 [label=46 splines=line]
+	11 [label="wife_education 
+ Gain: 1.0"]
+	1 -> 11 [label=48 splines=line]
+	12 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	11 -> 12 [label=1 splines=line]
+	13 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	11 -> 13 [label=4 splines=line]
+	14 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	1 -> 14 [label=49 splines=line]
+	15 [label="religion 
+ Gain: 0.81"]
+	1 -> 15 [label=45 splines=line]
+	16 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	15 -> 16 [label=1 splines=line]
+	17 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	15 -> 17 [label=0 splines=line]
+	18 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1 -> 18 [label=28 splines=line]
+	19 [label="standar_living 
+ Gain: 1.12"]
+	1 -> 19 [label=36 splines=line]
+	20 [label="wife_education 
+ Gain: 1.0"]
+	19 -> 20 [label=2 splines=line]
+	21 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	20 -> 21 [label=4 splines=line]
+	22 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	20 -> 22 [label=3 splines=line]
+	23 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	19 -> 23 [label=4 splines=line]
+	24 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	19 -> 24 [label=1 splines=line]
+	25 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	19 -> 25 [label=3 splines=line]
+	26 [label="standar_living 
+ Gain: 0.86"]
+	1 -> 26 [label=35 splines=line]
+	27 [label="wife_education 
+ Gain: 1.0"]
+	26 -> 27 [label=3 splines=line]
+	28 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	27 -> 28 [label=2 splines=line]
+	29 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	27 -> 29 [label=3 splines=line]
+	30 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	26 -> 30 [label=2 splines=line]
+	31 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	26 -> 31 [label=1 splines=line]
+	32 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	26 -> 32 [label=4 splines=line]
+	33 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	1 -> 33 [label=39 splines=line]
+	34 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1 -> 34 [label=29 splines=line]
+	35 [label="wife_education 
+ Gain: 1.0"]
+	1 -> 35 [label=41 splines=line]
+	36 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	35 -> 36 [label=4 splines=line]
+	37 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	35 -> 37 [label=1 splines=line]
+	38 [label="wife_works 
+ Gain: 0.65"]
+	1 -> 38 [label=34 splines=line]
+	39 [label="husband_work 
+ Gain: 0.42"]
+	38 -> 39 [label=1 splines=line]
+	40 [label="wife_education 
+ Gain: 0.92"]
+	39 -> 40 [label=3 splines=line]
+	41 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	40 -> 41 [label=2 splines=line]
+	42 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	40 -> 42 [label=3 splines=line]
+	43 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	40 -> 43 [label=4 splines=line]
+	44 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	39 -> 44 [label=2 splines=line]
+	45 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	39 -> 45 [label=1 splines=line]
+	46 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	38 -> 46 [label=0 splines=line]
+	47 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1 -> 47 [label=25 splines=line]
+	48 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	1 -> 48 [label=30 splines=line]
+	49 [label="wife_education 
+ Gain: 1.5"]
+	1 -> 49 [label=40 splines=line]
+	50 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	49 -> 50 [label=1 splines=line]
+	51 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	49 -> 51 [label=4 splines=line]
+	52 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	49 -> 52 [label=3 splines=line]
+	53 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	49 -> 53 [label=2 splines=line]
+	54 [label="wife_education 
+ Gain: 0.92"]
+	1 -> 54 [label=47 splines=line]
+	55 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	54 -> 55 [label=4 splines=line]
+	56 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	54 -> 56 [label=1 splines=line]
+	57 [label="wife_education 
+ Gain: 1.0"]
+	1 -> 57 [label=42 splines=line]
+	58 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	57 -> 58 [label=2 splines=line]
+	59 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	57 -> 59 [label=4 splines=line]
+	60 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1 -> 60 [label=31 splines=line]
+	61 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1 -> 61 [label=33 splines=line]
+	62 [label="husband_work 
+ Gain: 1.0"]
+	1 -> 62 [label=37 splines=line]
+	63 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	62 -> 63 [label=2 splines=line]
+	64 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	62 -> 64 [label=3 splines=line]
+	65 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1 -> 65 [label=23 splines=line]
+	66 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1 -> 66 [label=32 splines=line]
+	67 [label="wife_age 
+ Gain: 0.28"]
+	0 -> 67 [label=2 splines=line]
+	68 [label="wife_works 
+ Gain: 0.27"]
+	67 -> 68 [label=23 splines=line]
+	69 [label="husband_education 
+ Gain: 0.57"]
+	68 -> 69 [label=0 splines=line]
+	70 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	69 -> 70 [label=2 splines=line]
+	71 [label="wife_education 
+ Gain: 1.0"]
+	69 -> 71 [label=3 splines=line]
+	72 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	71 -> 72 [label=4 splines=line]
+	73 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	71 -> 73 [label=3 splines=line]
+	74 [label="wife_education 
+ Gain: 1.0"]
+	69 -> 74 [label=4 splines=line]
+	75 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	74 -> 75 [label=4 splines=line]
+	76 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	74 -> 76 [label=3 splines=line]
+	77 [label="standar_living 
+ Gain: 0.36"]
+	68 -> 77 [label=1 splines=line]
+	78 [label="husband_work 
+ Gain: 0.32"]
+	77 -> 78 [label=4 splines=line]
+	79 [label="wife_education 
+ Gain: 1.0"]
+	78 -> 79 [label=3 splines=line]
+	80 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	79 -> 80 [label=3 splines=line]
+	81 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	79 -> 81 [label=4 splines=line]
+	82 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	78 -> 82 [label=2 splines=line]
+	83 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	78 -> 83 [label=1 splines=line]
+	84 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	77 -> 84 [label=1 splines=line]
+	85 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	77 -> 85 [label=2 splines=line]
+	86 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	77 -> 86 [label=3 splines=line]
+	87 [label="husband_work 
+ Gain: 0.47"]
+	67 -> 87 [label=33 splines=line]
+	88 [label="wife_works 
+ Gain: 0.67"]
+	87 -> 88 [label=1 splines=line]
+	89 [label="religion 
+ Gain: 0.25"]
+	88 -> 89 [label=0 splines=line]
+	90 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	89 -> 90 [label=1 splines=line]
+	91 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	89 -> 91 [label=0 splines=line]
+	92 [label="wife_education 
+ Gain: 0.92"]
+	88 -> 92 [label=1 splines=line]
+	93 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	92 -> 93 [label=4 splines=line]
+	94 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	92 -> 94 [label=3 splines=line]
+	95 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	87 -> 95 [label=2 splines=line]
+	96 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	87 -> 96 [label=3 splines=line]
+	97 [label="wife_education 
+ Gain: 1.0"]
+	67 -> 97 [label=40 splines=line]
+	98 [label="wife_works 
+ Gain: 1.0"]
+	97 -> 98 [label=4 splines=line]
+	99 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	98 -> 99 [label=1 splines=line]
+	100 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	98 -> 100 [label=0 splines=line]
+	101 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	97 -> 101 [label=1 splines=line]
+	102 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	97 -> 102 [label=3 splines=line]
+	103 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	67 -> 103 [label=48 splines=line]
+	104 [label="standar_living 
+ Gain: 0.23"]
+	67 -> 104 [label=24 splines=line]
+	105 [label="husband_work 
+ Gain: 1.0"]
+	104 -> 105 [label=4 splines=line]
+	106 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	105 -> 106 [label=2 splines=line]
+	107 [label="husband_education 
+ Gain: 1.0"]
+	105 -> 107 [label=3 splines=line]
+	108 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	107 -> 108 [label=2 splines=line]
+	109 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	107 -> 109 [label=4 splines=line]
+	110 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	105 -> 110 [label=1 splines=line]
+	111 [label="wife_education 
+ Gain: 0.46"]
+	104 -> 111 [label=3 splines=line]
+	112 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	111 -> 112 [label=3 splines=line]
+	113 [label="wife_works 
+ Gain: 0.92"]
+	111 -> 113 [label=4 splines=line]
+	114 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	113 -> 114 [label=1 splines=line]
+	115 [label="husband_work 
+ Gain: 1.0"]
+	113 -> 115 [label=0 splines=line]
+	116 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	115 -> 116 [label=3 splines=line]
+	117 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	115 -> 117 [label=1 splines=line]
+	118 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	111 -> 118 [label=2 splines=line]
+	119 [label="husband_work 
+ Gain: 0.92"]
+	104 -> 119 [label=1 splines=line]
+	120 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	119 -> 120 [label=3 splines=line]
+	121 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	119 -> 121 [label=2 splines=line]
+	122 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	104 -> 122 [label=2 splines=line]
+	123 [label="wife_works 
+ Gain: 0.81"]
+	67 -> 123 [label=37 splines=line]
+	124 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	123 -> 124 [label=0 splines=line]
+	125 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	123 -> 125 [label=1 splines=line]
+	126 [label="husband_education 
+ Gain: 0.2"]
+	67 -> 126 [label=31 splines=line]
+	127 [label="1 
+ Gain: 0 
+ [5]" color=green]
+	126 -> 127 [label=4 splines=line]
+	128 [label="husband_work 
+ Gain: 0.25"]
+	126 -> 128 [label=3 splines=line]
+	129 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	128 -> 129 [label=2 splines=line]
+	130 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	128 -> 130 [label=3 splines=line]
+	131 [label="husband_education 
+ Gain: 0.39"]
+	67 -> 131 [label=25 splines=line]
+	132 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	131 -> 132 [label=3 splines=line]
+	133 [label="husband_work 
+ Gain: 0.39"]
+	131 -> 133 [label=4 splines=line]
+	134 [label="wife_education 
+ Gain: 0.17"]
+	133 -> 134 [label=2 splines=line]
+	135 [label="standar_living 
+ Gain: 0.25"]
+	134 -> 135 [label=4 splines=line]
+	136 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	135 -> 136 [label=4 splines=line]
+	137 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	135 -> 137 [label=3 splines=line]
+	138 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	134 -> 138 [label=3 splines=line]
+	139 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	134 -> 139 [label=2 splines=line]
+	140 [label="religion 
+ Gain: 0.92"]
+	133 -> 140 [label=1 splines=line]
+	141 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	140 -> 141 [label=0 splines=line]
+	142 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	140 -> 142 [label=1 splines=line]
+	143 [label="wife_education 
+ Gain: 0.5"]
+	133 -> 143 [label=3 splines=line]
+	144 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	143 -> 144 [label=3 splines=line]
+	145 [label="standar_living 
+ Gain: 1.0"]
+	143 -> 145 [label=4 splines=line]
+	146 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	145 -> 146 [label=3 splines=line]
+	147 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	145 -> 147 [label=2 splines=line]
+	148 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	143 -> 148 [label=1 splines=line]
+	149 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	131 -> 149 [label=2 splines=line]
+	150 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	131 -> 150 [label=1 splines=line]
+	151 [label="standar_living 
+ Gain: 0.17"]
+	67 -> 151 [label=26 splines=line]
+	152 [label="wife_education 
+ Gain: 0.36"]
+	151 -> 152 [label=3 splines=line]
+	153 [label="husband_education 
+ Gain: 0.32"]
+	152 -> 153 [label=3 splines=line]
+	154 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	153 -> 154 [label=3 splines=line]
+	155 [label="husband_work 
+ Gain: 0.31"]
+	153 -> 155 [label=4 splines=line]
+	156 [label="1 
+ Gain: 0 
+ [1 1 1]" color=green]
+	155 -> 156 [label=3 splines=line]
+	157 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	155 -> 157 [label=1 splines=line]
+	158 [label="husband_education 
+ Gain: 1.0"]
+	152 -> 158 [label=2 splines=line]
+	159 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	158 -> 159 [label=4 splines=line]
+	160 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	158 -> 160 [label=3 splines=line]
+	161 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	152 -> 161 [label=4 splines=line]
+	162 [label="wife_works 
+ Gain: 1.0"]
+	151 -> 162 [label=2 splines=line]
+	163 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	162 -> 163 [label=0 splines=line]
+	164 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	162 -> 164 [label=1 splines=line]
+	165 [label="wife_works 
+ Gain: 0.31"]
+	151 -> 165 [label=4 splines=line]
+	166 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	165 -> 166 [label=0 splines=line]
+	167 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	165 -> 167 [label=1 splines=line]
+	168 [label="standar_living 
+ Gain: 0.57"]
+	67 -> 168 [label=30 splines=line]
+	169 [label="wife_education 
+ Gain: 0.99"]
+	168 -> 169 [label=4 splines=line]
+	170 [label="religion 
+ Gain: 0.92"]
+	169 -> 170 [label=4 splines=line]
+	171 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	170 -> 171 [label=0 splines=line]
+	172 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	170 -> 172 [label=1 splines=line]
+	173 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	169 -> 173 [label=2 splines=line]
+	174 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	169 -> 174 [label=3 splines=line]
+	175 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	169 -> 175 [label=1 splines=line]
+	176 [label="wife_education 
+ Gain: 0.92"]
+	168 -> 176 [label=3 splines=line]
+	177 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	176 -> 177 [label=4 splines=line]
+	178 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	176 -> 178 [label=3 splines=line]
+	179 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	168 -> 179 [label=2 splines=line]
+	180 [label="wife_education 
+ Gain: 0.39"]
+	67 -> 180 [label=27 splines=line]
+	181 [label="standar_living 
+ Gain: 0.92"]
+	180 -> 181 [label=4 splines=line]
+	182 [label="wife_works 
+ Gain: 0.31"]
+	181 -> 182 [label=4 splines=line]
+	183 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	182 -> 183 [label=1 splines=line]
+	184 [label="religion 
+ Gain: 1.0"]
+	182 -> 184 [label=0 splines=line]
+	185 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	184 -> 185 [label=0 splines=line]
+	186 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	184 -> 186 [label=1 splines=line]
+	187 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	181 -> 187 [label=3 splines=line]
+	188 [label="husband_education 
+ Gain: 1.0"]
+	180 -> 188 [label=3 splines=line]
+	189 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	188 -> 189 [label=4 splines=line]
+	190 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	188 -> 190 [label=3 splines=line]
+	191 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	180 -> 191 [label=2 splines=line]
+	192 [label="wife_education 
+ Gain: 0.95"]
+	67 -> 192 [label=32 splines=line]
+	193 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	192 -> 193 [label=3 splines=line]
+	194 [label="religion 
+ Gain: 0.42"]
+	192 -> 194 [label=4 splines=line]
+	195 [label="husband_work 
+ Gain: 0.25"]
+	194 -> 195 [label=0 splines=line]
+	196 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	195 -> 196 [label=2 splines=line]
+	197 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	195 -> 197 [label=1 splines=line]
+	198 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	194 -> 198 [label=1 splines=line]
+	199 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	192 -> 199 [label=2 splines=line]
+	200 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	67 -> 200 [label=19 splines=line]
+	201 [label="husband_education 
+ Gain: 0.38"]
+	67 -> 201 [label=22 splines=line]
+	202 [label="standar_living 
+ Gain: 0.97"]
+	201 -> 202 [label=3 splines=line]
+	203 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	202 -> 203 [label=4 splines=line]
+	204 [label="wife_education 
+ Gain: 1.0"]
+	202 -> 204 [label=1 splines=line]
+	205 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	204 -> 205 [label=2 splines=line]
+	206 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	204 -> 206 [label=1 splines=line]
+	207 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	202 -> 207 [label=3 splines=line]
+	208 [label="standar_living 
+ Gain: 1.0"]
+	201 -> 208 [label=4 splines=line]
+	209 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	208 -> 209 [label=4 splines=line]
+	210 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	208 -> 210 [label=3 splines=line]
+	211 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	208 -> 211 [label=2 splines=line]
+	212 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	201 -> 212 [label=2 splines=line]
+	213 [label="standar_living 
+ Gain: 1.0"]
+	67 -> 213 [label=28 splines=line]
+	214 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	213 -> 214 [label=4 splines=line]
+	215 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	213 -> 215 [label=2 splines=line]
+	216 [label="wife_education 
+ Gain: 0.31"]
+	213 -> 216 [label=3 splines=line]
+	217 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	216 -> 217 [label=3 splines=line]
+	218 [label="wife_works 
+ Gain: 1.0"]
+	216 -> 218 [label=4 splines=line]
+	219 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	218 -> 219 [label=0 splines=line]
+	220 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	218 -> 220 [label=1 splines=line]
+	221 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	216 -> 221 [label=2 splines=line]
+	222 [label="wife_education 
+ Gain: 0.81"]
+	67 -> 222 [label=20 splines=line]
+	223 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	222 -> 223 [label=3 splines=line]
+	224 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	222 -> 224 [label=2 splines=line]
+	225 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	222 -> 225 [label=4 splines=line]
+	226 [label="wife_education 
+ Gain: 1.16"]
+	67 -> 226 [label=29 splines=line]
+	227 [label="2 
+ Gain: 0 
+ [3]" color=green]
+	226 -> 227 [label=4 splines=line]
+	228 [label="husband_education 
+ Gain: 1.0"]
+	226 -> 228 [label=3 splines=line]
+	229 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	228 -> 229 [label=3 splines=line]
+	230 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	228 -> 230 [label=4 splines=line]
+	231 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	226 -> 231 [label=2 splines=line]
+	232 [label="husband_work 
+ Gain: 0.79"]
+	67 -> 232 [label=36 splines=line]
+	233 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	232 -> 233 [label=3 splines=line]
+	234 [label="wife_education 
+ Gain: 0.92"]
+	232 -> 234 [label=2 splines=line]
+	235 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	234 -> 235 [label=1 splines=line]
+	236 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	234 -> 236 [label=4 splines=line]
+	237 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	234 -> 237 [label=3 splines=line]
+	238 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	232 -> 238 [label=1 splines=line]
+	239 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	67 -> 239 [label=44 splines=line]
+	240 [label="wife_education 
+ Gain: 0.92"]
+	67 -> 240 [label=21 splines=line]
+	241 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	240 -> 241 [label=3 splines=line]
+	242 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	240 -> 242 [label=4 splines=line]
+	243 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	240 -> 243 [label=2 splines=line]
+	244 [label="wife_education 
+ Gain: 1.0"]
+	67 -> 244 [label=43 splines=line]
+	245 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	244 -> 245 [label=1 splines=line]
+	246 [label="religion 
+ Gain: 1.0"]
+	244 -> 246 [label=3 splines=line]
+	247 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	246 -> 247 [label=0 splines=line]
+	248 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	246 -> 248 [label=1 splines=line]
+	249 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	244 -> 249 [label=4 splines=line]
+	250 [label="husband_work 
+ Gain: 0.72"]
+	67 -> 250 [label=35 splines=line]
+	251 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	250 -> 251 [label=2 splines=line]
+	252 [label="husband_education 
+ Gain: 1.0"]
+	250 -> 252 [label=3 splines=line]
+	253 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	252 -> 253 [label=3 splines=line]
+	254 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	252 -> 254 [label=4 splines=line]
+	255 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	250 -> 255 [label=1 splines=line]
+	256 [label="standar_living 
+ Gain: 0.97"]
+	67 -> 256 [label=38 splines=line]
+	257 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	256 -> 257 [label=3 splines=line]
+	258 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	256 -> 258 [label=4 splines=line]
+	259 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	67 -> 259 [label=42 splines=line]
+	260 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	67 -> 260 [label=41 splines=line]
+	261 [label="wife_works 
+ Gain: 0.56"]
+	67 -> 261 [label=34 splines=line]
+	262 [label="wife_education 
+ Gain: 0.46"]
+	261 -> 262 [label=1 splines=line]
+	263 [label="religion 
+ Gain: 0.12"]
+	262 -> 263 [label=4 splines=line]
+	264 [label="husband_work 
+ Gain: 0.25"]
+	263 -> 264 [label=1 splines=line]
+	265 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	264 -> 265 [label=1 splines=line]
+	266 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	264 -> 266 [label=3 splines=line]
+	267 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	263 -> 267 [label=0 splines=line]
+	268 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	262 -> 268 [label=2 splines=line]
+	269 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	262 -> 269 [label=3 splines=line]
+	270 [label="religion 
+ Gain: 0.92"]
+	261 -> 270 [label=0 splines=line]
+	271 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	270 -> 271 [label=0 splines=line]
+	272 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	270 -> 272 [label=1 splines=line]
+	273 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	67 -> 273 [label=47 splines=line]
+	274 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	67 -> 274 [label=45 splines=line]
+	275 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	67 -> 275 [label=39 splines=line]
+	276 [label="wife_age 
+ Gain: 0.47"]
+	0 -> 276 [label=5 splines=line]
+	277 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	276 -> 277 [label=31 splines=line]
+	278 [label="wife_education 
+ Gain: 1.58"]
+	276 -> 278 [label=46 splines=line]
+	279 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	278 -> 279 [label=2 splines=line]
+	280 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	278 -> 280 [label=3 splines=line]
+	281 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	278 -> 281 [label=4 splines=line]
+	282 [label="husband_work 
+ Gain: 1.5"]
+	276 -> 282 [label=36 splines=line]
+	283 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	282 -> 283 [label=3 splines=line]
+	284 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	282 -> 284 [label=2 splines=line]
+	285 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	282 -> 285 [label=1 splines=line]
+	286 [label="husband_work 
+ Gain: 0.46"]
+	276 -> 286 [label=28 splines=line]
+	287 [label="standar_living 
+ Gain: 0.81"]
+	286 -> 287 [label=2 splines=line]
+	288 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	287 -> 288 [label=1 splines=line]
+	289 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	287 -> 289 [label=4 splines=line]
+	290 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	286 -> 290 [label=3 splines=line]
+	291 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	276 -> 291 [label=29 splines=line]
+	292 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	276 -> 292 [label=45 splines=line]
+	293 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	276 -> 293 [label=25 splines=line]
+	294 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	276 -> 294 [label=49 splines=line]
+	295 [label="wife_education 
+ Gain: 0.92"]
+	276 -> 295 [label=40 splines=line]
+	296 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	295 -> 296 [label=2 splines=line]
+	297 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	295 -> 297 [label=3 splines=line]
+	298 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	295 -> 298 [label=4 splines=line]
+	299 [label="husband_work 
+ Gain: 0.79"]
+	276 -> 299 [label=44 splines=line]
+	300 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	299 -> 300 [label=3 splines=line]
+	301 [label="wife_education 
+ Gain: 0.31"]
+	299 -> 301 [label=1 splines=line]
+	302 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	301 -> 302 [label=3 splines=line]
+	303 [label="wife_works 
+ Gain: 0.25"]
+	301 -> 303 [label=4 splines=line]
+	304 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	303 -> 304 [label=1 splines=line]
+	305 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	303 -> 305 [label=0 splines=line]
+	306 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	299 -> 306 [label=2 splines=line]
+	307 [label="wife_education 
+ Gain: 0.97"]
+	276 -> 307 [label=30 splines=line]
+	308 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	307 -> 308 [label=3 splines=line]
+	309 [label="wife_works 
+ Gain: 1.0"]
+	307 -> 309 [label=2 splines=line]
+	310 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	309 -> 310 [label=1 splines=line]
+	311 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	309 -> 311 [label=0 splines=line]
+	312 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	307 -> 312 [label=1 splines=line]
+	313 [label="wife_education 
+ Gain: 0.67"]
+	276 -> 313 [label=41 splines=line]
+	314 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	313 -> 314 [label=1 splines=line]
+	315 [label="husband_work 
+ Gain: 1.0"]
+	313 -> 315 [label=3 splines=line]
+	316 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	315 -> 316 [label=3 splines=line]
+	317 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	315 -> 317 [label=1 splines=line]
+	318 [label="religion 
+ Gain: 0.92"]
+	313 -> 318 [label=4 splines=line]
+	319 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	318 -> 319 [label=0 splines=line]
+	320 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	318 -> 320 [label=1 splines=line]
+	321 [label="wife_education 
+ Gain: 1.0"]
+	276 -> 321 [label=42 splines=line]
+	322 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	321 -> 322 [label=2 splines=line]
+	323 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	321 -> 323 [label=4 splines=line]
+	324 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	321 -> 324 [label=3 splines=line]
+	325 [label="husband_work 
+ Gain: 1.0"]
+	276 -> 325 [label=33 splines=line]
+	326 [label="wife_education 
+ Gain: 1.0"]
+	325 -> 326 [label=3 splines=line]
+	327 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	326 -> 327 [label=4 splines=line]
+	328 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	326 -> 328 [label=3 splines=line]
+	329 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	325 -> 329 [label=2 splines=line]
+	330 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	325 -> 330 [label=1 splines=line]
+	331 [label="standar_living 
+ Gain: 0.41"]
+	276 -> 331 [label=43 splines=line]
+	332 [label="religion 
+ Gain: 1.0"]
+	331 -> 332 [label=4 splines=line]
+	333 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	332 -> 333 [label=1 splines=line]
+	334 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	332 -> 334 [label=0 splines=line]
+	335 [label="wife_education 
+ Gain: 1.0"]
+	331 -> 335 [label=3 splines=line]
+	336 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	335 -> 336 [label=3 splines=line]
+	337 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	335 -> 337 [label=4 splines=line]
+	338 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	331 -> 338 [label=2 splines=line]
+	339 [label="standar_living 
+ Gain: 0.92"]
+	276 -> 339 [label=32 splines=line]
+	340 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	339 -> 340 [label=2 splines=line]
+	341 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	339 -> 341 [label=3 splines=line]
+	342 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	339 -> 342 [label=4 splines=line]
+	343 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	276 -> 343 [label=48 splines=line]
+	344 [label="wife_education 
+ Gain: 0.99"]
+	276 -> 344 [label=35 splines=line]
+	345 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	344 -> 345 [label=2 splines=line]
+	346 [label="wife_works 
+ Gain: 0.31"]
+	344 -> 346 [label=4 splines=line]
+	347 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	346 -> 347 [label=1 splines=line]
+	348 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	346 -> 348 [label=0 splines=line]
+	349 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	344 -> 349 [label=1 splines=line]
+	350 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	344 -> 350 [label=3 splines=line]
+	351 [label="wife_education 
+ Gain: 0.97"]
+	276 -> 351 [label=47 splines=line]
+	352 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	351 -> 352 [label=2 splines=line]
+	353 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	351 -> 353 [label=3 splines=line]
+	354 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	351 -> 354 [label=4 splines=line]
+	355 [label="wife_education 
+ Gain: 0.97"]
+	276 -> 355 [label=39 splines=line]
+	356 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	355 -> 356 [label=2 splines=line]
+	357 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	355 -> 357 [label=3 splines=line]
+	358 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	355 -> 358 [label=1 splines=line]
+	359 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	355 -> 359 [label=4 splines=line]
+	360 [label="husband_work 
+ Gain: 0.82"]
+	276 -> 360 [label=37 splines=line]
+	361 [label="wife_education 
+ Gain: 0.92"]
+	360 -> 361 [label=2 splines=line]
+	362 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	361 -> 362 [label=3 splines=line]
+	363 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	361 -> 363 [label=2 splines=line]
+	364 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	361 -> 364 [label=4 splines=line]
+	365 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	360 -> 365 [label=3 splines=line]
+	366 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	360 -> 366 [label=4 splines=line]
+	367 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	276 -> 367 [label=27 splines=line]
+	368 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	276 -> 368 [label=26 splines=line]
+	369 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	276 -> 369 [label=34 splines=line]
+	370 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	276 -> 370 [label=24 splines=line]
+	371 [label="wife_age 
+ Gain: 0.33"]
+	0 -> 371 [label=1 splines=line]
+	372 [label="standar_living 
+ Gain: 0.47"]
+	371 -> 372 [label=20 splines=line]
+	373 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	372 -> 373 [label=2 splines=line]
+	374 [label="wife_education 
+ Gain: 0.92"]
+	372 -> 374 [label=4 splines=line]
+	375 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	374 -> 375 [label=2 splines=line]
+	376 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	374 -> 376 [label=3 splines=line]
+	377 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	372 -> 377 [label=1 splines=line]
+	378 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	372 -> 378 [label=3 splines=line]
+	379 [label="standar_living 
+ Gain: 0.26"]
+	371 -> 379 [label=25 splines=line]
+	380 [label="husband_work 
+ Gain: 0.42"]
+	379 -> 380 [label=3 splines=line]
+	381 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	380 -> 381 [label=2 splines=line]
+	382 [label="wife_works 
+ Gain: 0.92"]
+	380 -> 382 [label=3 splines=line]
+	383 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	382 -> 383 [label=1 splines=line]
+	384 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	382 -> 384 [label=0 splines=line]
+	385 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	380 -> 385 [label=1 splines=line]
+	386 [label="husband_education 
+ Gain: 0.29"]
+	379 -> 386 [label=1 splines=line]
+	387 [label="wife_works 
+ Gain: 0.32"]
+	386 -> 387 [label=3 splines=line]
+	388 [label="wife_education 
+ Gain: 0.31"]
+	387 -> 388 [label=1 splines=line]
+	389 [label="husband_work 
+ Gain: 0.92"]
+	388 -> 389 [label=3 splines=line]
+	390 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	389 -> 390 [label=3 splines=line]
+	391 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	389 -> 391 [label=2 splines=line]
+	392 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	388 -> 392 [label=2 splines=line]
+	393 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	387 -> 393 [label=0 splines=line]
+	394 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	386 -> 394 [label=4 splines=line]
+	395 [label="husband_work 
+ Gain: 0.61"]
+	379 -> 395 [label=4 splines=line]
+	396 [label="wife_works 
+ Gain: 0.32"]
+	395 -> 396 [label=1 splines=line]
+	397 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	396 -> 397 [label=0 splines=line]
+	398 [label="religion 
+ Gain: 0.17"]
+	396 -> 398 [label=1 splines=line]
+	399 [label="3 
+ Gain: 0 
+ [2 1 1]" color=green]
+	398 -> 399 [label=1 splines=line]
+	400 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	398 -> 400 [label=0 splines=line]
+	401 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	395 -> 401 [label=3 splines=line]
+	402 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	395 -> 402 [label=4 splines=line]
+	403 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	379 -> 403 [label=2 splines=line]
+	404 [label="wife_education 
+ Gain: 1.0"]
+	371 -> 404 [label=31 splines=line]
+	405 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	404 -> 405 [label=3 splines=line]
+	406 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	404 -> 406 [label=4 splines=line]
+	407 [label="husband_work 
+ Gain: 0.78"]
+	371 -> 407 [label=22 splines=line]
+	408 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	407 -> 408 [label=2 splines=line]
+	409 [label="wife_education 
+ Gain: 0.92"]
+	407 -> 409 [label=1 splines=line]
+	410 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	409 -> 410 [label=3 splines=line]
+	411 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	409 -> 411 [label=4 splines=line]
+	412 [label="standar_living 
+ Gain: 0.54"]
+	407 -> 412 [label=3 splines=line]
+	413 [label="husband_education 
+ Gain: 0.92"]
+	412 -> 413 [label=3 splines=line]
+	414 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	413 -> 414 [label=3 splines=line]
+	415 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	413 -> 415 [label=4 splines=line]
+	416 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	412 -> 416 [label=2 splines=line]
+	417 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	412 -> 417 [label=4 splines=line]
+	418 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	412 -> 418 [label=1 splines=line]
+	419 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	407 -> 419 [label=4 splines=line]
+	420 [label="standar_living 
+ Gain: 0.2"]
+	371 -> 420 [label=19 splines=line]
+	421 [label="wife_education 
+ Gain: 0.46"]
+	420 -> 421 [label=3 splines=line]
+	422 [label="husband_work 
+ Gain: 0.5"]
+	421 -> 422 [label=4 splines=line]
+	423 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	422 -> 423 [label=1 splines=line]
+	424 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	422 -> 424 [label=2 splines=line]
+	425 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	421 -> 425 [label=3 splines=line]
+	426 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	421 -> 426 [label=2 splines=line]
+	427 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	420 -> 427 [label=2 splines=line]
+	428 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	420 -> 428 [label=1 splines=line]
+	429 [label="standar_living 
+ Gain: 0.79"]
+	371 -> 429 [label=30 splines=line]
+	430 [label="wife_education 
+ Gain: 0.5"]
+	429 -> 430 [label=4 splines=line]
+	431 [label="religion 
+ Gain: 1.0"]
+	430 -> 431 [label=4 splines=line]
+	432 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	431 -> 432 [label=0 splines=line]
+	433 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	431 -> 433 [label=1 splines=line]
+	434 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	430 -> 434 [label=1 splines=line]
+	435 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	430 -> 435 [label=2 splines=line]
+	436 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	429 -> 436 [label=2 splines=line]
+	437 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	429 -> 437 [label=1 splines=line]
+	438 [label="wife_education 
+ Gain: 0.3"]
+	371 -> 438 [label=21 splines=line]
+	439 [label="husband_work 
+ Gain: 0.67"]
+	438 -> 439 [label=4 splines=line]
+	440 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	439 -> 440 [label=1 splines=line]
+	441 [label="standar_living 
+ Gain: 0.92"]
+	439 -> 441 [label=3 splines=line]
+	442 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	441 -> 442 [label=4 splines=line]
+	443 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	441 -> 443 [label=3 splines=line]
+	444 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	441 -> 444 [label=1 splines=line]
+	445 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	439 -> 445 [label=2 splines=line]
+	446 [label="wife_works 
+ Gain: 0.31"]
+	438 -> 446 [label=3 splines=line]
+	447 [label="3 
+ Gain: 0 
+ [5]" color=green]
+	446 -> 447 [label=1 splines=line]
+	448 [label="husband_education 
+ Gain: 1.0"]
+	446 -> 448 [label=0 splines=line]
+	449 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	448 -> 449 [label=4 splines=line]
+	450 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	448 -> 450 [label=3 splines=line]
+	451 [label="husband_education 
+ Gain: 0.31"]
+	438 -> 451 [label=2 splines=line]
+	452 [label="1 
+ Gain: 0 
+ [1 1 1]" color=green]
+	451 -> 452 [label=2 splines=line]
+	453 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	451 -> 453 [label=3 splines=line]
+	454 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	438 -> 454 [label=1 splines=line]
+	455 [label="husband_work 
+ Gain: 0.68"]
+	371 -> 455 [label=26 splines=line]
+	456 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	455 -> 456 [label=2 splines=line]
+	457 [label="wife_education 
+ Gain: 1.0"]
+	455 -> 457 [label=3 splines=line]
+	458 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	457 -> 458 [label=4 splines=line]
+	459 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	457 -> 459 [label=2 splines=line]
+	460 [label="1 
+ Gain: 0 
+ [5]" color=green]
+	455 -> 460 [label=1 splines=line]
+	461 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	455 -> 461 [label=4 splines=line]
+	462 [label="1 
+ Gain: 0 
+ [5]" color=green]
+	371 -> 462 [label=45 splines=line]
+	463 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	371 -> 463 [label=47 splines=line]
+	464 [label="standar_living 
+ Gain: 1.25"]
+	371 -> 464 [label=18 splines=line]
+	465 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	464 -> 465 [label=2 splines=line]
+	466 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	464 -> 466 [label=4 splines=line]
+	467 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	464 -> 467 [label=3 splines=line]
+	468 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	464 -> 468 [label=1 splines=line]
+	469 [label="wife_education 
+ Gain: 0.28"]
+	371 -> 469 [label=28 splines=line]
+	470 [label="husband_work 
+ Gain: 0.54"]
+	469 -> 470 [label=4 splines=line]
+	471 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	470 -> 471 [label=3 splines=line]
+	472 [label="religion 
+ Gain: 0.25"]
+	470 -> 472 [label=2 splines=line]
+	473 [label="wife_works 
+ Gain: 1.0"]
+	472 -> 473 [label=0 splines=line]
+	474 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	473 -> 474 [label=1 splines=line]
+	475 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	473 -> 475 [label=0 splines=line]
+	476 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	472 -> 476 [label=1 splines=line]
+	477 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	470 -> 477 [label=1 splines=line]
+	478 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	469 -> 478 [label=2 splines=line]
+	479 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	469 -> 479 [label=3 splines=line]
+	480 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	371 -> 480 [label=42 splines=line]
+	481 [label="wife_education 
+ Gain: 0.52"]
+	371 -> 481 [label=24 splines=line]
+	482 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	481 -> 482 [label=2 splines=line]
+	483 [label="husband_work 
+ Gain: 0.4"]
+	481 -> 483 [label=4 splines=line]
+	484 [label="standar_living 
+ Gain: 1.0"]
+	483 -> 484 [label=2 splines=line]
+	485 [label="religion 
+ Gain: 1.0"]
+	484 -> 485 [label=3 splines=line]
+	486 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	485 -> 486 [label=0 splines=line]
+	487 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	485 -> 487 [label=1 splines=line]
+	488 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	484 -> 488 [label=2 splines=line]
+	489 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	484 -> 489 [label=4 splines=line]
+	490 [label="wife_works 
+ Gain: 0.81"]
+	483 -> 490 [label=1 splines=line]
+	491 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	490 -> 491 [label=1 splines=line]
+	492 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	490 -> 492 [label=0 splines=line]
+	493 [label="standar_living 
+ Gain: 0.92"]
+	483 -> 493 [label=3 splines=line]
+	494 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	493 -> 494 [label=3 splines=line]
+	495 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	493 -> 495 [label=2 splines=line]
+	496 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	493 -> 496 [label=4 splines=line]
+	497 [label="wife_works 
+ Gain: 0.92"]
+	481 -> 497 [label=3 splines=line]
+	498 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	497 -> 498 [label=1 splines=line]
+	499 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	497 -> 499 [label=0 splines=line]
+	500 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	481 -> 500 [label=1 splines=line]
+	501 [label="husband_education 
+ Gain: 0.81"]
+	371 -> 501 [label=44 splines=line]
+	502 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	501 -> 502 [label=2 splines=line]
+	503 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	501 -> 503 [label=4 splines=line]
+	504 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	501 -> 504 [label=3 splines=line]
+	505 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	371 -> 505 [label=38 splines=line]
+	506 [label="standar_living 
+ Gain: 0.46"]
+	371 -> 506 [label=27 splines=line]
+	507 [label="wife_education 
+ Gain: 1.0"]
+	506 -> 507 [label=3 splines=line]
+	508 [label="wife_works 
+ Gain: 1.0"]
+	507 -> 508 [label=2 splines=line]
+	509 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	508 -> 509 [label=0 splines=line]
+	510 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	508 -> 510 [label=1 splines=line]
+	511 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	507 -> 511 [label=3 splines=line]
+	512 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	507 -> 512 [label=4 splines=line]
+	513 [label="wife_education 
+ Gain: 0.52"]
+	506 -> 513 [label=4 splines=line]
+	514 [label="husband_work 
+ Gain: 0.81"]
+	513 -> 514 [label=4 splines=line]
+	515 [label="religion 
+ Gain: 0.25"]
+	514 -> 515 [label=1 splines=line]
+	516 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	515 -> 516 [label=0 splines=line]
+	517 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	515 -> 517 [label=1 splines=line]
+	518 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	514 -> 518 [label=3 splines=line]
+	519 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	513 -> 519 [label=2 splines=line]
+	520 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	513 -> 520 [label=3 splines=line]
+	521 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	506 -> 521 [label=2 splines=line]
+	522 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	506 -> 522 [label=1 splines=line]
+	523 [label="wife_education 
+ Gain: 1.0"]
+	371 -> 523 [label=29 splines=line]
+	524 [label="husband_education 
+ Gain: 0.92"]
+	523 -> 524 [label=3 splines=line]
+	525 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	524 -> 525 [label=3 splines=line]
+	526 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	524 -> 526 [label=4 splines=line]
+	527 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	523 -> 527 [label=2 splines=line]
+	528 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	523 -> 528 [label=4 splines=line]
+	529 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	523 -> 529 [label=1 splines=line]
+	530 [label="1 
+ Gain: 0 
+ [5]" color=green]
+	371 -> 530 [label=32 splines=line]
+	531 [label="wife_works 
+ Gain: 0.68"]
+	371 -> 531 [label=23 splines=line]
+	532 [label="husband_work 
+ Gain: 0.55"]
+	531 -> 532 [label=1 splines=line]
+	533 [label="wife_education 
+ Gain: 0.31"]
+	532 -> 533 [label=3 splines=line]
+	534 [label="standar_living 
+ Gain: 0.25"]
+	533 -> 534 [label=4 splines=line]
+	535 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	534 -> 535 [label=3 splines=line]
+	536 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	534 -> 536 [label=4 splines=line]
+	537 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	533 -> 537 [label=3 splines=line]
+	538 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	532 -> 538 [label=1 splines=line]
+	539 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	532 -> 539 [label=2 splines=line]
+	540 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	531 -> 540 [label=0 splines=line]
+	541 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	371 -> 541 [label=34 splines=line]
+	542 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	371 -> 542 [label=49 splines=line]
+	543 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	371 -> 543 [label=36 splines=line]
+	544 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	371 -> 544 [label=40 splines=line]
+	545 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	371 -> 545 [label=46 splines=line]
+	546 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	371 -> 546 [label=16 splines=line]
+	547 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	371 -> 547 [label=35 splines=line]
+	548 [label="wife_education 
+ Gain: 1.0"]
+	371 -> 548 [label=37 splines=line]
+	549 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	548 -> 549 [label=4 splines=line]
+	550 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	548 -> 550 [label=3 splines=line]
+	551 [label="wife_education 
+ Gain: 0.97"]
+	371 -> 551 [label=17 splines=line]
+	552 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	551 -> 552 [label=4 splines=line]
+	553 [label="husband_education 
+ Gain: 1.0"]
+	551 -> 553 [label=2 splines=line]
+	554 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	553 -> 554 [label=2 splines=line]
+	555 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	553 -> 555 [label=3 splines=line]
+	556 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	551 -> 556 [label=3 splines=line]
+	557 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	371 -> 557 [label=39 splines=line]
+	558 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	371 -> 558 [label=33 splines=line]
+	559 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	371 -> 559 [label=48 splines=line]
+	560 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	371 -> 560 [label=41 splines=line]
+	561 [label="wife_age 
+ Gain: 0.26"]
+	0 -> 561 [label=3 splines=line]
+	562 [label="husband_work 
+ Gain: 0.24"]
+	561 -> 562 [label=26 splines=line]
+	563 [label="standar_living 
+ Gain: 0.22"]
+	562 -> 563 [label=3 splines=line]
+	564 [label="wife_education 
+ Gain: 0.82"]
+	563 -> 564 [label=4 splines=line]
+	565 [label="husband_education 
+ Gain: 0.92"]
+	564 -> 565 [label=2 splines=line]
+	566 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	565 -> 566 [label=4 splines=line]
+	567 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	565 -> 567 [label=3 splines=line]
+	568 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	564 -> 568 [label=4 splines=line]
+	569 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	564 -> 569 [label=3 splines=line]
+	570 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	563 -> 570 [label=3 splines=line]
+	571 [label="wife_education 
+ Gain: 0.25"]
+	563 -> 571 [label=2 splines=line]
+	572 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	571 -> 572 [label=3 splines=line]
+	573 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	571 -> 573 [label=4 splines=line]
+	574 [label="wife_education 
+ Gain: 1.58"]
+	562 -> 574 [label=1 splines=line]
+	575 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	574 -> 575 [label=3 splines=line]
+	576 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	574 -> 576 [label=2 splines=line]
+	577 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	574 -> 577 [label=4 splines=line]
+	578 [label="husband_education 
+ Gain: 1.0"]
+	562 -> 578 [label=2 splines=line]
+	579 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	578 -> 579 [label=3 splines=line]
+	580 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	578 -> 580 [label=4 splines=line]
+	581 [label="wife_works 
+ Gain: 0.46"]
+	561 -> 581 [label=35 splines=line]
+	582 [label="religion 
+ Gain: 0.5"]
+	581 -> 582 [label=1 splines=line]
+	583 [label="husband_work 
+ Gain: 1.0"]
+	582 -> 583 [label=0 splines=line]
+	584 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	583 -> 584 [label=3 splines=line]
+	585 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	583 -> 585 [label=1 splines=line]
+	586 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	582 -> 586 [label=1 splines=line]
+	587 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	581 -> 587 [label=0 splines=line]
+	588 [label="husband_education 
+ Gain: 0.65"]
+	561 -> 588 [label=36 splines=line]
+	589 [label="wife_education 
+ Gain: 0.11"]
+	588 -> 589 [label=4 splines=line]
+	590 [label="standar_living 
+ Gain: 0.14"]
+	589 -> 590 [label=4 splines=line]
+	591 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	590 -> 591 [label=3 splines=line]
+	592 [label="husband_work 
+ Gain: 0.27"]
+	590 -> 592 [label=4 splines=line]
+	593 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	592 -> 593 [label=3 splines=line]
+	594 [label="religion 
+ Gain: 0.25"]
+	592 -> 594 [label=2 splines=line]
+	595 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	594 -> 595 [label=0 splines=line]
+	596 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	594 -> 596 [label=1 splines=line]
+	597 [label="2 
+ Gain: 0 
+ [2 1]" color=green]
+	592 -> 597 [label=1 splines=line]
+	598 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	589 -> 598 [label=3 splines=line]
+	599 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	588 -> 599 [label=3 splines=line]
+	600 [label="wife_education 
+ Gain: 1.0"]
+	561 -> 600 [label=43 splines=line]
+	601 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	600 -> 601 [label=2 splines=line]
+	602 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	600 -> 602 [label=4 splines=line]
+	603 [label="wife_works 
+ Gain: 0.2"]
+	561 -> 603 [label=37 splines=line]
+	604 [label="husband_work 
+ Gain: 0.46"]
+	603 -> 604 [label=1 splines=line]
+	605 [label="wife_education 
+ Gain: 0.92"]
+	604 -> 605 [label=3 splines=line]
+	606 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	605 -> 606 [label=4 splines=line]
+	607 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	605 -> 607 [label=3 splines=line]
+	608 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	604 -> 608 [label=1 splines=line]
+	609 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	604 -> 609 [label=2 splines=line]
+	610 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	603 -> 610 [label=0 splines=line]
+	611 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	561 -> 611 [label=22 splines=line]
+	612 [label="wife_education 
+ Gain: 0.69"]
+	561 -> 612 [label=30 splines=line]
+	613 [label="3 
+ Gain: 0 
+ [6]" color=green]
+	612 -> 613 [label=3 splines=line]
+	614 [label="wife_works 
+ Gain: 1.0"]
+	612 -> 614 [label=4 splines=line]
+	615 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	614 -> 615 [label=1 splines=line]
+	616 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	614 -> 616 [label=0 splines=line]
+	617 [label="standar_living 
+ Gain: 1.58"]
+	612 -> 617 [label=2 splines=line]
+	618 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	617 -> 618 [label=1 splines=line]
+	619 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	617 -> 619 [label=3 splines=line]
+	620 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	617 -> 620 [label=4 splines=line]
+	621 [label="wife_education 
+ Gain: 0.72"]
+	561 -> 621 [label=40 splines=line]
+	622 [label="husband_work 
+ Gain: 1.0"]
+	621 -> 622 [label=4 splines=line]
+	623 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	622 -> 623 [label=1 splines=line]
+	624 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	622 -> 624 [label=3 splines=line]
+	625 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	621 -> 625 [label=2 splines=line]
+	626 [label="husband_education 
+ Gain: 1.0"]
+	621 -> 626 [label=3 splines=line]
+	627 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	626 -> 627 [label=4 splines=line]
+	628 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	626 -> 628 [label=3 splines=line]
+	629 [label="standar_living 
+ Gain: 0.42"]
+	561 -> 629 [label=25 splines=line]
+	630 [label="husband_education 
+ Gain: 0.32"]
+	629 -> 630 [label=3 splines=line]
+	631 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	630 -> 631 [label=4 splines=line]
+	632 [label="wife_education 
+ Gain: 1.0"]
+	630 -> 632 [label=2 splines=line]
+	633 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	632 -> 633 [label=2 splines=line]
+	634 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	632 -> 634 [label=1 splines=line]
+	635 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	630 -> 635 [label=3 splines=line]
+	636 [label="husband_education 
+ Gain: 0.92"]
+	629 -> 636 [label=1 splines=line]
+	637 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	636 -> 637 [label=2 splines=line]
+	638 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	636 -> 638 [label=4 splines=line]
+	639 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	636 -> 639 [label=3 splines=line]
+	640 [label="wife_education 
+ Gain: 1.0"]
+	629 -> 640 [label=2 splines=line]
+	641 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	640 -> 641 [label=4 splines=line]
+	642 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	640 -> 642 [label=3 splines=line]
+	643 [label="wife_education 
+ Gain: 1.0"]
+	629 -> 643 [label=4 splines=line]
+	644 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	643 -> 644 [label=2 splines=line]
+	645 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	643 -> 645 [label=4 splines=line]
+	646 [label="wife_works 
+ Gain: 0.34"]
+	561 -> 646 [label=33 splines=line]
+	647 [label="wife_education 
+ Gain: 0.25"]
+	646 -> 647 [label=0 splines=line]
+	648 [label="husband_work 
+ Gain: 1.0"]
+	647 -> 648 [label=4 splines=line]
+	649 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	648 -> 649 [label=1 splines=line]
+	650 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	648 -> 650 [label=2 splines=line]
+	651 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	647 -> 651 [label=2 splines=line]
+	652 [label="husband_education 
+ Gain: 0.6"]
+	646 -> 652 [label=1 splines=line]
+	653 [label="wife_education 
+ Gain: 0.72"]
+	652 -> 653 [label=4 splines=line]
+	654 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	653 -> 654 [label=2 splines=line]
+	655 [label="2 
+ Gain: 0 
+ [3]" color=green]
+	653 -> 655 [label=4 splines=line]
+	656 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	653 -> 656 [label=3 splines=line]
+	657 [label="standar_living 
+ Gain: 1.0"]
+	652 -> 657 [label=3 splines=line]
+	658 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	657 -> 658 [label=3 splines=line]
+	659 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	657 -> 659 [label=4 splines=line]
+	660 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	652 -> 660 [label=2 splines=line]
+	661 [label="wife_education 
+ Gain: 0.81"]
+	561 -> 661 [label=24 splines=line]
+	662 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	661 -> 662 [label=1 splines=line]
+	663 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	661 -> 663 [label=3 splines=line]
+	664 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	661 -> 664 [label=4 splines=line]
+	665 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	661 -> 665 [label=2 splines=line]
+	666 [label="wife_education 
+ Gain: 0.92"]
+	561 -> 666 [label=48 splines=line]
+	667 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	666 -> 667 [label=4 splines=line]
+	668 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	666 -> 668 [label=2 splines=line]
+	669 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	666 -> 669 [label=3 splines=line]
+	670 [label="husband_work 
+ Gain: 0.37"]
+	561 -> 670 [label=29 splines=line]
+	671 [label="wife_education 
+ Gain: 0.72"]
+	670 -> 671 [label=3 splines=line]
+	672 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	671 -> 672 [label=3 splines=line]
+	673 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	671 -> 673 [label=2 splines=line]
+	674 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	671 -> 674 [label=4 splines=line]
+	675 [label="wife_education 
+ Gain: 0.31"]
+	670 -> 675 [label=1 splines=line]
+	676 [label="wife_works 
+ Gain: 0.25"]
+	675 -> 676 [label=4 splines=line]
+	677 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	676 -> 677 [label=0 splines=line]
+	678 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	676 -> 678 [label=1 splines=line]
+	679 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	675 -> 679 [label=3 splines=line]
+	680 [label="wife_works 
+ Gain: 1.0"]
+	670 -> 680 [label=2 splines=line]
+	681 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	680 -> 681 [label=1 splines=line]
+	682 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	680 -> 682 [label=0 splines=line]
+	683 [label="husband_work 
+ Gain: 0.63"]
+	561 -> 683 [label=32 splines=line]
+	684 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	683 -> 684 [label=2 splines=line]
+	685 [label="wife_works 
+ Gain: 0.32"]
+	683 -> 685 [label=1 splines=line]
+	686 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	685 -> 686 [label=1 splines=line]
+	687 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	685 -> 687 [label=0 splines=line]
+	688 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	683 -> 688 [label=3 splines=line]
+	689 [label="standar_living 
+ Gain: 0.81"]
+	561 -> 689 [label=28 splines=line]
+	690 [label="husband_work 
+ Gain: 1.0"]
+	689 -> 690 [label=4 splines=line]
+	691 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	690 -> 691 [label=1 splines=line]
+	692 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	690 -> 692 [label=2 splines=line]
+	693 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	690 -> 693 [label=3 splines=line]
+	694 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	689 -> 694 [label=2 splines=line]
+	695 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	689 -> 695 [label=1 splines=line]
+	696 [label="husband_work 
+ Gain: 0.72"]
+	561 -> 696 [label=38 splines=line]
+	697 [label="wife_education 
+ Gain: 1.0"]
+	696 -> 697 [label=1 splines=line]
+	698 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	697 -> 698 [label=4 splines=line]
+	699 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	697 -> 699 [label=2 splines=line]
+	700 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	696 -> 700 [label=3 splines=line]
+	701 [label="wife_education 
+ Gain: 1.0"]
+	696 -> 701 [label=2 splines=line]
+	702 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	701 -> 702 [label=4 splines=line]
+	703 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	701 -> 703 [label=2 splines=line]
+	704 [label="husband_work 
+ Gain: 1.17"]
+	561 -> 704 [label=27 splines=line]
+	705 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	704 -> 705 [label=4 splines=line]
+	706 [label="wife_education 
+ Gain: 0.81"]
+	704 -> 706 [label=3 splines=line]
+	707 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	706 -> 707 [label=3 splines=line]
+	708 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	706 -> 708 [label=2 splines=line]
+	709 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	706 -> 709 [label=4 splines=line]
+	710 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	704 -> 710 [label=2 splines=line]
+	711 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	704 -> 711 [label=1 splines=line]
+	712 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	561 -> 712 [label=44 splines=line]
+	713 [label="religion 
+ Gain: 0.31"]
+	561 -> 713 [label=39 splines=line]
+	714 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	713 -> 714 [label=0 splines=line]
+	715 [label="wife_works 
+ Gain: 0.25"]
+	713 -> 715 [label=1 splines=line]
+	716 [label="husband_work 
+ Gain: 1.0"]
+	715 -> 716 [label=1 splines=line]
+	717 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	716 -> 717 [label=1 splines=line]
+	718 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	716 -> 718 [label=2 splines=line]
+	719 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	715 -> 719 [label=0 splines=line]
+	720 [label="wife_education 
+ Gain: 1.0"]
+	561 -> 720 [label=46 splines=line]
+	721 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	720 -> 721 [label=4 splines=line]
+	722 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	720 -> 722 [label=1 splines=line]
+	723 [label="standar_living 
+ Gain: 0.8"]
+	561 -> 723 [label=31 splines=line]
+	724 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	723 -> 724 [label=1 splines=line]
+	725 [label="religion 
+ Gain: 0.42"]
+	723 -> 725 [label=4 splines=line]
+	726 [label="wife_works 
+ Gain: 0.25"]
+	725 -> 726 [label=1 splines=line]
+	727 [label="husband_work 
+ Gain: 1.0"]
+	726 -> 727 [label=1 splines=line]
+	728 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	727 -> 728 [label=1 splines=line]
+	729 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	727 -> 729 [label=4 splines=line]
+	730 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	726 -> 730 [label=0 splines=line]
+	731 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	725 -> 731 [label=0 splines=line]
+	732 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	723 -> 732 [label=2 splines=line]
+	733 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	723 -> 733 [label=3 splines=line]
+	734 [label="wife_works 
+ Gain: 0.31"]
+	561 -> 734 [label=42 splines=line]
+	735 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	734 -> 735 [label=1 splines=line]
+	736 [label="2 
+ Gain: 0 
+ [2 1]" color=green]
+	734 -> 736 [label=0 splines=line]
+	737 [label="wife_education 
+ Gain: 1.16"]
+	561 -> 737 [label=45 splines=line]
+	738 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	737 -> 738 [label=3 splines=line]
+	739 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	737 -> 739 [label=2 splines=line]
+	740 [label="religion 
+ Gain: 0.25"]
+	737 -> 740 [label=4 splines=line]
+	741 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	740 -> 741 [label=1 splines=line]
+	742 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	740 -> 742 [label=0 splines=line]
+	743 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	737 -> 743 [label=1 splines=line]
+	744 [label="standar_living 
+ Gain: 0.64"]
+	561 -> 744 [label=34 splines=line]
+	745 [label="husband_work 
+ Gain: 0.21"]
+	744 -> 745 [label=4 splines=line]
+	746 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	745 -> 746 [label=2 splines=line]
+	747 [label="wife_education 
+ Gain: 1.0"]
+	745 -> 747 [label=3 splines=line]
+	748 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	747 -> 748 [label=3 splines=line]
+	749 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	747 -> 749 [label=4 splines=line]
+	750 [label="wife_education 
+ Gain: 0.25"]
+	745 -> 750 [label=1 splines=line]
+	751 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	750 -> 751 [label=3 splines=line]
+	752 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	750 -> 752 [label=4 splines=line]
+	753 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	744 -> 753 [label=3 splines=line]
+	754 [label="wife_education 
+ Gain: 1.0"]
+	744 -> 754 [label=2 splines=line]
+	755 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	754 -> 755 [label=2 splines=line]
+	756 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	754 -> 756 [label=4 splines=line]
+	757 [label="standar_living 
+ Gain: 1.58"]
+	561 -> 757 [label=21 splines=line]
+	758 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	757 -> 758 [label=4 splines=line]
+	759 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	757 -> 759 [label=2 splines=line]
+	760 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	757 -> 760 [label=1 splines=line]
+	761 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	561 -> 761 [label=47 splines=line]
+	762 [label="husband_education 
+ Gain: 0.97"]
+	561 -> 762 [label=23 splines=line]
+	763 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	762 -> 763 [label=1 splines=line]
+	764 [label="wife_education 
+ Gain: 1.0"]
+	762 -> 764 [label=3 splines=line]
+	765 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	764 -> 765 [label=2 splines=line]
+	766 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	764 -> 766 [label=4 splines=line]
+	767 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	762 -> 767 [label=2 splines=line]
+	768 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	762 -> 768 [label=4 splines=line]
+	769 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	561 -> 769 [label=20 splines=line]
+	770 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	561 -> 770 [label=41 splines=line]
+	771 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	561 -> 771 [label=19 splines=line]
+	772 [label="wife_age 
+ Gain: 0.76"]
+	0 -> 772 [label=8 splines=line]
+	773 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	772 -> 773 [label=39 splines=line]
+	774 [label="wife_education 
+ Gain: 0.81"]
+	772 -> 774 [label=43 splines=line]
+	775 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	774 -> 775 [label=1 splines=line]
+	776 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	774 -> 776 [label=3 splines=line]
+	777 [label="wife_education 
+ Gain: 1.0"]
+	772 -> 777 [label=38 splines=line]
+	778 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	777 -> 778 [label=2 splines=line]
+	779 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	777 -> 779 [label=1 splines=line]
+	780 [label="wife_education 
+ Gain: 0.92"]
+	772 -> 780 [label=42 splines=line]
+	781 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	780 -> 781 [label=3 splines=line]
+	782 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	780 -> 782 [label=2 splines=line]
+	783 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	780 -> 783 [label=4 splines=line]
+	784 [label="standar_living 
+ Gain: 0.92"]
+	772 -> 784 [label=47 splines=line]
+	785 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	784 -> 785 [label=3 splines=line]
+	786 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	784 -> 786 [label=4 splines=line]
+	787 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	772 -> 787 [label=35 splines=line]
+	788 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	772 -> 788 [label=33 splines=line]
+	789 [label="wife_education 
+ Gain: 0.92"]
+	772 -> 789 [label=45 splines=line]
+	790 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	789 -> 790 [label=3 splines=line]
+	791 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	789 -> 791 [label=1 splines=line]
+	792 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	789 -> 792 [label=2 splines=line]
+	793 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	772 -> 793 [label=34 splines=line]
+	794 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	772 -> 794 [label=46 splines=line]
+	795 [label="wife_education 
+ Gain: 0.32"]
+	772 -> 795 [label=48 splines=line]
+	796 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	795 -> 796 [label=1 splines=line]
+	797 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	795 -> 797 [label=2 splines=line]
+	798 [label="wife_works 
+ Gain: 1.0"]
+	795 -> 798 [label=3 splines=line]
+	799 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	798 -> 799 [label=1 splines=line]
+	800 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	798 -> 800 [label=0 splines=line]
+	801 [label="husband_education 
+ Gain: 1.0"]
+	772 -> 801 [label=44 splines=line]
+	802 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	801 -> 802 [label=2 splines=line]
+	803 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	801 -> 803 [label=4 splines=line]
+	804 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	772 -> 804 [label=40 splines=line]
+	805 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	772 -> 805 [label=36 splines=line]
+	806 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	772 -> 806 [label=49 splines=line]
+	807 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	772 -> 807 [label=41 splines=line]
+	808 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	772 -> 808 [label=32 splines=line]
+	809 [label="wife_age 
+ Gain: 0.15"]
+	0 -> 809 [label=0 splines=line]
+	810 [label="1 
+ Gain: 0 
+ [5]" color=green]
+	809 -> 810 [label=25 splines=line]
+	811 [label="1 
+ Gain: 0 
+ [6]" color=green]
+	809 -> 811 [label=28 splines=line]
+	812 [label="1 
+ Gain: 0 
+ [5]" color=green]
+	809 -> 812 [label=29 splines=line]
+	813 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	809 -> 813 [label=26 splines=line]
+	814 [label="1 
+ Gain: 0 
+ [8]" color=green]
+	809 -> 814 [label=22 splines=line]
+	815 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	809 -> 815 [label=45 splines=line]
+	816 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	809 -> 816 [label=27 splines=line]
+	817 [label="husband_education 
+ Gain: 0.81"]
+	809 -> 817 [label=21 splines=line]
+	818 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	817 -> 818 [label=4 splines=line]
+	819 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	817 -> 819 [label=3 splines=line]
+	820 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	817 -> 820 [label=2 splines=line]
+	821 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 821 [label=18 splines=line]
+	822 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	809 -> 822 [label=30 splines=line]
+	823 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	809 -> 823 [label=35 splines=line]
+	824 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	809 -> 824 [label=24 splines=line]
+	825 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	809 -> 825 [label=37 splines=line]
+	826 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	809 -> 826 [label=19 splines=line]
+	827 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 827 [label=32 splines=line]
+	828 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 828 [label=47 splines=line]
+	829 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 829 [label=49 splines=line]
+	830 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 830 [label=42 splines=line]
+	831 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	809 -> 831 [label=20 splines=line]
+	832 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 832 [label=17 splines=line]
+	833 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 833 [label=44 splines=line]
+	834 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 834 [label=23 splines=line]
+	835 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 835 [label=36 splines=line]
+	836 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	809 -> 836 [label=33 splines=line]
+	837 [label="wife_age 
+ Gain: 0.75"]
+	0 -> 837 [label=7 splines=line]
+	838 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	837 -> 838 [label=28 splines=line]
+	839 [label="husband_education 
+ Gain: 1.52"]
+	837 -> 839 [label=30 splines=line]
+	840 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	839 -> 840 [label=2 splines=line]
+	841 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	839 -> 841 [label=4 splines=line]
+	842 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	839 -> 842 [label=3 splines=line]
+	843 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	839 -> 843 [label=1 splines=line]
+	844 [label="standar_living 
+ Gain: 0.72"]
+	837 -> 844 [label=47 splines=line]
+	845 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	844 -> 845 [label=3 splines=line]
+	846 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	844 -> 846 [label=4 splines=line]
+	847 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	844 -> 847 [label=2 splines=line]
+	848 [label="wife_education 
+ Gain: 0.92"]
+	837 -> 848 [label=37 splines=line]
+	849 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	848 -> 849 [label=2 splines=line]
+	850 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	848 -> 850 [label=3 splines=line]
+	851 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	837 -> 851 [label=43 splines=line]
+	852 [label="wife_education 
+ Gain: 1.0"]
+	837 -> 852 [label=45 splines=line]
+	853 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	852 -> 853 [label=4 splines=line]
+	854 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	852 -> 854 [label=2 splines=line]
+	855 [label="wife_education 
+ Gain: 1.0"]
+	837 -> 855 [label=36 splines=line]
+	856 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	855 -> 856 [label=2 splines=line]
+	857 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	855 -> 857 [label=3 splines=line]
+	858 [label="wife_education 
+ Gain: 0.92"]
+	837 -> 858 [label=48 splines=line]
+	859 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	858 -> 859 [label=1 splines=line]
+	860 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	858 -> 860 [label=4 splines=line]
+	861 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	837 -> 861 [label=29 splines=line]
+	862 [label="wife_education 
+ Gain: 0.92"]
+	837 -> 862 [label=44 splines=line]
+	863 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	862 -> 863 [label=4 splines=line]
+	864 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	862 -> 864 [label=1 splines=line]
+	865 [label="standar_living 
+ Gain: 1.58"]
+	837 -> 865 [label=38 splines=line]
+	866 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	865 -> 866 [label=1 splines=line]
+	867 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	865 -> 867 [label=2 splines=line]
+	868 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	865 -> 868 [label=3 splines=line]
+	869 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	837 -> 869 [label=49 splines=line]
+	870 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	837 -> 870 [label=46 splines=line]
+	871 [label="wife_education 
+ Gain: 1.0"]
+	837 -> 871 [label=41 splines=line]
+	872 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	871 -> 872 [label=4 splines=line]
+	873 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	871 -> 873 [label=3 splines=line]
+	874 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	837 -> 874 [label=33 splines=line]
+	875 [label="husband_education 
+ Gain: 1.0"]
+	837 -> 875 [label=34 splines=line]
+	876 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	875 -> 876 [label=3 splines=line]
+	877 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	875 -> 877 [label=4 splines=line]
+	878 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	837 -> 878 [label=35 splines=line]
+	879 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	837 -> 879 [label=32 splines=line]
+	880 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	837 -> 880 [label=31 splines=line]
+	881 [label="wife_age 
+ Gain: 0.47"]
+	0 -> 881 [label=4 splines=line]
+	882 [label="wife_education 
+ Gain: 0.65"]
+	881 -> 882 [label=36 splines=line]
+	883 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	882 -> 883 [label=3 splines=line]
+	884 [label="religion 
+ Gain: 0.54"]
+	882 -> 884 [label=4 splines=line]
+	885 [label="wife_works 
+ Gain: 0.25"]
+	884 -> 885 [label=0 splines=line]
+	886 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	885 -> 886 [label=0 splines=line]
+	887 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	885 -> 887 [label=1 splines=line]
+	888 [label="standar_living 
+ Gain: 0.25"]
+	884 -> 888 [label=1 splines=line]
+	889 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	888 -> 889 [label=4 splines=line]
+	890 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	888 -> 890 [label=3 splines=line]
+	891 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	882 -> 891 [label=2 splines=line]
+	892 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	882 -> 892 [label=1 splines=line]
+	893 [label="wife_education 
+ Gain: 0.97"]
+	881 -> 893 [label=47 splines=line]
+	894 [label="husband_education 
+ Gain: 1.0"]
+	893 -> 894 [label=4 splines=line]
+	895 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	894 -> 895 [label=3 splines=line]
+	896 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	894 -> 896 [label=4 splines=line]
+	897 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	893 -> 897 [label=1 splines=line]
+	898 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	893 -> 898 [label=2 splines=line]
+	899 [label="wife_education 
+ Gain: 0.12"]
+	881 -> 899 [label=46 splines=line]
+	900 [label="religion 
+ Gain: 0.25"]
+	899 -> 900 [label=4 splines=line]
+	901 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	900 -> 901 [label=0 splines=line]
+	902 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	900 -> 902 [label=1 splines=line]
+	903 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	899 -> 903 [label=3 splines=line]
+	904 [label="media_exposure 
+ Gain: 0.54"]
+	881 -> 904 [label=32 splines=line]
+	905 [label="wife_education 
+ Gain: 0.47"]
+	904 -> 905 [label=0 splines=line]
+	906 [label="husband_education 
+ Gain: 0.92"]
+	905 -> 906 [label=2 splines=line]
+	907 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	906 -> 907 [label=4 splines=line]
+	908 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	906 -> 908 [label=3 splines=line]
+	909 [label="standar_living 
+ Gain: 0.5"]
+	905 -> 909 [label=4 splines=line]
+	910 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	909 -> 910 [label=3 splines=line]
+	911 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	909 -> 911 [label=2 splines=line]
+	912 [label="wife_works 
+ Gain: 1.0"]
+	909 -> 912 [label=4 splines=line]
+	913 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	912 -> 913 [label=1 splines=line]
+	914 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	912 -> 914 [label=0 splines=line]
+	915 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	905 -> 915 [label=1 splines=line]
+	916 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	905 -> 916 [label=3 splines=line]
+	917 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	904 -> 917 [label=1 splines=line]
+	918 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	881 -> 918 [label=40 splines=line]
+	919 [label="wife_education 
+ Gain: 1.0"]
+	881 -> 919 [label=44 splines=line]
+	920 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	919 -> 920 [label=3 splines=line]
+	921 [label="religion 
+ Gain: 0.92"]
+	919 -> 921 [label=4 splines=line]
+	922 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	921 -> 922 [label=0 splines=line]
+	923 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	921 -> 923 [label=1 splines=line]
+	924 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	919 -> 924 [label=2 splines=line]
+	925 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	919 -> 925 [label=1 splines=line]
+	926 [label="3 
+ Gain: 0 
+ [4]" color=green]
+	881 -> 926 [label=28 splines=line]
+	927 [label="husband_education 
+ Gain: 0.76"]
+	881 -> 927 [label=30 splines=line]
+	928 [label="wife_education 
+ Gain: 0.92"]
+	927 -> 928 [label=2 splines=line]
+	929 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	928 -> 929 [label=1 splines=line]
+	930 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	928 -> 930 [label=2 splines=line]
+	931 [label="husband_work 
+ Gain: 0.81"]
+	927 -> 931 [label=4 splines=line]
+	932 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	931 -> 932 [label=2 splines=line]
+	933 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	931 -> 933 [label=3 splines=line]
+	934 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	931 -> 934 [label=1 splines=line]
+	935 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	927 -> 935 [label=3 splines=line]
+	936 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	927 -> 936 [label=1 splines=line]
+	937 [label="wife_education 
+ Gain: 0.31"]
+	881 -> 937 [label=31 splines=line]
+	938 [label="1 
+ Gain: 0 
+ [1 1]" color=green]
+	937 -> 938 [label=2 splines=line]
+	939 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	937 -> 939 [label=4 splines=line]
+	940 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	937 -> 940 [label=1 splines=line]
+	941 [label="husband_education 
+ Gain: 1.37"]
+	881 -> 941 [label=26 splines=line]
+	942 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	941 -> 942 [label=4 splines=line]
+	943 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	941 -> 943 [label=2 splines=line]
+	944 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	941 -> 944 [label=3 splines=line]
+	945 [label="wife_education 
+ Gain: 0.97"]
+	881 -> 945 [label=38 splines=line]
+	946 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	945 -> 946 [label=3 splines=line]
+	947 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	945 -> 947 [label=1 splines=line]
+	948 [label="wife_works 
+ Gain: 0.92"]
+	945 -> 948 [label=4 splines=line]
+	949 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	948 -> 949 [label=1 splines=line]
+	950 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	948 -> 950 [label=0 splines=line]
+	951 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	881 -> 951 [label=23 splines=line]
+	952 [label="wife_education 
+ Gain: 1.13"]
+	881 -> 952 [label=37 splines=line]
+	953 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	952 -> 953 [label=3 splines=line]
+	954 [label="2 
+ Gain: 0 
+ [3]" color=green]
+	952 -> 954 [label=4 splines=line]
+	955 [label="husband_education 
+ Gain: 1.0"]
+	952 -> 955 [label=2 splines=line]
+	956 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	955 -> 956 [label=3 splines=line]
+	957 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	955 -> 957 [label=4 splines=line]
+	958 [label="wife_education 
+ Gain: 0.88"]
+	881 -> 958 [label=34 splines=line]
+	959 [label="husband_education 
+ Gain: 1.0"]
+	958 -> 959 [label=1 splines=line]
+	960 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	959 -> 960 [label=3 splines=line]
+	961 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	959 -> 961 [label=4 splines=line]
+	962 [label="husband_work 
+ Gain: 0.92"]
+	958 -> 962 [label=4 splines=line]
+	963 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	962 -> 963 [label=3 splines=line]
+	964 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	962 -> 964 [label=2 splines=line]
+	965 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	958 -> 965 [label=2 splines=line]
+	966 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	958 -> 966 [label=3 splines=line]
+	967 [label="husband_education 
+ Gain: 0.72"]
+	881 -> 967 [label=27 splines=line]
+	968 [label="3 
+ Gain: 0 
+ [4]" color=green]
+	967 -> 968 [label=4 splines=line]
+	969 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	967 -> 969 [label=3 splines=line]
+	970 [label="wife_education 
+ Gain: 0.92"]
+	881 -> 970 [label=24 splines=line]
+	971 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	970 -> 971 [label=4 splines=line]
+	972 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	970 -> 972 [label=2 splines=line]
+	973 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	970 -> 973 [label=3 splines=line]
+	974 [label="wife_education 
+ Gain: 1.0"]
+	881 -> 974 [label=45 splines=line]
+	975 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	974 -> 975 [label=2 splines=line]
+	976 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	974 -> 976 [label=4 splines=line]
+	977 [label="wife_education 
+ Gain: 0.72"]
+	881 -> 977 [label=41 splines=line]
+	978 [label="2 
+ Gain: 0 
+ [4]" color=green]
+	977 -> 978 [label=4 splines=line]
+	979 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	977 -> 979 [label=1 splines=line]
+	980 [label="husband_education 
+ Gain: 1.0"]
+	881 -> 980 [label=39 splines=line]
+	981 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	980 -> 981 [label=4 splines=line]
+	982 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	980 -> 982 [label=3 splines=line]
+	983 [label="husband_work 
+ Gain: 0.59"]
+	881 -> 983 [label=29 splines=line]
+	984 [label="3 
+ Gain: 0 
+ [4]" color=green]
+	983 -> 984 [label=3 splines=line]
+	985 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	983 -> 985 [label=2 splines=line]
+	986 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	983 -> 986 [label=1 splines=line]
+	987 [label="wife_education 
+ Gain: 1.0"]
+	881 -> 987 [label=49 splines=line]
+	988 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	987 -> 988 [label=3 splines=line]
+	989 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	987 -> 989 [label=4 splines=line]
+	990 [label="wife_education 
+ Gain: 0.92"]
+	881 -> 990 [label=25 splines=line]
+	991 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	990 -> 991 [label=3 splines=line]
+	992 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	990 -> 992 [label=2 splines=line]
+	993 [label="husband_work 
+ Gain: 0.72"]
+	881 -> 993 [label=33 splines=line]
+	994 [label="3 
+ Gain: 0 
+ [4]" color=green]
+	993 -> 994 [label=2 splines=line]
+	995 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	993 -> 995 [label=1 splines=line]
+	996 [label="2 
+ Gain: 0 
+ [4]" color=green]
+	881 -> 996 [label=42 splines=line]
+	997 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	881 -> 997 [label=43 splines=line]
+	998 [label="husband_work 
+ Gain: 0.54"]
+	881 -> 998 [label=35 splines=line]
+	999 [label="religion 
+ Gain: 0.25"]
+	998 -> 999 [label=1 splines=line]
+	1000 [label="2 
+ Gain: 0 
+ [1 1]" color=green]
+	999 -> 1000 [label=1 splines=line]
+	1001 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	999 -> 1001 [label=0 splines=line]
+	1002 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	998 -> 1002 [label=3 splines=line]
+	1003 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	998 -> 1003 [label=4 splines=line]
+	1004 [label="wife_education 
+ Gain: 0.92"]
+	881 -> 1004 [label=48 splines=line]
+	1005 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1004 -> 1005 [label=1 splines=line]
+	1006 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1004 -> 1006 [label=4 splines=line]
+	1007 [label="wife_age 
+ Gain: 1.05"]
+	0 -> 1007 [label=11 splines=line]
+	1008 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1007 -> 1008 [label=47 splines=line]
+	1009 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1007 -> 1009 [label=42 splines=line]
+	1010 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1007 -> 1010 [label=41 splines=line]
+	1011 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1007 -> 1011 [label=45 splines=line]
+	1012 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1007 -> 1012 [label=49 splines=line]
+	1013 [label="wife_education 
+ Gain: 1.0"]
+	1007 -> 1013 [label=44 splines=line]
+	1014 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1013 -> 1014 [label=1 splines=line]
+	1015 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1013 -> 1015 [label=4 splines=line]
+	1016 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1007 -> 1016 [label=48 splines=line]
+	1017 [label="wife_age 
+ Gain: 1.39"]
+	0 -> 1017 [label=9 splines=line]
+	1018 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1017 -> 1018 [label=45 splines=line]
+	1019 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1017 -> 1019 [label=42 splines=line]
+	1020 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1017 -> 1020 [label=34 splines=line]
+	1021 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1017 -> 1021 [label=36 splines=line]
+	1022 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1017 -> 1022 [label=38 splines=line]
+	1023 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1017 -> 1023 [label=35 splines=line]
+	1024 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1017 -> 1024 [label=49 splines=line]
+	1025 [label="wife_education 
+ Gain: 1.0"]
+	1017 -> 1025 [label=44 splines=line]
+	1026 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1025 -> 1026 [label=1 splines=line]
+	1027 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1025 -> 1027 [label=3 splines=line]
+	1028 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1017 -> 1028 [label=46 splines=line]
+	1029 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1017 -> 1029 [label=47 splines=line]
+	1030 [label="wife_age 
+ Gain: 0.76"]
+	0 -> 1030 [label=10 splines=line]
+	1031 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1030 -> 1031 [label=42 splines=line]
+	1032 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1030 -> 1032 [label=49 splines=line]
+	1033 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1030 -> 1033 [label=46 splines=line]
+	1034 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1030 -> 1034 [label=47 splines=line]
+	1035 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1030 -> 1035 [label=39 splines=line]
+	1036 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1030 -> 1036 [label=38 splines=line]
+	1037 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1030 -> 1037 [label=41 splines=line]
+	1038 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1030 -> 1038 [label=45 splines=line]
+	1039 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	0 -> 1039 [label=16 splines=line]
+	1040 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	0 -> 1040 [label=13 splines=line]
+	1041 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	0 -> 1041 [label=12 splines=line]
+}

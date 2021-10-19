@@ -1,0 +1,230 @@
+digraph {
+	0 [label="media_exposure 
+ Gain: 0.06"]
+	1042 [label="1 
+ Gain: 0 
+ [385 345 221]" color=green]
+	0 -> 1042 [label=0 splines=line]
+	1043 [label="wife_age 
+ Gain: 0.12"]
+	0 -> 1043 [label=1 splines=line]
+	1044 [label="children 
+ Gain: 0.54"]
+	1043 -> 1044 [label=47 splines=line]
+	1045 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1044 -> 1045 [label=7 splines=line]
+	1046 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1044 -> 1046 [label=2 splines=line]
+	1047 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1044 -> 1047 [label=8 splines=line]
+	1048 [label="husband_education 
+ Gain: 0.71"]
+	1043 -> 1048 [label=36 splines=line]
+	1049 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	1048 -> 1049 [label=3 splines=line]
+	1050 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1048 -> 1050 [label=4 splines=line]
+	1051 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1048 -> 1051 [label=2 splines=line]
+	1052 [label="wife_education 
+ Gain: 0.52"]
+	1043 -> 1052 [label=38 splines=line]
+	1053 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1052 -> 1053 [label=3 splines=line]
+	1054 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1052 -> 1054 [label=4 splines=line]
+	1055 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	1052 -> 1055 [label=1 splines=line]
+	1056 [label="children 
+ Gain: 1.0"]
+	1043 -> 1056 [label=31 splines=line]
+	1057 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1056 -> 1057 [label=2 splines=line]
+	1058 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	1056 -> 1058 [label=3 splines=line]
+	1059 [label="husband_education 
+ Gain: 0.58"]
+	1043 -> 1059 [label=35 splines=line]
+	1060 [label="wife_works 
+ Gain: 1.0"]
+	1059 -> 1060 [label=3 splines=line]
+	1061 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1060 -> 1061 [label=1 splines=line]
+	1062 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1060 -> 1062 [label=0 splines=line]
+	1063 [label="husband_work 
+ Gain: 1.0"]
+	1059 -> 1063 [label=2 splines=line]
+	1064 [label="3 
+ Gain: 0 
+ [3]" color=green]
+	1063 -> 1064 [label=2 splines=line]
+	1065 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1063 -> 1065 [label=3 splines=line]
+	1066 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1059 -> 1066 [label=4 splines=line]
+	1067 [label="1 
+ Gain: 0 
+ [5]" color=green]
+	1043 -> 1067 [label=48 splines=line]
+	1068 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	1043 -> 1068 [label=44 splines=line]
+	1069 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	1043 -> 1069 [label=45 splines=line]
+	1070 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1043 -> 1070 [label=42 splines=line]
+	1071 [label="wife_works 
+ Gain: 1.0"]
+	1043 -> 1071 [label=34 splines=line]
+	1072 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1071 -> 1072 [label=0 splines=line]
+	1073 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	1071 -> 1073 [label=1 splines=line]
+	1074 [label="wife_education 
+ Gain: 1.0"]
+	1043 -> 1074 [label=43 splines=line]
+	1075 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1074 -> 1075 [label=1 splines=line]
+	1076 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1074 -> 1076 [label=3 splines=line]
+	1077 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	1043 -> 1077 [label=46 splines=line]
+	1078 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1043 -> 1078 [label=30 splines=line]
+	1079 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1043 -> 1079 [label=22 splines=line]
+	1080 [label="1 
+ Gain: 0 
+ [2]" color=green]
+	1043 -> 1080 [label=49 splines=line]
+	1081 [label="1 
+ Gain: 0 
+ [4]" color=green]
+	1043 -> 1081 [label=39 splines=line]
+	1082 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	1043 -> 1082 [label=32 splines=line]
+	1083 [label="wife_education 
+ Gain: 1.0"]
+	1043 -> 1083 [label=25 splines=line]
+	1084 [label="2 
+ Gain: 0 
+ [1]" color=green]
+	1083 -> 1084 [label=2 splines=line]
+	1085 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1083 -> 1085 [label=1 splines=line]
+	1086 [label="husband_education 
+ Gain: 1.0"]
+	1043 -> 1086 [label=23 splines=line]
+	1087 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1086 -> 1087 [label=1 splines=line]
+	1088 [label="3 
+ Gain: 0 
+ [1]" color=green]
+	1086 -> 1088 [label=2 splines=line]
+	1089 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1043 -> 1089 [label=28 splines=line]
+	1090 [label="wife_education 
+ Gain: 1.0"]
+	1043 -> 1090 [label=27 splines=line]
+	1091 [label="3 
+ Gain: 0 
+ [2]" color=green]
+	1090 -> 1091 [label=4 splines=line]
+	1092 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1090 -> 1092 [label=2 splines=line]
+	1093 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1043 -> 1093 [label=41 splines=line]
+	1094 [label="1 
+ Gain: 0 
+ [3]" color=green]
+	1043 -> 1094 [label=40 splines=line]
+	1095 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1043 -> 1095 [label=21 splines=line]
+	1096 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1043 -> 1096 [label=20 splines=line]
+	1097 [label="husband_education 
+ Gain: 1.0"]
+	1043 -> 1097 [label=24 splines=line]
+	1098 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1097 -> 1098 [label=2 splines=line]
+	1099 [label="2 
+ Gain: 0 
+ [2]" color=green]
+	1097 -> 1099 [label=4 splines=line]
+	1100 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1043 -> 1100 [label=26 splines=line]
+	1101 [label="1 
+ Gain: 0 
+ [1]" color=green]
+	1043 -> 1101 [label=29 splines=line]
+}

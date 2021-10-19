@@ -1,0 +1,40 @@
+digraph {
+	0 [label="At4 
+ Gain: 0.28"]
+	1 [label="At2 
+ Gain: 0.17"]
+	0 -> 1 [label=f splines=line]
+	2 [label="At3 
+ Gain: 0.92"]
+	1 -> 2 [label=t splines=line]
+	3 [label="t 
+ Gain: 0 
+ [1]" color=green]
+	2 -> 3 [label=f splines=line]
+	4 [label="f 
+ Gain: 0 
+ [2]" color=green]
+	2 -> 4 [label=t splines=line]
+	5 [label="f 
+ Gain: 0 
+ [2]" color=green]
+	1 -> 5 [label=f splines=line]
+	6 [label="At2 
+ Gain: 0.32"]
+	0 -> 6 [label=t splines=line]
+	7 [label="t 
+ Gain: 0 
+ [3]" color=green]
+	6 -> 7 [label=t splines=line]
+	8 [label="At3 
+ Gain: 1.0"]
+	6 -> 8 [label=f splines=line]
+	9 [label="t 
+ Gain: 0 
+ [1]" color=green]
+	8 -> 9 [label=f splines=line]
+	10 [label="f 
+ Gain: 0 
+ [1]" color=green]
+	8 -> 10 [label=t splines=line]
+}

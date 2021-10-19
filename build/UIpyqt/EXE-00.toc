@@ -1,0 +1,3209 @@
+('C:\\Users\\Facundo '
+ 'Cuzziol\\Documents\\IA\\ia_decision_trees\\dist\\UIpyqt.exe',
+ True,
+ False,
+ False,
+ 'c:\\users\\facundo '
+ 'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ None,
+ False,
+ False,
+ '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1"><assemblyIdentity name="UIpyqt" processorArchitecture="amd64" type="win32" version="1.0.0.0"/><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"/></requestedPrivileges></security></trustInfo><dependency><dependentAssembly><assemblyIdentity language="*" name="Microsoft.Windows.Common-Controls" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" type="win32" version="6.0.0.0"/><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"/></dependentAssembly></dependency><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"><application><supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/><supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/><supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/><supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/><supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/></application></compatibility><application xmlns="urn:schemas-microsoft-com:asm.v3"><windowsSettings><longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware></windowsSettings></application></assembly>',
+ True,
+ None,
+ None,
+ None,
+ 'UIpyqt.pkg',
+ [('PYZ-00.pyz',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\build\\UIpyqt\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyimod04_ctypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod04_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('UIpyqt',
+   'C:\\Users\\Facundo Cuzziol\\Documents\\IA\\ia_decision_trees\\UIpyqt.py',
+   'PYSOURCE'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python37.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\python37.dll',
+   'BINARY'),
+  ('d3dcompiler_47.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('libopenblas.XWYDX2IKJW2NMTWSFYNGFUWKQU3LYTCZ.gfortran-win_amd64.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\.libs\\libopenblas.XWYDX2IKJW2NMTWSFYNGFUWKQU3LYTCZ.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('opengl32sw.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('libEGL.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'BINARY'),
+  ('libGLESv2.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('_hashlib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('numpy.core._multiarray_tests',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_multiarray_tests.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.core._multiarray_umath',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_multiarray_umath.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.linalg.lapack_lite',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\linalg\\lapack_lite.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random.mtrand',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\mtrand.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._sfc64',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_sfc64.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._philox',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_philox.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._pcg64',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_pcg64.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._mt19937',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_mt19937.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random.bit_generator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\bit_generator.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._generator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_generator.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._bounded_integers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_bounded_integers.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._common',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_common.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.fft._pocketfft_internal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.linalg._umath_linalg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PyQt5.QtGui',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\QtGui.pyd',
+   'EXTENSION'),
+  ('PyQt5.QtWidgets',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PyQt5.QtCore',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\QtCore.pyd',
+   'EXTENSION'),
+  ('PyQt5.sip',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\sip.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.missing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\missing.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.nattype',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\nattype.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.window.aggregations',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\window\\aggregations.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.hashing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\hashing.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.timedeltas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\timedeltas.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.join',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\join.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.fields',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\fields.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.conversion',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\conversion.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.base',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\base.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.arrays',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\arrays.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.groupby',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\groupby.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.strptime',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\strptime.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.json',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\json.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.sparse',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\sparse.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.reduction',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\reduction.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.period',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\period.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.tzconversion',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\tzconversion.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.testing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\testing.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.timezones',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\timezones.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.parsing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\parsing.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.dtypes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\dtypes.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.properties',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\properties.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.vectorized',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\vectorized.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.interval',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\interval.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.ops',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\ops.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.offsets',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\offsets.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.parsers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\parsers.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.indexing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\indexing.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.index',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\index.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.writers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\writers.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.algos',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\algos.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.np_datetime',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\np_datetime.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.ops_dispatch',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\ops_dispatch.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.ccalendar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\ccalendar.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.window.indexers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\window\\indexers.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.internals',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\internals.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslibs.timestamps',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslibs\\timestamps.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.reshape',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\reshape.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('_sqlite3',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('pandas.io.sas._sas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\sas\\_sas.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.tslib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\tslib.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.lib',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\lib.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('pandas._libs.hashtable',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\_libs\\hashtable.cp37-win_amd64.pyd',
+   'EXTENSION'),
+  ('Qt5Core.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
+   'BINARY'),
+  ('Qt5Gui.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll', 'C:\\Windows\\system32\\VCRUNTIME140_1.dll', 'BINARY'),
+  ('MSVCP140.dll', 'C:\\Windows\\system32\\MSVCP140.dll', 'BINARY'),
+  ('Qt5WebSockets.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'BINARY'),
+  ('Qt5Quick.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'BINARY'),
+  ('Qt5Network.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'BINARY'),
+  ('Qt5Svg.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'BINARY'),
+  ('Qt5Widgets.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
+   'BINARY'),
+  ('Qt5DBus.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('python3.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\python3.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\DLLs\\sqlite3.dll',
+   'BINARY'),
+  ('MSVCP140_1.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('Qt5Qml.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Qml.dll',
+   'BINARY'),
+  ('Qt5QmlModels.dll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5QmlModels.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\build\\UIpyqt\\base_library.zip',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vienna',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vienna',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Chatham',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chatham',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dominica',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Dominica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bishkek',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bishkek',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Luxembourg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Luxembourg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Helsinki',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Helsinki',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Amman',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Amman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kigali',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kigali',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Niue',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Niue',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yerevan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yerevan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Israel',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Israel',
+   'DATA'),
+  ('pytz\\zoneinfo\\Turkey',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Turkey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Ponape',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Ponape',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\West',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\West',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Mbabane',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mbabane',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+4',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+4',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Gaborone',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Gaborone',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mendoza',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Mendoza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Japan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Japan',
+   'DATA'),
+  ('pytz\\zoneinfo\\EST',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\EST',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Thimphu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimphu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jakarta',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jakarta',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT0',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\GMT0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Skopje',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Skopje',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Vientiane',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vientiane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Lisbon',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Lisbon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Anchorage',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Anchorage',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Rangoon',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Rangoon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Barthelemy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\St_Barthelemy',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Porto-Novo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Porto-Novo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tiraspol',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tiraspol',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Paramaribo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Paramaribo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pohnpei',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pohnpei',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rankin_Inlet',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Rankin_Inlet',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Melbourne',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Melbourne',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtquickwidgets.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Jamaica',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Jamaica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lagos',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lubumbashi',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lubumbashi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebenginewidgets.cpython-37.pyc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebenginewidgets.cpython-37.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+3',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+3',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Copenhagen',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Copenhagen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kwajalein',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kwajalein',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Sao_Paulo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Sao_Paulo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Davis',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Davis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Macquarie',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Macquarie',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Grenada',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Grenada',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Lower_Princes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Lower_Princes',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tirane',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tirane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Poland',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Poland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yangon',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yangon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Midway',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Midway',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kinshasa',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kinshasa',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Maldives',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Maldives',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Khartoum',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Khartoum',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fort_Nelson',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Nelson',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Johannesburg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Johannesburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aqtau',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Currie',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Currie',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qostanay',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qostanay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Reykjavik',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Reykjavik',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Queensland',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Queensland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Brazzaville',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Brazzaville',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kentucky\\Monticello',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Monticello',
+   'DATA'),
+  ('pytz\\zoneinfo\\tzdata.zi',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\tzdata.zi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Pyongyang',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pyongyang',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Accra',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Accra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Famagusta',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Famagusta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Dakar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dakar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mauritius',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mauritius',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Juneau',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Juneau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vatican',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vatican',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Wallis',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wallis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qyzylorda',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qyzylorda',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Pangnirtung',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Pangnirtung',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Hawaii',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Hawaii',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Lima',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Lima',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Nauru',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Nauru',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Lindeman',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lindeman',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Mogadishu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mogadishu',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Winnipeg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Winnipeg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Factory',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Factory',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bahia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Universal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\Universal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Blantyre',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Blantyre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ulan_Bator',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulan_Bator',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+7',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+7',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kosrae',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kosrae',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Thule',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Thule',
+   'DATA'),
+  ('pytz\\zoneinfo\\CET',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\CET',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtcharts.cpython-37.pyc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtcharts.cpython-37.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kralendijk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Kralendijk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Petersburg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Petersburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\East-Indiana',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\East-Indiana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lome',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Chuuk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chuuk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tortola',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Tortola',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Zulu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\Zulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ceuta',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ceuta',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bahia_Banderas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia_Banderas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\NSW',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\NSW',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tokyo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tokyo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Detroit',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Detroit',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nipigon',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Nipigon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Curacao',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Curacao',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bangkok',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bangkok',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Grand_Turk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Grand_Turk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cancun',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Cancun',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Victoria',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Victoria',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Funafuti',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Funafuti',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Riga',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Riga',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Rarotonga',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Rarotonga',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Marengo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Marengo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Brussels',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Brussels',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Boise',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Boise',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qaxcontainer.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lusaka',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lusaka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Central',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Canada\\Central',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Vostok',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Vostok',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Choibalsan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Choibalsan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Porto_Velho',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Velho',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Maputo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maputo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\San_Juan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Juan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Eucla',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Eucla',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Adelaide',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Adelaide',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Knox',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Knox',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\South',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\South',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Madrid',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Madrid',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Iqaluit',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Iqaluit',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hebron',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hebron',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\North',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\North',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hong_Kong',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hong_Kong',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Libreville',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Libreville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Juba',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Juba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chita',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chita',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Jujuy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Jujuy',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Maceio',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Maceio',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Goose_Bay',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Goose_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Palmer',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Palmer',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Anguilla',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Anguilla',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fortaleza',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Fortaleza',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guyana',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Guyana',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Noronha',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Noronha',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Niamey',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Niamey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Guernsey',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Guernsey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Canary',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Canary',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Shiprock',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Shiprock',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Noumea',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Noumea',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT0',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Lord_Howe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lord_Howe',
+   'DATA'),
+  ('pytz\\zoneinfo\\MST',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\MST',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guadeloupe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Guadeloupe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Taipei',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Taipei',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Galapagos',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Galapagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Merida',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Merida',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Anadyr',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Anadyr',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+10',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+10',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Atka',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Atka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Ljubljana',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ljubljana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Belfast',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belfast',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Efate',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Efate',
+   'DATA'),
+  ('pytz\\zoneinfo\\leapseconds',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\leapseconds',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tomsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tomsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Winamac',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Winamac',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Halifax',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Halifax',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\BajaNorte',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Mexico\\BajaNorte',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Boa_Vista',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Boa_Vista',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Easter',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Easter',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Saskatchewan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Canada\\Saskatchewan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Jujuy',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Jujuy',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Colombo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Colombo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\Acre',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Brazil\\Acre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Vladivostok',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vladivostok',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT-0',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\GMT-0',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html_table.tpl',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\templates\\html_table.tpl',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Comoro',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Comoro',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zurich',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zurich',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nuuk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Nuuk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Oral',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Oral',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qscintilla.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-2',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-2',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Regina',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Regina',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Godthab',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Godthab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Bermuda',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Bermuda',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Chile\\Continental',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Chile\\Continental',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tongatapu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tongatapu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Auckland',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Auckland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Muscat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Muscat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Brunei',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Brunei',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Madeira',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Madeira',
+   'DATA'),
+  ('pytz\\zoneinfo\\ROC',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\ROC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kanton',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kanton',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Johns',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\St_Johns',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Chagos',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Chagos',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Denver',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Denver',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-0',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-0',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Manaus',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Manaus',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Michigan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Michigan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\General',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Mexico\\General',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\DeNoronha',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Brazil\\DeNoronha',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Riyadh',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Riyadh',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Berlin',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Berlin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Arctic\\Longyearbyen',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Arctic\\Longyearbyen',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Sarajevo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sarajevo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Iran',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Iran',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ashgabat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashgabat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\BajaSur',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Mexico\\BajaSur',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\latex.tpl',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\templates\\latex.tpl',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jerusalem',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jerusalem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Apia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Apia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bissau',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bissau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Timbuktu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Timbuktu',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Minsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Minsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Araguaina',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Araguaina',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Coral_Harbour',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Coral_Harbour',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mazatlan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Mazatlan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Saipan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Saipan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\zone1970.tab',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\zone1970.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rio_Branco',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Rio_Branco',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Kitts',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\St_Kitts',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Manila',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Manila',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dili',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dili',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qatar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qatar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Calcutta',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Calcutta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kaliningrad',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kaliningrad',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Catamarca',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Catamarca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Casablanca',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Casablanca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-5',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-5',
+   'DATA'),
+  ('pytz\\zoneinfo\\WET',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\WET',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\La_Paz',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\La_Paz',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ashkhabad',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashkhabad',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santo_Domingo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Santo_Domingo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Belize',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Belize',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Truk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Truk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Addis_Ababa',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Addis_Ababa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tehran',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tehran',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+8',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+8',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Menominee',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Menominee',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\ACT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\ACT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Scoresbysund',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Scoresbysund',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kiev',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kiev',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Salta',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Salta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-11',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-11',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Baghdad',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baghdad',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Bougainville',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Bougainville',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-3',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-3',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Matamoros',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Matamoros',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+2',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+2',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Beirut',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Beirut',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Belgrade',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belgrade',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Singapore',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Singapore',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Tripoli',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tripoli',
+   'DATA'),
+  ('pytz\\zoneinfo\\CST6CDT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\CST6CDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aqtobe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtobe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Iceland',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Iceland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+11',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+11',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indianapolis',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indianapolis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dacca',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dacca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Douala',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Douala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Athens',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Athens',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Saratov',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Saratov',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Indiana-Starke',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Indiana-Starke',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Central',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Central',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Tell_City',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Tell_City',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\UTC',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\UTC',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guayaquil',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Guayaquil',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Havana',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Havana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Bratislava',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bratislava',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Christmas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Christmas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Abidjan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Abidjan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Brisbane',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Brisbane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Malabo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Malabo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Kwajalein',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Kwajalein',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+12',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+12',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+6',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+6',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Irkutsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Irkutsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Virgin',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Virgin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kirov',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kirov',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tarawa',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tarawa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Gambier',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Gambier',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ndjamena',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ndjamena',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Marigot',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Marigot',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Mountain',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Canada\\Mountain',
+   'DATA'),
+  ('pytz\\zoneinfo\\PST8PDT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\PST8PDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Louisville',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Louisville',
+   'DATA'),
+  ('pytz\\zoneinfo\\W-SU',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\W-SU',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nassau',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Nassau',
+   'DATA'),
+  ('pytz\\zoneinfo\\EST5EDT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\EST5EDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tegucigalpa',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Tegucigalpa',
+   'DATA'),
+  ('pytz\\zoneinfo\\PRC',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\PRC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kolkata',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kolkata',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qaxcontainer.cpython-37.pyc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qaxcontainer.cpython-37.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Dublin',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Dublin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tashkent',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tashkent',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Martinique',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Martinique',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+9',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+9',
+   'DATA'),
+  ('pytz\\zoneinfo\\Chile\\EasterIsland',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Chile\\EasterIsland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Podgorica',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Podgorica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yekaterinburg',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yekaterinburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\El_Salvador',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\El_Salvador',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ensenada',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Ensenada',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cuiaba',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Cuiaba',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mexico_City',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Mexico_City',
+   'DATA'),
+  ('pytz\\zoneinfo\\NZ',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\NZ',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT+0',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\GMT+0',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Danmarkshavn',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Danmarkshavn',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuwait',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuwait',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Moncton',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Moncton',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ojinaga',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Ojinaga',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Oslo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Oslo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Freetown',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Freetown',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Ulyanovsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ulyanovsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Barnaul',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Barnaul',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Creston',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Creston',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Resolute',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Resolute',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kampala',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kampala',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Belem',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Belem',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qscintilla.cpython-37.pyc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qscintilla.cpython-37.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Whitehorse',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Whitehorse',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Atyrau',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Atyrau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Hobart',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Hobart',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fort_Wayne',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Wayne',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\San_Marino',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\San_Marino',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Amsterdam',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Amsterdam',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Costa_Rica',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Costa_Rica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tahiti',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tahiti',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Los_Angeles',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Los_Angeles',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ust-Nera',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ust-Nera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Libya',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Libya',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Syowa',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Syowa',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Cordoba',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Cordoba',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Yakutat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Yakutat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Navajo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Navajo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tel_Aviv',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tel_Aviv',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Shanghai',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Shanghai',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Vincent',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\St_Vincent',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aden',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aden',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dawson',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-13',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-13',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Cocos',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Cocos',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-14',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-14',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yakutsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yakutsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Algiers',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Algiers',
+   'DATA'),
+  ('pytz\\zoneinfo\\MET',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\MET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Banjul',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Banjul',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\DumontDUrville',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\DumontDUrville',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-4',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-4',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Punta_Arenas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Punta_Arenas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Antigua',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Antigua',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dawson_Creek',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson_Creek',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Palau',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Palau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tbilisi',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tbilisi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zagreb',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zagreb',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rainy_River',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Rainy_River',
+   'DATA'),
+  ('pytz\\zoneinfo\\Hongkong',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Hongkong',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Lucia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\St_Lucia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Perth',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Perth',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Managua',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Managua',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Knox_IN',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Knox_IN',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Baku',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baku',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Port-au-Prince',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Port-au-Prince',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtprintsupport.cpython-37.pyc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtprintsupport.cpython-37.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\ROK',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\ROK',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Urumqi',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Urumqi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Saigon',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Saigon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Mendoza',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Mendoza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Darwin',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Darwin',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Bucharest',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bucharest',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Warsaw',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Warsaw',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Volgograd',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Volgograd',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Aleutian',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Aleutian',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Azores',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Azores',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebenginewidgets.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Fiji',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fiji',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montreal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Montreal',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Recife',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Recife',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Fakaofo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fakaofo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vilnius',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vilnius',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Sitka',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Sitka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Khandyga',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Khandyga',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Mawson',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Mawson',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Arizona',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Arizona',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chungking',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chungking',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Djibouti',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Djibouti',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Thimbu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimbu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Newfoundland',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Canada\\Newfoundland',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Luanda',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Luanda',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Yellowknife',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Yellowknife',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Troll',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Troll',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Krasnoyarsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Krasnoyarsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santarem',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Santarem',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Aruba',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Aruba',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guatemala',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Guatemala',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Pacific',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Pacific',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Antananarivo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Antananarivo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Yukon',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Canada\\Yukon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Magadan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Magadan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Broken_Hill',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Broken_Hill',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Guam',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guam',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Seoul',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Seoul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Eastern',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Canada\\Eastern',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Asuncion',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Asuncion',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Casey',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Casey',
+   'DATA'),
+  ('pytz\\zoneinfo\\GB-Eire',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\GB-Eire',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hovd',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hovd',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Miquelon',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Miquelon',
+   'DATA'),
+  ('pytz\\zoneinfo\\MST7MDT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\MST7MDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\EET',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\EET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Faroe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faroe',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Mountain',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Mountain',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Yap',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Yap',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Singapore',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Singapore',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Pacific',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Canada\\Pacific',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Majuro',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Majuro',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Asmera',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Marquesas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Marquesas',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html.tpl',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\templates\\html.tpl',
+   'DATA'),
+  ('pytz\\zoneinfo\\Greenwich',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Greenwich',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Prague',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Prague',
+   'DATA'),
+  ('pytz\\zoneinfo\\HST',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\HST',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Malta',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Malta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Campo_Grande',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Campo_Grande',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Enderbury',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Enderbury',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Glace_Bay',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Glace_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Atikokan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Atikokan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montserrat',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Montserrat',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santa_Isabel',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Santa_Isabel',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Yancowinna',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Yancowinna',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bamako',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bamako',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Samara',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Samara',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\East',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Brazil\\East',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Port_Moresby',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Port_Moresby',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ulaanbaatar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulaanbaatar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Karachi',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Karachi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bujumbura',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bujumbura',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kathmandu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kathmandu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Samarkand',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Samarkand',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Chicago',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Chicago',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Eastern',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Eastern',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Conakry',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Conakry',
+   'DATA'),
+  ('pytz\\zoneinfo\\Cuba',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Cuba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Srednekolymsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Srednekolymsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santiago',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Santiago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Rothera',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Rothera',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebkit.cpython-37.pyc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtwebkit.cpython-37.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Nouakchott',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nouakchott',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mayotte',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mayotte',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Hermosillo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Hermosillo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Vevay',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vevay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kashgar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kashgar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Nicosia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Nicosia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+5',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+5',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Caracas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Caracas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rosario',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Rosario',
+   'DATA'),
+  ('pytz\\zoneinfo\\Egypt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Egypt',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Samoa',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Samoa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Isle_of_Man',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Isle_of_Man',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Harbin',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Harbin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Harare',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Harare',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Jersey',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Jersey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Atlantic',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Canada\\Atlantic',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\El_Aaiun',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\El_Aaiun',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cayenne',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Cayenne',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Catamarca',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Catamarca',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\San_Luis',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Luis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Istanbul',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Istanbul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Portugal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Portugal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Chisinau',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Chisinau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Monrovia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Monrovia',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\GMT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Gibraltar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Gibraltar',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\New_York',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\New_York',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Honolulu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Honolulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bangui',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bangui',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Vincennes',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vincennes',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Cape_Verde',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Cape_Verde',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zaporozhye',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zaporozhye',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Monterrey',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Monterrey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Astrakhan',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Astrakhan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Reunion',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Reunion',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kabul',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kabul',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Port_of_Spain',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Port_of_Spain',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Monaco',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Monaco',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Macao',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macao',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dhaka',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dhaka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jayapura',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jayapura',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Cairo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Cairo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Istanbul',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Istanbul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Paris',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Paris',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-1',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-1',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtcharts.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\UTC',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\UTC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Phnom_Penh',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Phnom_Penh',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Sofia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sofia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+0',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+0',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nome',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Nome',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Inuvik',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Inuvik',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Novokuznetsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novokuznetsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kentucky\\Louisville',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Louisville',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Vancouver',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Vancouver',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Rome',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Rome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pago_Pago',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pago_Pago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Norfolk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Norfolk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuching',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuching',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Samoa',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Samoa',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cambridge_Bay',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Cambridge_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bogota',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Bogota',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Tucuman',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Tucuman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dubai',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dubai',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Macau',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Pontianak',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pontianak',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Buenos_Aires',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Buenos_Aires',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cayman',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Cayman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mahe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mahe',
+   'DATA'),
+  ('pytz\\zoneinfo\\zone.tab',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\zone.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ouagadougou',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ouagadougou',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Makassar',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Makassar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ujung_Pandang',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ujung_Pandang',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Panama',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Panama',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-6',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-6',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+1',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+1',
+   'DATA'),
+  ('pytz\\zoneinfo\\UCT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\UCT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Wake',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wake',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Asmara',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmara',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-8',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-8',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Metlakatla',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Metlakatla',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Blanc-Sablon',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Blanc-Sablon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kamchatka',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kamchatka',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtwebkit.py',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtwebkit.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\Zulu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Zulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Nairobi',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nairobi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Adak',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Adak',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Busingen',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Busingen',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Phoenix',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Phoenix',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-7',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-7',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Sydney',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Sydney',
+   'DATA'),
+  ('pytz\\zoneinfo\\NZ-CHAT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\NZ-CHAT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Barbados',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Barbados',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-9',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-9',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Jamaica',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Jamaica',
+   'DATA'),
+  ('pandas\\io\\formats\\templates\\html_style.tpl',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pandas\\io\\formats\\templates\\html_style.tpl',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Simferopol',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Simferopol',
+   'DATA'),
+  ('pytz\\zoneinfo\\iso3166.tab',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\iso3166.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Guadalcanal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guadalcanal',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Kerguelen',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Indian\\Kerguelen',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\__pycache__\\qtquickwidgets.cpython-37.pyc',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\__pycache__\\qtquickwidgets.cpython-37.pyc',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Alaska',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\US\\Alaska',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Maseru',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maseru',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Tunis',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tunis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Almaty',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Almaty',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\London',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\London',
+   'DATA'),
+  ('pytz\\zoneinfo\\GB',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\GB',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cordoba',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Cordoba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Budapest',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Budapest',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Gaza',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Gaza',
+   'DATA'),
+  ('PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\uic\\widget-plugins\\qtprintsupport.py',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\West',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Brazil\\West',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tijuana',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Tijuana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chongqing',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chongqing',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Porto_Acre',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Acre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Nicosia',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Nicosia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Swift_Current',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Swift_Current',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Thomas',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\St_Thomas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Toronto',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Toronto',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bahrain',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bahrain',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Stockholm',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Stockholm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Katmandu',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Katmandu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\South_Pole',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\South_Pole',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Faeroe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faeroe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\UCT',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\UCT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Tasmania',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Tasmania',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Sakhalin',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Sakhalin',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Chihuahua',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Chihuahua',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\St_Helena',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\St_Helena',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Thunder_Bay',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Thunder_Bay',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Andorra',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Andorra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Uzhgorod',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Uzhgorod',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Greenwich',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\Greenwich',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dushanbe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dushanbe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Eirunepe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Eirunepe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-10',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-10',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Omsk',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Omsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tallinn',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tallinn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Universal',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Universal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Moscow',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Moscow',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Johnston',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Johnston',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Mariehamn',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Mariehamn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vaduz',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vaduz',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Stanley',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Stanley',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Canberra',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\Canberra',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\Center',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Center',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Damascus',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Asia\\Damascus',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montevideo',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Montevideo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-12',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-12',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'C:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('pytz\\zoneinfo\\Eire',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Eire',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Windhoek',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Africa\\Windhoek',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\LHI',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\Australia\\LHI',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Puerto_Rico',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Puerto_Rico',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Edmonton',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytz\\zoneinfo\\America\\Edmonton',
+   'DATA'),
+  ('pyinstaller-4.5.1.dist-info\\INSTALLER',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyinstaller-4.5.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\entry_points.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\METADATA',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\RECORD',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\RECORD',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\altgraph-0.17.2.dist-info\\RECORD',
+   'DATA'),
+  ('pip-20.1.1.dist-info\\top_level.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pip-20.1.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('pyinstaller-4.5.1.dist-info\\top_level.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyinstaller-4.5.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\WHEEL',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\INSTALLER',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\INSTALLER',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\altgraph-0.17.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\LICENSE',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\altgraph-0.17.2.dist-info\\LICENSE',
+   'DATA'),
+  ('pip-20.1.1.dist-info\\METADATA',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pip-20.1.1.dist-info\\METADATA',
+   'DATA'),
+  ('pip-20.1.1.dist-info\\WHEEL',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pip-20.1.1.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\top_level.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('pyinstaller-4.5.1.dist-info\\entry_points.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyinstaller-4.5.1.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pyinstaller-4.5.1.dist-info\\COPYING.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyinstaller-4.5.1.dist-info\\COPYING.txt',
+   'DATA'),
+  ('pip-20.1.1.dist-info\\INSTALLER',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pip-20.1.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('pyinstaller-4.5.1.dist-info\\RECORD',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyinstaller-4.5.1.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\zip-safe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\zip-safe',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\dependency_links.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\dependency_links.txt',
+   'DATA'),
+  ('pyinstaller-4.5.1.dist-info\\WHEEL',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyinstaller-4.5.1.dist-info\\WHEEL',
+   'DATA'),
+  ('pyinstaller-4.5.1.dist-info\\METADATA',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyinstaller-4.5.1.dist-info\\METADATA',
+   'DATA'),
+  ('pip-20.1.1.dist-info\\RECORD',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pip-20.1.1.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools-47.1.0.dist-info\\LICENSE',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools-47.1.0.dist-info\\LICENSE',
+   'DATA'),
+  ('pip-20.1.1.dist-info\\entry_points.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pip-20.1.1.dist-info\\entry_points.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\METADATA',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\altgraph-0.17.2.dist-info\\METADATA',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\zip-safe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\altgraph-0.17.2.dist-info\\zip-safe',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\top_level.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\altgraph-0.17.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\WHEEL',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\altgraph-0.17.2.dist-info\\WHEEL',
+   'DATA'),
+  ('pip-20.1.1.dist-info\\LICENSE.txt',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pip-20.1.1.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('UI.ui',
+   'C:\\Users\\Facundo Cuzziol\\Documents\\IA\\ia_decision_trees\\UI.ui',
+   'DATA'),
+  ('UIpyqt.exe.manifest',
+   'C:\\Users\\Facundo '
+   'Cuzziol\\Documents\\IA\\ia_decision_trees\\build\\UIpyqt\\UIpyqt.exe.manifest',
+   'BINARY'),
+  ('pyi-windows-manifest-filename UIpyqt.exe.manifest', '', 'OPTION')],
+ [],
+ False,
+ False,
+ 1634601614,
+ [('run.exe',
+   'c:\\users\\facundo '
+   'cuzziol\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
+   'EXECUTABLE')])

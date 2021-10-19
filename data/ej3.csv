@@ -1,0 +1,11 @@
+Hipertenso,Colesterol,Trigliceridos,Edad,Diabeico,Clase
+F,bajo,normal,menos_40,T,F
+T,bajo,elevado,menos_40,T,F
+T,bajo,elevado,mayor_60,T,T
+T,medio,elevado,mayor_60,F,T
+F,medio,elevado,menos_40,F,T
+F,medio,normal,entre_40_60,T,F
+T,alto,normal,entre_40_60,T,T
+T,alto,normal,entre_40_60,T,T
+T,alto,elevado,mayor_60,F,T
+F,alto,normal,menos_40,F,F

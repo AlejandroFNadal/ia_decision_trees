@@ -1,0 +1,71 @@
+digraph {
+	0 [label="odor 
+ Gain: 0.39"]
+	29 [label="p 
+ Gain: 0 
+ [1516]" color=green]
+	0 -> 29 [label=f splines=line]
+	30 [label="spore-print-color 
+ Gain: 0.07"]
+	0 -> 30 [label=n splines=line]
+	31 [label="e 
+ Gain: 0 
+ [885]" color=green]
+	30 -> 31 [label=k splines=line]
+	32 [label="e 
+ Gain: 0 
+ [974]" color=green]
+	30 -> 32 [label=n splines=line]
+	33 [label="e 
+ Gain: 0 
+ [389  32]" color=green]
+	30 -> 33 [label=w splines=line]
+	34 [label="e 
+ Gain: 0 
+ [35]" color=green]
+	30 -> 34 [label=y splines=line]
+	35 [label="e 
+ Gain: 0 
+ [31]" color=green]
+	30 -> 35 [label=h splines=line]
+	36 [label="p 
+ Gain: 0 
+ [50]" color=green]
+	30 -> 36 [label=r splines=line]
+	37 [label="e 
+ Gain: 0 
+ [36]" color=green]
+	30 -> 37 [label=b splines=line]
+	38 [label="e 
+ Gain: 0 
+ [37]" color=green]
+	30 -> 38 [label=o splines=line]
+	39 [label="e 
+ Gain: 0 
+ [291]" color=green]
+	0 -> 39 [label=l splines=line]
+	40 [label="p 
+ Gain: 0 
+ [186]" color=green]
+	0 -> 40 [label=p splines=line]
+	41 [label="e 
+ Gain: 0 
+ [260]" color=green]
+	0 -> 41 [label=a splines=line]
+	42 [label="p 
+ Gain: 0 
+ [406]" color=green]
+	0 -> 42 [label=s splines=line]
+	43 [label="p 
+ Gain: 0 
+ [389]" color=green]
+	0 -> 43 [label=y splines=line]
+	44 [label="p 
+ Gain: 0 
+ [140]" color=green]
+	0 -> 44 [label=c splines=line]
+	45 [label="p 
+ Gain: 0 
+ [30]" color=green]
+	0 -> 45 [label=m splines=line]
+}
