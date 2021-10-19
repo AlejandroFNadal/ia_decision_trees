@@ -1,23 +1,19 @@
 digraph {
-	0 [label="BP 
- Gain: 0.38"]
-	1 [label="Cholesterol 
- Gain: 0.47"]
-	0 -> 1 [label=LOW splines=line]
-	2 [label="DrugY 
+	0 [label="CuentaSueldo 
+ Gain: 0.48"]
+	6 [label="NivelIngreso 
+ Gain: 1.0"]
+	0 -> 6 [label=si splines=line]
+	7 [label="si 
  Gain: 0 
- [12 11]" color=green]
-	1 -> 2 [label=HIGH splines=line]
-	3 [label="DrugY 
+ [2]" color=green]
+	6 -> 7 [label=alto splines=line]
+	8 [label="no 
  Gain: 0 
- [13 11]" color=green]
-	1 -> 3 [label=NORMAL splines=line]
-	4 [label="DrugY 
+ [1]" color=green]
+	6 -> 8 [label=bajo splines=line]
+	9 [label="no 
  Gain: 0 
- [29 16 10]" color=green]
-	0 -> 4 [label=HIGH splines=line]
-	5 [label="drugX 
- Gain: 0 
- [24 14]" color=green]
-	0 -> 5 [label=NORMAL splines=line]
+ [4]" color=green]
+	0 -> 9 [label=no splines=line]
 }
