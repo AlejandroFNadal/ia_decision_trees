@@ -55,7 +55,7 @@
      </item>
     </widget>
    </widget>
-   <widget class="QPushButton" name="generarArbolButton">
+   <widget class="QPushButton" name="cargarDatosButton">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -149,7 +149,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="generarArbolButton_2">
+   <widget class="QPushButton" name="generarArbolButton">
     <property name="geometry">
      <rect>
       <x>70</x>

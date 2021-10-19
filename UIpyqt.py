@@ -14,7 +14,9 @@ class App(QMainWindow):
         self.df = ''
         self.fileNameText.setText("Nombre del archivo:")
         self.generarArbolButton.setEnabled(False)
+        self.cargarDatosButton.setEnabled(False)
         self.cargarArchivoButton.clicked.connect(self.openFile) #Una vez cargado el archivo, se habilita el boton de generar el arbol
+        self.cargarDatosButton.clicked.connect(self.generateDataset)
         self.generarArbolButton.clicked.connect(self.executeMainFunction)
     
     def openFile(self):
@@ -24,11 +26,11 @@ class App(QMainWindow):
             self.fileName, _ = file
             print("MIRA ACA",self.separatorSelector.currentText())
             self.fileNameText.setText("Nombre del archivo: " + (self.fileName).split('/')[-1]) # Muestra el nombre del archivo cargado
-            self.generarArbolButton.setEnabled(True)
+            self.cargarDatosButton.setEnabled(True)
         else:
             print("error")
     
-    def executeMainFunction(self):
+    def generateDataset(self):
         if (self.fileName).split('.')[-1] in ['csv','txt']:     # Aca usamos la funcion de acuerdo al tipo de archivo 
                 self.df = pd.read_csv(self.fileName, sep=(self.separatorSelector.currentText()))   # CSV y TXT
         elif (self.fileName).split('.')[-1] == 'xlsx':
@@ -37,9 +39,11 @@ class App(QMainWindow):
         
         self.model = TableModel(self.df.head()) # Aca se cargan los datos en el resumen de los datos
         self.tableView.setModel(self.model)
-
+        self.generarArbolButton.setEnabled(True)
+        
+    def executeMainFunction(self): # Aca se ejecuta el algoritmo de generacion del arbol
+        print("Algo")
         #MainFunction(df,self.thresholdSelector.value())
-
 
 class TableModel(QtCore.QAbstractTableModel):
 
