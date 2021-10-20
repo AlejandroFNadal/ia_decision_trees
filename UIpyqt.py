@@ -70,8 +70,8 @@ class App(QMainWindow):
         tree_gain = train(df_train, target,threshold,'gain')
         tree_gain_ratio = train(df_train,target,threshold,'gain_ratio')
 
-        self.treeGainImage = tree_gain.printTree(0, graph, tree_gain_ratio,name_counter)
-        self.treeGainRatioImage = tree_gain_ratio.printTree(0, graph, tree_gain_ratio,name_counter)
+        self.treeGainImage = tree_gain.printTree(0, graph, tree_gain,name_counter)
+        self.treeGainRatioImage = tree_gain_ratio.printTree(0, graph_ratio, tree_gain_ratio,name_counter)
         
         self.tabShowTrees.setEnabled(True)
 
@@ -80,6 +80,7 @@ class App(QMainWindow):
 
         # Aca se llama a la funcion para mostrar la imagen del arbol
         self.showTreeGain(graph, target)
+        self.showTreeGainRatio(graph_ratio, target)
         
         # TODO: pasar esto a la GUI
         df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
@@ -98,17 +99,22 @@ class App(QMainWindow):
 
     def showTreeGain(self, grafico, target):
         grafico.render(f'test_output/{target}.dot')
-        (grafico,) = pydot.graph_from_dot_file(target)
+        (grafico,) = pydot.graph_from_dot_file(f'test_output/{target}.dot')
         grafico.write_png(f'test_output/{target}.png')
 
-        #test = QPixmap(grafico)
+        test = QPixmap(f'test_output/{target}.png')
         #pixmap = QPixmap("icecreamstore.jpg")
-        #self.imageGain.setPixmap(test)
+        self.imageGain.setPixmap(test)
         #self.imageGainRatio.setPixmap(pixmap)
         # self.graphicsView.setValue(graph.view())
             
-    def showTreeGainRatio(self):
-        print('show')
+    def showTreeGainRatio(self, grafico, target):
+        grafico.render(f'test_output/{target}_ratio.dot')
+        (grafico,) = pydot.graph_from_dot_file(f'test_output/{target}_ratio.dot')
+        grafico.write_png(f'test_output/{target}_ratio.png')
+        
+        test_ratio = QPixmap(f'test_output/{target}_ratio.png')
+        self.imageGainRatio.setPixmap(test_ratio)
 
 class TableModel(QtCore.QAbstractTableModel):
 

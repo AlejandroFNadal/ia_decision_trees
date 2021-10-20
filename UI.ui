@@ -295,6 +295,9 @@
         <property name="text">
          <string>TextLabel</string>
         </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
        </widget>
       </widget>
       <widget class="QWidget" name="tabArbolGainRatio">
@@ -339,6 +342,9 @@
         <property name="text">
          <string>TextLabel</string>
         </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
        </widget>
       </widget>
      </widget>
@@ -356,7 +362,7 @@
      <x>0</x>
      <y>0</y>
      <width>801</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
