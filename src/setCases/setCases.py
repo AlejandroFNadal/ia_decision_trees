@@ -19,10 +19,8 @@ class SetCases:
     def entropy(self) -> float:  # Entropy Formula function
         entropy = 0
         counts = self.cases[self.class_column_name].value_counts()
-        #print(f'counts {counts}')
         for item in self.classValues:
             prob = self.cases[self.cases[self.class_column_name]==item][self.class_column_name].count()/self.case_count
-            #print(f'prob {prob}')
             #No se suma porque el conjunto actual no posee casos pertenecientes a uno de los valores de la clase
             if prob == 0:
                 continue
@@ -72,9 +70,7 @@ class SetCases:
         curr_gain = 0
         max_gain = 0
         result = []
-        #print(f'Entropia de la clase {entropy}')
         for key,value in entropy_atts.items():
-            #print(f'Entropia del atributo {key} es {value}')
             curr_gain = float(entropy) - value
             if curr_gain > max_gain:
                 result.insert(0, [key, curr_gain])
@@ -112,7 +108,6 @@ class SetCases:
         return False
     
     def most_frequent_class(self) -> str:
-        #print(f'self.class_column_name {self.class_column_name}')
         return self.cases[self.class_column_name].mode().tolist()[0]
     
     def separate_data(self, attr) -> list: # Esto retorna un arreglo con dataframes

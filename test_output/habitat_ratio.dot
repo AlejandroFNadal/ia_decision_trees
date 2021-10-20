@@ -1,0 +1,156 @@
+digraph {
+	0 [label="veil-color 
+ Gain: 0.44"]
+	77 [label="ring-number 
+ Gain: 0.39"]
+	0 -> 77 [label=w splines=line]
+	78 [label="stalk-root 
+ Gain: 0.44"]
+	77 -> 78 [label=o splines=line]
+	79 [label="class 
+ Gain: 0.44"]
+	78 -> 79 [label=b splines=line]
+	80 [label="bruises 
+ Gain: 1.0"]
+	79 -> 80 [label=e splines=line]
+	81 [label="d 
+ Gain: 0 
+ [1265]" color=green]
+	80 -> 81 [label=t splines=line]
+	82 [label="l 
+ Gain: 0 
+ [29]" color=green]
+	80 -> 82 [label=f splines=line]
+	83 [label="bruises 
+ Gain: 0.6"]
+	79 -> 83 [label=p splines=line]
+	84 [label="odor 
+ Gain: 0.33"]
+	83 -> 84 [label=f splines=line]
+	85 [label="g 
+ Gain: 0 
+ [308 305 292]" color=green]
+	84 -> 85 [label=f splines=line]
+	86 [label="d 
+ Gain: 0 
+ [139]" color=green]
+	84 -> 86 [label=c splines=line]
+	87 [label="odor 
+ Gain: 1.0"]
+	83 -> 87 [label=t splines=line]
+	88 [label="u 
+ Gain: 0 
+ [104 101]" color=green]
+	87 -> 88 [label=f splines=line]
+	89 [label="l 
+ Gain: 0 
+ [7]" color=green]
+	87 -> 89 [label=n splines=line]
+	90 [label="gill-spacing 
+ Gain: 0.48"]
+	78 -> 90 [label=e splines=line]
+	91 [label="g 
+ Gain: 0 
+ [533]" color=green]
+	90 -> 91 [label=w splines=line]
+	92 [label="class 
+ Gain: 0.25"]
+	90 -> 92 [label=c splines=line]
+	93 [label="u 
+ Gain: 0 
+ [64]" color=green]
+	92 -> 93 [label=e splines=line]
+	94 [label="u 
+ Gain: 0 
+ [92 88]" color=green]
+	92 -> 94 [label=p splines=line]
+	95 [label="stalk-shape 
+ Gain: 0.25"]
+	78 -> 95 [label="?" splines=line]
+	96 [label="d 
+ Gain: 0 
+ [421 415 412]" color=green]
+	95 -> 96 [label=t splines=line]
+	97 [label="d 
+ Gain: 0 
+ [52]" color=green]
+	95 -> 97 [label=e splines=line]
+	98 [label="g 
+ Gain: 0 
+ [174 169]" color=green]
+	78 -> 98 [label=c splines=line]
+	99 [label="g 
+ Gain: 0 
+ [69 64]" color=green]
+	78 -> 99 [label=r splines=line]
+	100 [label="ring-type 
+ Gain: 1.0"]
+	77 -> 100 [label=t splines=line]
+	101 [label="stalk-color-above-ring 
+ Gain: 0.75"]
+	100 -> 101 [label=p splines=line]
+	102 [label="bruises 
+ Gain: 0.49"]
+	101 -> 102 [label=w splines=line]
+	103 [label="g 
+ Gain: 0 
+ [197]" color=green]
+	102 -> 103 [label=f splines=line]
+	104 [label="class 
+ Gain: 1.0"]
+	102 -> 104 [label=t splines=line]
+	105 [label="g 
+ Gain: 0 
+ [25 24]" color=green]
+	104 -> 105 [label=p splines=line]
+	106 [label="p 
+ Gain: 0 
+ [20]" color=green]
+	104 -> 106 [label=e splines=line]
+	107 [label="cap-shape 
+ Gain: 0.32"]
+	101 -> 107 [label=n splines=line]
+	108 [label="d 
+ Gain: 0 
+ [1]" color=green]
+	107 -> 108 [label=k splines=line]
+	109 [label="d 
+ Gain: 0 
+ [2]" color=green]
+	107 -> 109 [label=b splines=line]
+	110 [label="cap-surface 
+ Gain: 0.27"]
+	107 -> 110 [label=x splines=line]
+	111 [label="d 
+ Gain: 0 
+ [1 1]" color=green]
+	110 -> 111 [label=s splines=line]
+	112 [label="d 
+ Gain: 0 
+ [1]" color=green]
+	110 -> 112 [label=y splines=line]
+	113 [label="p 
+ Gain: 0 
+ [2]" color=green]
+	107 -> 113 [label=f splines=line]
+	114 [label="w 
+ Gain: 0 
+ [133]" color=green]
+	100 -> 114 [label=e splines=line]
+	115 [label="d 
+ Gain: 0 
+ [28]" color=green]
+	77 -> 115 [label=n splines=line]
+	116 [label="l 
+ Gain: 0 
+ [69]" color=green]
+	0 -> 116 [label=n splines=line]
+	117 [label="l 
+ Gain: 0 
+ [76]" color=green]
+	0 -> 117 [label=o splines=line]
+	118 [label="l 
+ Gain: 0 
+ [4]" color=green]
+	0 -> 118 [label=y splines=line]
+}
