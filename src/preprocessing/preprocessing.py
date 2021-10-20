@@ -23,7 +23,7 @@ def remove_continuous_columns(df):
     for col in df_without_floats:
         cardinality = df_without_floats[col].nunique()
         if cardinality >80:
-            print(f'Column {col} has cardinality {cardinality}')
+            #print(f'Column {col} has cardinality {cardinality}')
             output[0].append(col)
             df_without_floats.drop(col, axis=1,inplace=True)
     output[1] = df_without_floats

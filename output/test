@@ -1,0 +1,40 @@
+digraph {
+	0 [label="NivelIngreso 
+ Gain: 0.31"]
+	1 [label="no 
+ Gain: 0 
+ [2]" color=green]
+	0 -> 1 [label=medio splines=line]
+	2 [label="no 
+ Gain: 0 
+ [3]" color=green]
+	0 -> 2 [label=bajo splines=line]
+	3 [label="CuentaSueldo 
+ Gain: 1.0"]
+	0 -> 3 [label=alto splines=line]
+	4 [label="no 
+ Gain: 0 
+ [1]" color=green]
+	3 -> 4 [label=no splines=line]
+	5 [label="si 
+ Gain: 0 
+ [1]" color=green]
+	3 -> 5 [label=si splines=line]
+	0 [label="Edad 
+ Gain: 0.2"]
+	6 [label="no 
+ Gain: 0 
+ [4]" color=green]
+	0 -> 6 [label=mayor35 splines=line]
+	7 [label="CuentaSueldo 
+ Gain: 1.0"]
+	0 -> 7 [label=menor35 splines=line]
+	8 [label="no 
+ Gain: 0 
+ [2]" color=green]
+	7 -> 8 [label=no splines=line]
+	9 [label="si 
+ Gain: 0 
+ [1]" color=green]
+	7 -> 9 [label=si splines=line]
+}

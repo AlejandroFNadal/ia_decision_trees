@@ -241,31 +241,106 @@
        <string>Usar theshold adapable</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="viewTreeGainButton">
+     <widget class="QTabWidget" name="tabShowTrees">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>290</y>
-        <width>211</width>
-        <height>101</height>
+        <x>0</x>
+        <y>80</y>
+        <width>791</width>
+        <height>461</height>
        </rect>
       </property>
-      <property name="text">
-       <string>Ver arbol generado usando Gain</string>
+      <property name="currentIndex">
+       <number>0</number>
       </property>
-     </widget>
-     <widget class="QPushButton" name="viewTreeGainRatioButton">
-      <property name="geometry">
-       <rect>
-        <x>480</x>
-        <y>290</y>
-        <width>221</width>
-        <height>101</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Ver arbol generado usando Gain ratio</string>
-      </property>
+      <widget class="QWidget" name="tabArbolGain">
+       <attribute name="title">
+        <string>Arbol usando Gain</string>
+       </attribute>
+       <widget class="QPushButton" name="sigImagenGain">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>390</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Siguiente &gt;&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="prevImagenGain">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>390</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;&lt; Previa  </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="imageGain">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>731</width>
+          <height>351</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabArbolGainRatio">
+       <attribute name="title">
+        <string>Arbol usando Gain Ratio</string>
+       </attribute>
+       <widget class="QPushButton" name="sigImagenGainRatio">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>390</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Siguiente &gt;&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="prevImagenGainRatio">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>390</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;&lt; Previa  </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="imageGainRatio">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>731</width>
+          <height>341</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="tab2">

@@ -1,15 +1,16 @@
 import sys
 import pandas as pd
+import graphviz
+import pydot
+
 from PyQt5 import QtCore, QtWidgets, uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog, QVBoxLayout, QLabel, QWidget
+from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
-from main import MainFunction
-import graphviz
-from src.setCases.setCases import SetCases
-from src.node.Node import Node
-from src.decisionTree.DecisionTree import decisionTree
+
+# from main import MainFunction
 from src.predictions.Predictions import predict_cases
-from config.config import name_counter
+from config.config import name_counter, graph_array
 from src.split.split import split_dataset
 from src.train.train import train
 from src.preprocessing.preprocessing import remove_continuous_columns,impute_with_mode
@@ -25,14 +26,11 @@ class App(QMainWindow):
         self.fileNameText.setText("Nombre del archivo:")
         self.generarArbolButton.setEnabled(False)
         self.cargarDatosButton.setEnabled(False)
-        self.viewTreeGainButton.setEnabled(False)
-        self.viewTreeGainRatioButton.setEnabled(False)
+        self.tabShowTrees.setEnabled(False)
 
         self.cargarArchivoButton.clicked.connect(self.openFile) #Una vez cargado el archivo, se habilita el boton de generar el arbol
         self.cargarDatosButton.clicked.connect(self.generateDataset)
         self.generarArbolButton.clicked.connect(self.executeMainFunction)
-        self.viewTreeGainButton.clicked.connect(self.showTreeGain)
-        self.viewTreeGainRatioButton.clicked.connect(self.showTreeGainRatio)
     
     def openFile(self):
         options = QFileDialog.Options()
@@ -67,6 +65,7 @@ class App(QMainWindow):
 
         df_train, df_test = split_dataset(df,splitValue,target)
         graph = graphviz.Digraph()
+        graph_ratio = graphviz.Digraph()
 
         tree_gain = train(df_train, target,threshold,'gain')
         tree_gain_ratio = train(df_train,target,threshold,'gain_ratio')
@@ -74,18 +73,17 @@ class App(QMainWindow):
         self.treeGainImage = tree_gain.printTree(0, graph, tree_gain_ratio,name_counter)
         self.treeGainRatioImage = tree_gain_ratio.printTree(0, graph, tree_gain_ratio,name_counter)
         
-        self.viewTreeGainButton.setEnabled(True)
-        self.viewTreeGainRatioButton.setEnabled(True)
-        # self.graphicsView.setValue(graph.view())
+        self.tabShowTrees.setEnabled(True)
 
-        # Aca se mostrarian las imagenes
-        self.windowGain = AnotherWindow() # Cada ventana mostraria el arbol de cada funcion
-        self.windowGainRatio = AnotherWindow()
+        print("HERE SOMETHING", len(graph_array))
+        print("HERE SOMETHING", type(graph))
 
+        # Aca se llama a la funcion para mostrar la imagen del arbol
+        self.showTreeGain(graph, target)
+        
+        # TODO: pasar esto a la GUI
         df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
         df_test['correct_prediction_gain'] = df_test[['test_result_gain',target]].apply(lambda x: 1 if x['test_result_gain'] == x[target] else 0, axis=1)
-
-
 
         df_test['test_result_gain_ratio'] = predict_cases(df_test,tree_gain_ratio)
         df_test['correct_prediction_gain_ratio'] = df_test[['test_result_gain_ratio',target]].apply(lambda x: 1 if x['test_result_gain_ratio'] == x[target] else 0, axis=1)
@@ -98,28 +96,19 @@ class App(QMainWindow):
         print('Accuracy',df_test[df_test['correct_prediction_gain_ratio']==1]['correct_prediction_gain_ratio'].count()/len(df_test))
         print(pd.crosstab(df_test[target],df_test['test_result_gain_ratio']))
 
-    def showTreeGain(self):
-        if self.windowGain.isVisible():
-            self.windowGain.hide()
-        else:
-            self.windowGain.show()
+    def showTreeGain(self, grafico, target):
+        grafico.render(f'test_output/{target}.dot')
+        (grafico,) = pydot.graph_from_dot_file(target)
+        grafico.write_png(f'test_output/{target}.png')
 
+        #test = QPixmap(grafico)
+        #pixmap = QPixmap("icecreamstore.jpg")
+        #self.imageGain.setPixmap(test)
+        #self.imageGainRatio.setPixmap(pixmap)
+        # self.graphicsView.setValue(graph.view())
+            
     def showTreeGainRatio(self):
-        if self.windowGainRatio.isVisible():
-            self.windowGainRatio.hide()
-        else:
-            self.windowGainRatio.show()
-
-class AnotherWindow(QWidget):
-    def __init__(self):
-        super().__init__()
-        layout = QVBoxLayout()
-        self.label = QLabel("Another Window")
-        layout.addWidget(self.label)
-        self.setLayout(layout)
-
-    def addImages(self, images):
-        self.Images = images
+        print('show')
 
 class TableModel(QtCore.QAbstractTableModel):
 
