@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>941</width>
-    <height>605</height>
+    <width>937</width>
+    <height>628</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -88,12 +88,12 @@
              <property name="title">
               <string>Threshold</string>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_4">
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
               <item>
                <widget class="QDoubleSpinBox" name="thresholdSelector">
                 <property name="maximumSize">
                  <size>
-                  <width>150</width>
+                  <width>80</width>
                   <height>16777215</height>
                  </size>
                 </property>
@@ -102,6 +102,38 @@
                 </property>
                 <property name="singleStep">
                  <double>0.050000000000000</double>
+                </property>
+                <property name="value">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="twoThresholdsCheckbox">
+                <property name="maximumSize">
+                 <size>
+                  <width>120</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Utilizar 2 threshold</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDoubleSpinBox" name="thresholdSelector2">
+                <property name="maximumSize">
+                 <size>
+                  <width>80</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="maximum">
+                 <double>1.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.010000000000000</double>
                 </property>
                 <property name="value">
                  <double>0.100000000000000</double>
@@ -170,6 +202,25 @@
           <layout class="QGridLayout" name="gridLayout">
            <item row="0" column="0">
             <widget class="QTableView" name="tableView"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="deletedColumnsLabel">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Columnas eliminadas (variables continuas): </string>
+             </property>
+            </widget>
            </item>
           </layout>
          </widget>
@@ -244,19 +295,6 @@
              </layout>
             </widget>
            </item>
-           <item>
-            <widget class="QCheckBox" name="checkBox">
-             <property name="maximumSize">
-              <size>
-               <width>250</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Usar theshold adapable</string>
-             </property>
-            </widget>
-           </item>
           </layout>
          </widget>
         </item>
@@ -269,13 +307,51 @@
            <attribute name="title">
             <string>Arbol usando Gain</string>
            </attribute>
-           <layout class="QHBoxLayout" name="horizontalLayout_7">
-            <item>
+           <layout class="QGridLayout" name="gridLayout_5">
+            <item row="2" column="1">
+             <widget class="QPushButton" name="firstImageGain">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Nodo Raiz</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QPushButton" name="lastImageGain">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Arbol completo</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
              <widget class="QPushButton" name="prevImagenGain">
               <property name="maximumSize">
                <size>
                 <width>80</width>
-                <height>300</height>
+                <height>900</height>
                </size>
               </property>
               <property name="text">
@@ -283,7 +359,20 @@
               </property>
              </widget>
             </item>
-            <item>
+            <item row="0" column="3">
+             <widget class="QPushButton" name="sigImagenGain">
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>900</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Siguiente &gt;&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
              <widget class="QLabel" name="imageGain">
               <property name="text">
                <string>TextLabel</string>
@@ -293,32 +382,57 @@
               </property>
              </widget>
             </item>
-            <item>
-             <widget class="QPushButton" name="sigImagenGain">
-              <property name="maximumSize">
-               <size>
-                <width>80</width>
-                <height>300</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Siguiente &gt;&gt;</string>
-              </property>
-             </widget>
-            </item>
            </layout>
           </widget>
           <widget class="QWidget" name="tabArbolGainRatio">
            <attribute name="title">
             <string>Arbol usando Gain Ratio</string>
            </attribute>
-           <layout class="QHBoxLayout" name="horizontalLayout_6">
-            <item>
+           <layout class="QGridLayout" name="gridLayout_6">
+            <item row="2" column="1">
+             <widget class="QPushButton" name="firstImageGainRatio">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Nodo Raiz</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QPushButton" name="lastImageGainRatio">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Arbol completo</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
              <widget class="QPushButton" name="prevImagenGainRatio">
               <property name="maximumSize">
                <size>
                 <width>80</width>
-                <height>300</height>
+                <height>800</height>
                </size>
               </property>
               <property name="text">
@@ -326,26 +440,26 @@
               </property>
              </widget>
             </item>
-            <item>
+            <item row="0" column="3">
+             <widget class="QPushButton" name="sigImagenGainRatio">
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>800</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Siguiente &gt;&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
              <widget class="QLabel" name="imageGainRatio">
               <property name="text">
                <string>TextLabel</string>
               </property>
               <property name="scaledContents">
                <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="sigImagenGainRatio">
-              <property name="maximumSize">
-               <size>
-                <width>80</width>
-                <height>300</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Siguiente &gt;&gt;</string>
               </property>
              </widget>
             </item>
@@ -468,7 +582,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>941</width>
+     <width>937</width>
      <height>22</height>
     </rect>
    </property>
