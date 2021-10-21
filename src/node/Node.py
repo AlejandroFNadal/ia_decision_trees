@@ -1,5 +1,5 @@
 from src.setCases.setCases import SetCases
-from config.config import graph_array
+from config.config import graph_array, graph_array_ratio
 
 class Node:
     def __init__(self, data: SetCases, id_node: int , val_attr = None):
@@ -14,7 +14,7 @@ class Node:
     def addChildren(self, node):
         self.children.append(node)
         
-    def printTree(self, depth: int, graph, previous_node, name_previous_node: int):
+    def printTree(self, depth: int, graph, previous_node, name_previous_node: int, algorithm: str):
         if self.chosen_att != '':
             graph.node(name = str(self.id_node),label = f'{self.chosen_att} \n Gain: {self.gain}')
         else:
@@ -23,6 +23,9 @@ class Node:
             graph.edge(str(name_previous_node), str(self.id_node),label=str(self.val_attr),splines='line')
         name_previous_node+=1
         for item in self.children:
-            graph_array.append(graph.copy())
-            item.printTree(depth+1, graph, self, self.id_node)
+            if algorithm == 'gain':
+                graph_array.append(graph.copy())
+            else:
+                graph_array_ratio.append(graph.copy())
+            item.printTree(depth+1, graph, self, self.id_node, algorithm)
         

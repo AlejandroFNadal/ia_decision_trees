@@ -1,0 +1,19 @@
+digraph {
+	0 [label="CuentaSueldo 
+ Gain: 0.48"]
+	6 [label="NivelIngreso 
+ Gain: 1.0"]
+	0 -> 6 [label=si splines=line]
+	7 [label="no 
+ Gain: 0 
+ [1]" color=green]
+	6 -> 7 [label=bajo splines=line]
+	8 [label="si 
+ Gain: 0 
+ [2]" color=green]
+	6 -> 8 [label=alto splines=line]
+	9 [label="no 
+ Gain: 0 
+ [4]" color=green]
+	0 -> 9 [label=no splines=line]
+}
