@@ -16,6 +16,7 @@ def decisionTree(D : SetCases, A : list, T : Node, guide_int : int,classValues :
         else:
             gain = D.gain2()[0]
         if gain[1] < threshold:
+            T.gain = gain[1]
             class_name = D.most_frequent_class()
             T.curr_class = class_name
         else:

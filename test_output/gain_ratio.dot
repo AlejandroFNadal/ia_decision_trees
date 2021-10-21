@@ -1,5 +1,6 @@
 digraph {
-	0 [label="no 
- Gain: 0 
- [5 2]" color=green]
+	0 [label="Clase: no 
+ Gain: 0.297 
+ [no     488
+yes    175]" color=green]
 }

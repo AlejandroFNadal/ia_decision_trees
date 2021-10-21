@@ -16,9 +16,9 @@ class Node:
         
     def printTree(self, depth: int, graph, previous_node, name_previous_node: int, algorithm: str):
         if self.chosen_att != '':
-            graph.node(name = str(self.id_node),label = f'{self.chosen_att} \n Gain: {self.gain}')
+            graph.node(name = str(self.id_node),label = f'Clase: {self.chosen_att} \n Gain: {round(self.gain,3)}')
         else:
-            graph.node(name = str(self.id_node), label= f'{self.curr_class} \n Gain: {self.gain} \n {self.data.cases[self.data.class_column_name].value_counts().values}',color='green')
+            graph.node(name = str(self.id_node), label= f'Clase: {self.curr_class} \n Gain: {round(self.gain,3)} \n [{self.data.cases[self.data.class_column_name].value_counts().to_string()}]',color='green')
         if depth != 0:
             graph.edge(str(name_previous_node), str(self.id_node),label=str(self.val_attr),splines='line')
         name_previous_node+=1
