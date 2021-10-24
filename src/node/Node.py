@@ -10,6 +10,7 @@ class Node:
         self.id_node = id_node
         self.val_attr = val_attr
         self.gain = 0
+        self.childrenNodeColor = 'green'
 
     def addChildren(self, node):
         self.children.append(node)
@@ -18,7 +19,11 @@ class Node:
         if self.chosen_att != '':
             graph.node(name = str(self.id_node),label = f'Clase: {self.chosen_att} \n Gain: {round(self.gain,3)}')
         else:
-            graph.node(name = str(self.id_node), label= f'Clase: {self.curr_class} \n Gain: {round(self.gain,3)} \n [{self.data.cases[self.data.class_column_name].value_counts().to_string()}]',color='green')
+            if len(self.data.cases[self.data.class_column_name].value_counts())>1: 
+                self.childrenNodeColor = 'orange'
+            else:
+                self.childrenNodeColor = 'green'
+            graph.node(name = str(self.id_node), label= f'Clase: {self.curr_class} \n Gain: {round(self.gain,3)} \n [{self.data.cases[self.data.class_column_name].value_counts().to_string()}]',color=self.childrenNodeColor,style='filled')
         if depth != 0:
             graph.edge(str(name_previous_node), str(self.id_node),label=str(self.val_attr),splines='line')
         name_previous_node+=1

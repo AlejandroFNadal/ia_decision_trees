@@ -2,7 +2,6 @@ import sys
 import pandas as pd
 import graphviz
 import pydot
-
 from PyQt5 import QtCore, uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 from PyQt5.QtGui import QPixmap
@@ -95,7 +94,6 @@ class App(QMainWindow):
         threshold = self.thresholdSelector.value()   
         if self.twoThresholdsCheckbox.isChecked():
             threshold2 = self.thresholdSelector2.value()  
-        print("HERE IS THE THRESHOLD", threshold)
         splitValue = self.spinBoxTrainTest.value() / 100
 
         df = impute_with_mode(df) 
@@ -116,16 +114,14 @@ class App(QMainWindow):
         self.treeGainRatioImage = tree_gain_ratio.printTree(0, graph_ratio, tree_gain_ratio,name_counter,'gain_ratio')
         
         self.tabShowTrees.setEnabled(True) # Habilita las tabs para ver los arboles
-
         # Aca se llama a la funcion para mostrar la imagen del arbol
         graph_array.append(graph.copy())
         graph_array_ratio.append(graph_ratio.copy())
 
         self.showTreeGain(graph_array[self.gainImage], self.target)
         self.showTreeGainRatio(graph_array_ratio[self.gainRatioImage], self.target)
-
+        
         # Esto genera las matrices de confusion
-        print("HERE COME THE DF TEST", type(df_test))
         if not (df_test.empty):
             df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
             df_test['correct_prediction_gain'] = df_test[['test_result_gain',self.target]].apply(lambda x: 1 if x['test_result_gain'] == x[self.target] else 0, axis=1)
@@ -134,6 +130,7 @@ class App(QMainWindow):
             df_test['correct_prediction_gain_ratio'] = df_test[['test_result_gain_ratio',self.target]].apply(lambda x: 1 if x['test_result_gain_ratio'] == x[self.target] else 0, axis=1)
 
             self.showAccuracy(df_test, self.target)
+        
 
     def nextGain(self):
         self.gainImage = self.gainImage + 1
@@ -174,21 +171,25 @@ class App(QMainWindow):
             self.prevImagenGainRatio.setEnabled(False)
 
     def showFirstGain(self):
+        self.gainImage = 0
         self.showTreeGain(graph_array[0], self.target)
         self.sigImagenGain.setEnabled(True)
         self.prevImagenGain.setEnabled(False)
 
     def showLastGain(self):
+        self.gainImage = len(graph_array) - 1
         self.showTreeGain(graph_array[len(graph_array)-1], self.target)
         self.sigImagenGain.setEnabled(False)
         self.prevImagenGain.setEnabled(True)
 
     def showFirstGainRatio(self):
+        self.gainRatioImage = 0
         self.showTreeGainRatio(graph_array_ratio[0], self.target)
         self.sigImagenGainRatio.setEnabled(True)
         self.prevImagenGainRatio.setEnabled(False)
 
     def showLastGainRatio(self):
+        self.gainRatioImage = len(graph_array_ratio)-1
         self.showTreeGainRatio(graph_array_ratio[len(graph_array_ratio)-1], self.target)
         self.sigImagenGainRatio.setEnabled(False)
         self.prevImagenGainRatio.setEnabled(True)
