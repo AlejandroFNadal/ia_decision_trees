@@ -18,7 +18,7 @@ def MainFunction(df,threshold):
     df = impute_with_mode(df)
     #print(df.head())
 
-    df_train, df_test = split_dataset(df,0.7,target)
+    df_train, df_test = split_dataset(df,0.9,target)
     print(df_train.shape)
     print(df_test.shape)
     graph = graphviz.Digraph()
@@ -68,18 +68,32 @@ def SingleRun(df_train, df_test, threshold, gain_ratio:bool, target):
     return df_test[df_test['correct_prediction_gain']==1]['correct_prediction_gain'].count()/len(df_test)
 
 def hiperpar():
-    target = 'contraceptive'
-    df = pd.read_csv('data/cmc.csv')
+    target = 'Clase'
+    df = pd.read_csv('data/diabetes_dataset__2019sugar.csv')
     removed_continuous = remove_continuous_columns(df)
     df = removed_continuous[1]
     df = impute_with_mode(df)
     df_train, df_test = split_dataset(df,0.9,target)
-    thresholds = [0.06, 0.1, 0.2]
+    thresholds = [0.01, 0.02, 0.025, 0.03, 0.05, 0.07, 0.08, 0.09, 0.095, 0.1, 0.2, 0.3, 0.31, 0.32, 0.33, 0.34, 0.35, 0.36, 0.37, 0.38, 0.39, 0.4, 0.5]
     gain_results = []
+    gain_ratio_results = []
     for elem in thresholds:
         val = SingleRun(df_train, df_test, elem, False, target)
         print(val)
         gain_results.append(val)
+    for elem in thresholds:
+        val = SingleRun(df_train, df_test, elem, True, target)
+        print(val)
+        gain_ratio_results.append(val)
+    print('thresholds')
+    print(thresholds)
+    print('Gain')
     print(gain_results)
+    print('Gain Ratio')
+    print(gain_ratio_results)
+    df = pd.DataFrame({"thresholds":thresholds, "gain": gain_results, "gain_ratio":gain_ratio_results})
+    plot_result = df.plot('thresholds',['gain','gain_ratio'],figsize=(15,6),title='Ganancia vs Tasa de Ganancia')
+    plot_fig = plot_result.get_figure()
+    plot_fig.savefig('result.png')
 
 hiperpar()
