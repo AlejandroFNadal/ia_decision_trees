@@ -69,6 +69,9 @@ class App(QMainWindow):
             print("error")
     
     def generateDataset(self):
+        #Clear qpixmap and graph of self.imageGain
+        self.imageGain.clear()
+        self.imageGainRatio.clear()
         if (self.fileName).split('.')[-1] in ['csv','txt']:     # Aca usamos la funcion de acuerdo al tipo de archivo 
                 self.df = pd.read_csv(self.fileName, sep=(self.separatorSelector.currentText()))   # CSV y TXT
         elif (self.fileName).split('.')[-1] == 'xlsx':
@@ -85,6 +88,8 @@ class App(QMainWindow):
         self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
         
     def executeMainFunction(self): # Aca se ejecuta el algoritmo de generacion del arbol
+        graph_array.clear()
+        graph_array_ratio.clear()
         self.target = self.df.columns[-1]       # Se selecciona la CLASE
         df = self.df
         threshold = self.thresholdSelector.value()   
