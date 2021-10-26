@@ -4,3 +4,16 @@ utils/decisionTree/__pycache__/
 utils/node/__pycache__/
 utils/predictions/__pycache__/
 utils/setCases/__pycache__/
+test_output/__pycache__/
+test_output/*
+src/__pycache__/*
+src/decisionTree/__pycache__/*
+src/predictions/__pycache__/*
+src/preprocessing/__pycache__/*
+src/setCases/__pycache__/*
+src/split/__pycache__/*
+src/train/__pycache__/*
+src/utils/__pycache__/*
+config/__pycache__/*
+__pycache__/*
+UIpyqt.spec
