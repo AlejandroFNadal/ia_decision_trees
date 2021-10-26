@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-def remove_continuous_columns(df):
+def remove_continuous_columns(df,maxValues):
     """
     Removes continuous columns from the dataframe, leaving only categorical columns with low cardinality
 
@@ -22,7 +22,7 @@ def remove_continuous_columns(df):
     output[0].extend(df_with_floats_columns)
     for col in df_without_floats:
         cardinality = df_without_floats[col].nunique()
-        if cardinality > 9999999999:
+        if cardinality > maxValues:
             output[0].append(col)
             df_without_floats.drop(col, axis=1,inplace=True)
     output[1] = df_without_floats

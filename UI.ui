@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1109</width>
-    <height>778</height>
+    <width>1105</width>
+    <height>769</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -34,8 +34,8 @@
       </property>
       <property name="maximumSize">
        <size>
-        <width>1920</width>
-        <height>1080</height>
+        <width>1800</width>
+        <height>900</height>
        </size>
       </property>
       <property name="currentIndex">
@@ -46,12 +46,157 @@
         <string>Cargar Datos</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_3">
+        <item row="3" column="0">
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Resumen de los datos cargados:</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QTableView" name="tableView"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="deletedColumnsLabel">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Columnas eliminadas (variables continuas): </string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
         <item row="0" column="0">
          <widget class="QGroupBox" name="groupBox_2">
           <property name="title">
            <string>Carga de Datos</string>
           </property>
           <layout class="QGridLayout" name="gridLayout_2">
+           <item row="1" column="2">
+            <widget class="QGroupBox" name="groupBox_6">
+             <property name="maximumSize">
+              <size>
+               <width>300</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="title">
+              <string>Valores Nulos (Null por defecto)</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QLineEdit" name="nullValue">
+                <property name="maximumSize">
+                 <size>
+                  <width>100</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="maxLength">
+                 <number>30</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="modaCheck">
+                <property name="maximumSize">
+                 <size>
+                  <width>130</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Imputar por la Moda</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="3">
+            <widget class="QGroupBox" name="cargarArchivoGroup">
+             <property name="title">
+              <string>Archivo - (CSV o Text)</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QPushButton" name="cargarArchivoButton">
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Cargar Archivo</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="fileNameText">
+                <property name="text">
+                 <string>File name: </string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QGroupBox" name="thresholdGroup">
+             <property name="maximumSize">
+              <size>
+               <width>300</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="title">
+              <string>Eliminar columnas</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="minimumSize">
+                 <size>
+                  <width>200</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Eliminas columnas con cardinalidad mayo a:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="maxValuesAllowed">
+                <property name="maximumSize">
+                 <size>
+                  <width>60</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="maximum">
+                 <number>9999</number>
+                </property>
+                <property name="value">
+                 <number>30</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
            <item row="1" column="0">
             <widget class="QGroupBox" name="separatorGroup">
              <property name="maximumSize">
@@ -63,7 +208,7 @@
              <property name="title">
               <string>Separador</string>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_2">
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
               <item>
                <widget class="QComboBox" name="separatorSelector">
                 <property name="maximumSize">
@@ -95,95 +240,6 @@
              </layout>
             </widget>
            </item>
-           <item row="1" column="1">
-            <widget class="QGroupBox" name="thresholdGroup">
-             <property name="title">
-              <string>Threshold</string>
-             </property>
-             <layout class="QHBoxLayout" name="horizontalLayout_2">
-              <item>
-               <widget class="QDoubleSpinBox" name="thresholdSelector">
-                <property name="maximumSize">
-                 <size>
-                  <width>80</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="maximum">
-                 <double>1.000000000000000</double>
-                </property>
-                <property name="singleStep">
-                 <double>0.050000000000000</double>
-                </property>
-                <property name="value">
-                 <double>0.100000000000000</double>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QCheckBox" name="twoThresholdsCheckbox">
-                <property name="maximumSize">
-                 <size>
-                  <width>120</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Utilizar 2 threshold</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QDoubleSpinBox" name="thresholdSelector2">
-                <property name="maximumSize">
-                 <size>
-                  <width>80</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="maximum">
-                 <double>1.000000000000000</double>
-                </property>
-                <property name="singleStep">
-                 <double>0.010000000000000</double>
-                </property>
-                <property name="value">
-                 <double>0.100000000000000</double>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item row="0" column="0" colspan="2">
-            <widget class="QGroupBox" name="cargarArchivoGroup">
-             <property name="title">
-              <string>Archivo - (CSV o Text)</string>
-             </property>
-             <layout class="QHBoxLayout" name="horizontalLayout">
-              <item>
-               <widget class="QPushButton" name="cargarArchivoButton">
-                <property name="maximumSize">
-                 <size>
-                  <width>250</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Cargar Archivo</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="fileNameText">
-                <property name="text">
-                 <string>File name: </string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
           </layout>
          </widget>
         </item>
@@ -197,44 +253,13 @@
           </property>
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
+            <width>1700</width>
             <height>60</height>
            </size>
           </property>
           <property name="text">
            <string>Cargar datos</string>
           </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QGroupBox" name="groupBox">
-          <property name="title">
-           <string>Resumen de los datos cargados:</string>
-          </property>
-          <layout class="QGridLayout" name="gridLayout">
-           <item row="0" column="0">
-            <widget class="QTableView" name="tableView"/>
-           </item>
-           <item row="1" column="0">
-            <widget class="QLabel" name="deletedColumnsLabel">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>30</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>30</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Columnas eliminadas (variables continuas): </string>
-             </property>
-            </widget>
-           </item>
-          </layout>
          </widget>
         </item>
        </layout>
@@ -249,7 +274,7 @@
           <property name="minimumSize">
            <size>
             <width>0</width>
-            <height>70</height>
+            <height>100</height>
            </size>
           </property>
           <property name="text">
@@ -262,7 +287,7 @@
           <property name="maximumSize">
            <size>
             <width>300</width>
-            <height>16777215</height>
+            <height>150</height>
            </size>
           </property>
           <property name="title">
@@ -273,7 +298,7 @@
             <widget class="QGroupBox" name="groupBox_4">
              <property name="maximumSize">
               <size>
-               <width>250</width>
+               <width>300</width>
                <height>16777215</height>
               </size>
              </property>
@@ -301,6 +326,97 @@
                 </property>
                 <property name="value">
                  <number>70</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_5">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>300</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_8">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label">
+                <property name="maximumSize">
+                 <size>
+                  <width>130</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Threshold:</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QDoubleSpinBox" name="thresholdSelector">
+                <property name="maximumSize">
+                 <size>
+                  <width>100</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="minimum">
+                 <double>0.010000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>1.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.050000000000000</double>
+                </property>
+                <property name="value">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QCheckBox" name="twoThresholdsCheckbox">
+                <property name="maximumSize">
+                 <size>
+                  <width>130</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Utilizar 2 threshold</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QDoubleSpinBox" name="thresholdSelector2">
+                <property name="maximumSize">
+                 <size>
+                  <width>100</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="minimum">
+                 <double>0.010000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>1.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.010000000000000</double>
+                </property>
+                <property name="value">
+                 <double>0.100000000000000</double>
                 </property>
                </widget>
               </item>
@@ -386,11 +502,30 @@
             </item>
             <item row="0" column="2">
              <widget class="QLabel" name="imageGain">
+              <property name="maximumSize">
+               <size>
+                <width>1700</width>
+                <height>700</height>
+               </size>
+              </property>
               <property name="text">
                <string>TextLabel</string>
               </property>
               <property name="scaledContents">
                <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QPushButton" name="viewImageSystemGain">
+              <property name="maximumSize">
+               <size>
+                <width>1700</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Abrir imagen con visualizador del sistema</string>
               </property>
              </widget>
             </item>
@@ -472,6 +607,19 @@
               </property>
               <property name="scaledContents">
                <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QPushButton" name="viewImageSystemGainRatio">
+              <property name="maximumSize">
+               <size>
+                <width>1700</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Abrir imagen con visualizador del sistema</string>
               </property>
              </widget>
             </item>
@@ -594,7 +742,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1109</width>
+     <width>1105</width>
      <height>22</height>
     </rect>
    </property>

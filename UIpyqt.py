@@ -6,8 +6,7 @@ from PyQt5 import QtCore, uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
-
-# from main import MainFunction
+from PIL import Image
 from src.predictions.Predictions import predict_cases
 from config.config import name_counter, graph_array, graph_array_ratio
 from src.split.split import split_dataset
@@ -47,9 +46,11 @@ class App(QMainWindow):
         self.lastImageGainRatio.clicked.connect(self.showLastGainRatio)
 
         self.twoThresholdsCheckbox.stateChanged.connect(self.twoThresholds)
+
+        self.viewImageSystemGain.clicked.connect(self.showInSystemApp)
+        self.viewImageSystemGainRatio.clicked.connect(self.showInSystemAppRatio)
             
-    
-    # TODO: Abrir imagen en el sistema por defecto
+
     def twoThresholds(self):
         if  self.twoThresholdsCheckbox.isChecked():
             self.thresholdSelector2.setEnabled(True)
@@ -68,7 +69,7 @@ class App(QMainWindow):
             print("error")
     
     def generateDataset(self):
-        #Clear qpixmap and graph of self.imageGain
+        #Resetea qpixmap y graph of self.imageGain
         self.imageGain.clear()
         self.imageGainRatio.clear()
         if (self.fileName).split('.')[-1] in ['csv','txt']:     # Aca usamos la funcion de acuerdo al tipo de archivo 
@@ -77,7 +78,7 @@ class App(QMainWindow):
             self.df = pd.read_excel(self.fileName, engine='openpyxl')     # EXCEL
         print(self.df.head())
 
-        removed_continuous = remove_continuous_columns(self.df)     # Se seleccionan y eliminan las columnas continuas
+        removed_continuous = remove_continuous_columns(self.df, self.maxValuesAllowed.value())     # Se seleccionan y eliminan las columnas continuas
         self.df = removed_continuous[1]
         self.deletedColumnsLabel.setText('Columnas eliminadas (variables continuas): ' + ', '.join(map(str,removed_continuous[0])))
         
@@ -96,7 +97,7 @@ class App(QMainWindow):
             threshold2 = self.thresholdSelector2.value()  
         splitValue = self.spinBoxTrainTest.value() / 100
 
-        df = impute_with_mode(df) 
+        df = impute_with_mode(df, self.nullValue.text()) 
 
         df_train, df_test = split_dataset(df,splitValue,self.target) # Se separan los valores para Train y Test
         graph = graphviz.Digraph()
@@ -114,6 +115,7 @@ class App(QMainWindow):
         self.treeGainRatioImage = tree_gain_ratio.printTree(0, graph_ratio, tree_gain_ratio,name_counter,'gain_ratio')
         
         self.tabShowTrees.setEnabled(True) # Habilita las tabs para ver los arboles
+
         # Aca se llama a la funcion para mostrar la imagen del arbol
         graph_array.append(graph.copy())
         graph_array_ratio.append(graph_ratio.copy())
@@ -130,7 +132,6 @@ class App(QMainWindow):
             df_test['correct_prediction_gain_ratio'] = df_test[['test_result_gain_ratio',self.target]].apply(lambda x: 1 if x['test_result_gain_ratio'] == x[self.target] else 0, axis=1)
 
             self.showAccuracy(df_test, self.target)
-        
 
     def nextGain(self):
         self.gainImage = self.gainImage + 1
@@ -220,6 +221,14 @@ class App(QMainWindow):
         self.gainRatioConfusionMatrix = TableModel(pd.crosstab(df_test[target],df_test['test_result_gain_ratio'])) # Aca se cargan los datos en el resumen de los datos
         self.confusionMatrixGainRatioTab.setModel(self.gainRatioConfusionMatrix)
 
+    def showInSystemApp(self):
+        with Image.open('test_output/gain.png') as img:
+            img.show()
+
+    def showInSystemAppRatio(self):
+        with Image.open('test_output/gain_ratio.png') as img:
+            img.show()
+
 class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las tablas (Preview de datos y matrices de confusion)
     def __init__(self, data):
         super(TableModel, self).__init__()
@@ -247,5 +256,5 @@ class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las t
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     GUI = App()
-    GUI.show()
+    GUI.showMaximized()
     sys.exit(app.exec_())
