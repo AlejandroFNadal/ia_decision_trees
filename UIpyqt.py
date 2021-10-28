@@ -92,6 +92,8 @@ class App(QMainWindow):
         self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
         
     def executeMainFunction(self): # Aca se ejecuta el algoritmo de generacion del arbol
+        self.gainImage = 0
+        self.gainRatioImage = 0
         graph_array.clear()
         graph_array_ratio.clear()
         self.target = self.df.columns[-1]       # Se selecciona la CLASE
@@ -123,7 +125,8 @@ class App(QMainWindow):
         # Aca se llama a la funcion para mostrar la imagen del arbol
         graph_array.append(graph.copy())
         graph_array_ratio.append(graph_ratio.copy())
-
+        print(f'self.gainImage{self.gainImage}')
+        print(f'self.gainRatioImage{self.gainRatioImage}')
         self.showTreeGain(graph_array[self.gainImage], self.target)
         self.showTreeGainRatio(graph_array_ratio[self.gainRatioImage], self.target)
         
