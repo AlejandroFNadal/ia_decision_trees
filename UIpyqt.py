@@ -29,6 +29,8 @@ class App(QMainWindow):
         self.tabShowTrees.setEnabled(False)
         self.prevImagenGain.setEnabled(False)
         self.thresholdSelector2.setEnabled(False)
+        self.imageGain.setScaledContents(True)
+        self.imageGainRatio.setScaledContents(True)
 
         self.cargarArchivoButton.setStyleSheet('font: bold')
         self.cargarArchivoButton.clicked.connect(self.openFile) #Una vez cargado el archivo, se habilita el boton de generar el arbol
@@ -49,6 +51,8 @@ class App(QMainWindow):
 
         self.viewImageSystemGain.clicked.connect(self.showInSystemApp)
         self.viewImageSystemGainRatio.clicked.connect(self.showInSystemAppRatio)
+
+        self.predictButton.clicked.connect(self.predictData)
             
 
     def twoThresholds(self):
@@ -132,6 +136,8 @@ class App(QMainWindow):
             df_test['correct_prediction_gain_ratio'] = df_test[['test_result_gain_ratio',self.target]].apply(lambda x: 1 if x['test_result_gain_ratio'] == x[self.target] else 0, axis=1)
 
             self.showAccuracy(df_test, self.target)
+        
+        self.createPredictTable(self.df.columns.difference([self.target]))
 
     def nextGain(self):
         self.gainImage = self.gainImage + 1
@@ -202,6 +208,8 @@ class App(QMainWindow):
 
         test = QPixmap(f'test_output/gain.png')
         self.imageGain.setPixmap(test)
+        self.imageGain.adjustSize()
+        # test resize(w,h)
             
     def showTreeGainRatio(self, grafico, target):
         grafico.render(f'test_output/gain_ratio.dot')
@@ -228,6 +236,18 @@ class App(QMainWindow):
     def showInSystemAppRatio(self):
         with Image.open('test_output/gain_ratio.png') as img:
             img.show()
+
+    def createPredictTable(self,columns):
+        self.tableToPredict.setColumnCount(len(columns))
+        self.tableToPredict.setRowCount(1)
+        self.tableToPredict.setHorizontalHeaderLabels(columns)
+        self.tableToPredict.setVerticalHeaderLabels(['Ingrese sus datos aqui:'])
+
+    def predictData(self):
+        row = []
+        for column in range(0,len(self.df.columns.difference([self.target]))):
+            row.append(self.tableToPredict.item(0, column).text())
+        print(row)
 
 class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las tablas (Preview de datos y matrices de confusion)
     def __init__(self, data):

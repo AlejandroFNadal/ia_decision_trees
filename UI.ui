@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1105</width>
-    <height>769</height>
+    <width>1101</width>
+    <height>760</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -39,7 +39,7 @@
        </size>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -428,6 +428,12 @@
         </item>
         <item row="1" column="0" colspan="2">
          <widget class="QTabWidget" name="tabShowTrees">
+          <property name="maximumSize">
+           <size>
+            <width>1700</width>
+            <height>800</height>
+           </size>
+          </property>
           <property name="currentIndex">
            <number>0</number>
           </property>
@@ -732,6 +738,48 @@
        <attribute name="title">
         <string>Predecir Datos</string>
        </attribute>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>40</y>
+          <width>441</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ingrese los datos para generar la prediccion</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableToPredict">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>90</y>
+          <width>1011</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>60</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="predictButton">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>190</y>
+          <width>251</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Predecir</string>
+        </property>
+       </widget>
       </widget>
      </widget>
     </item>
@@ -742,7 +790,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1105</width>
+     <width>1101</width>
      <height>22</height>
     </rect>
    </property>
