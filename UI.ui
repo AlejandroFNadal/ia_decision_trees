@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1101</width>
-    <height>760</height>
+    <width>1097</width>
+    <height>751</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -648,6 +648,11 @@
             <height>300</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
           <property name="title">
            <string>Arbol aplicando Gain</string>
           </property>
@@ -659,6 +664,11 @@
                <width>16777215</width>
                <height>30</height>
               </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
              </property>
              <property name="text">
               <string>Accuracy: </string>
@@ -672,6 +682,11 @@
                <width>16777215</width>
                <height>200</height>
               </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
              </property>
              <property name="title">
               <string>Matriz de Confusion: </string>
@@ -694,6 +709,11 @@
             <height>300</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
           <property name="title">
            <string>Arbol aplicando Gain Ratio</string>
           </property>
@@ -705,6 +725,11 @@
                <width>16777215</width>
                <height>30</height>
               </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
              </property>
              <property name="text">
               <string>Accuracy: </string>
@@ -718,6 +743,11 @@
                <width>16777215</width>
                <height>200</height>
               </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
              </property>
              <property name="title">
               <string>Matriz de Confusion: </string>
@@ -738,48 +768,88 @@
        <attribute name="title">
         <string>Predecir Datos</string>
        </attribute>
-       <widget class="QLabel" name="label_4">
-        <property name="geometry">
-         <rect>
-          <x>50</x>
-          <y>40</y>
-          <width>441</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Ingrese los datos para generar la prediccion</string>
-        </property>
-       </widget>
-       <widget class="QTableWidget" name="tableToPredict">
-        <property name="geometry">
-         <rect>
-          <x>40</x>
-          <y>90</y>
-          <width>1011</width>
-          <height>60</height>
-         </rect>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16777215</width>
-          <height>60</height>
-         </size>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="predictButton">
-        <property name="geometry">
-         <rect>
-          <x>510</x>
-          <y>190</y>
-          <width>251</width>
-          <height>121</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Predecir</string>
-        </property>
-       </widget>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QGroupBox" name="predictBox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>200</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Ingrese los datos para generar la prediccion</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_9">
+           <item row="0" column="0" colspan="2">
+            <widget class="QTableWidget" name="tableToPredict">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>60</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" colspan="2">
+            <widget class="QPushButton" name="predictButton">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Predecir Valores</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <underline>true</underline>
+              </font>
+             </property>
+             <property name="text">
+              <string>Clase predicha: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="predictedLabel">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+               <underline>false</underline>
+               <strikeout>false</strikeout>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </widget>
     </item>
@@ -790,7 +860,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1101</width>
+     <width>1097</width>
      <height>22</height>
     </rect>
    </property>

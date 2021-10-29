@@ -31,6 +31,7 @@ class App(QMainWindow):
         self.thresholdSelector2.setEnabled(False)
         self.imageGain.setScaledContents(True)
         self.imageGainRatio.setScaledContents(True)
+        self.predictBox.setEnabled(False)
 
         self.cargarArchivoButton.setStyleSheet('font: bold')
         self.cargarArchivoButton.clicked.connect(self.openFile) #Una vez cargado el archivo, se habilita el boton de generar el arbol
@@ -80,7 +81,6 @@ class App(QMainWindow):
                 self.df = pd.read_csv(self.fileName, sep=(self.separatorSelector.currentText()))   # CSV y TXT
         elif (self.fileName).split('.')[-1] == 'xlsx':
             self.df = pd.read_excel(self.fileName, engine='openpyxl')     # EXCEL
-        print(self.df.head())
 
         removed_continuous = remove_continuous_columns(self.df, self.maxValuesAllowed.value())     # Se seleccionan y eliminan las columnas continuas
         self.df = removed_continuous[1]
@@ -112,7 +112,6 @@ class App(QMainWindow):
         # Se generan los arboles para ambos algoritmos
         tree_gain = train(df_train, self.target,threshold,'gain')
         if self.twoThresholdsCheckbox.isChecked():
-            print("HERE IS THE THRESHOLD 2", threshold2)
             tree_gain_ratio = train(df_train,self.target,threshold2,'gain_ratio')
         else:
             tree_gain_ratio = train(df_train,self.target,threshold,'gain_ratio')
@@ -125,8 +124,6 @@ class App(QMainWindow):
         # Aca se llama a la funcion para mostrar la imagen del arbol
         graph_array.append(graph.copy())
         graph_array_ratio.append(graph_ratio.copy())
-        print(f'self.gainImage{self.gainImage}')
-        print(f'self.gainRatioImage{self.gainRatioImage}')
         self.showTreeGain(graph_array[self.gainImage], self.target)
         self.showTreeGainRatio(graph_array_ratio[self.gainRatioImage], self.target)
         
@@ -140,7 +137,9 @@ class App(QMainWindow):
 
             self.showAccuracy(df_test, self.target)
         
-        self.createPredictTable(self.df.columns.difference([self.target]))
+        self.predictBox.setEnabled(True)
+        self.nodoRaiz = tree_gain
+        self.createPredictTable(self.df.columns.drop(self.target))
 
     def nextGain(self):
         self.gainImage = self.gainImage + 1
@@ -243,14 +242,19 @@ class App(QMainWindow):
     def createPredictTable(self,columns):
         self.tableToPredict.setColumnCount(len(columns))
         self.tableToPredict.setRowCount(1)
-        self.tableToPredict.setHorizontalHeaderLabels(columns)
+        self.tableToPredict.setHorizontalHeaderLabels(columns.tolist())
         self.tableToPredict.setVerticalHeaderLabels(['Ingrese sus datos aqui:'])
 
     def predictData(self):
         row = []
         for column in range(0,len(self.df.columns.difference([self.target]))):
             row.append(self.tableToPredict.item(0, column).text())
-        print(row)
+        listToPredict = [row, self.df.columns.drop(self.target).tolist()]
+        dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
+        prediccion = predict_cases(dfToPredict, self.nodoRaiz)
+        
+        self.predictedLabel.setText(prediccion[0])
+
 
 class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las tablas (Preview de datos y matrices de confusion)
     def __init__(self, data):
