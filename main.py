@@ -74,7 +74,7 @@ def hiperpar():
     df = removed_continuous[1]
     df = impute_with_mode(df)
     df_train, df_test = split_dataset(df,0.9,target)
-    thresholds = [0.01, 0.02, 0.025, 0.03, 0.05, 0.07, 0.08, 0.09, 0.095, 0.1, 0.2, 0.3, 0.31, 0.32, 0.33, 0.34, 0.35, 0.36, 0.37, 0.38, 0.39, 0.4, 0.5]
+    thresholds = [0.01, 0.02, 0.025, 0.03, 0.05, 0.07, 0.08, 0.09, 0.095, 0.1, 0.2, 0.3, 0.305, 0.31, 0.315, 0.32, 0.325, 0.33,0.335, 0.34, 0.345, 0.35,0.355, 0.36, 0.365,0.37, 0.375, 0.38, 0.385, 0.39, 0.395, 0.4, 0.5]
     gain_results = []
     gain_ratio_results = []
     for elem in thresholds:
