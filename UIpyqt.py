@@ -70,6 +70,7 @@ class App(QMainWindow):
             self.fileNameText.setText("Nombre del archivo: " + (self.fileName).split('/')[-1]) # Muestra el nombre del archivo cargado
             self.cargarDatosButton.setEnabled(True)
             self.cargarDatosButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
+            self.predictBox.setEnabled(False)
         else:
             print("error")
     
@@ -116,9 +117,13 @@ class App(QMainWindow):
         else:
             tree_gain_ratio = train(df_train,self.target,threshold,'gain_ratio')
 
-        self.treeGainImage = tree_gain.printTree(0, graph, tree_gain,name_counter,'gain')
-        self.treeGainRatioImage = tree_gain_ratio.printTree(0, graph_ratio, tree_gain_ratio,name_counter,'gain_ratio')
-        
+        if self.detailsCheckbox.isChecked():
+            self.treeGainImage = tree_gain.printTree(0, graph, tree_gain,name_counter,'gain')
+            self.treeGainRatioImage = tree_gain_ratio.printTree(0, graph_ratio, tree_gain_ratio,name_counter,'gain_ratio')
+        else: 
+            self.treeGainImage = tree_gain.printTreeWithoutDetails(0, graph, tree_gain,name_counter,'gain')
+            self.treeGainRatioImage = tree_gain_ratio.printTreeWithoutDetails(0, graph_ratio, tree_gain_ratio,name_counter,'gain_ratio')
+
         self.tabShowTrees.setEnabled(True) # Habilita las tabs para ver los arboles
 
         # Aca se llama a la funcion para mostrar la imagen del arbol
@@ -136,9 +141,15 @@ class App(QMainWindow):
             df_test['correct_prediction_gain_ratio'] = df_test[['test_result_gain_ratio',self.target]].apply(lambda x: 1 if x['test_result_gain_ratio'] == x[self.target] else 0, axis=1)
 
             self.showAccuracy(df_test, self.target)
+        else:
+            self.accuracyGainLabel.setText('Accuracy: ')
+            self.confusionMatrixGainTab.setModel(TableModel(pd.DataFrame([])))
+            self.accuracyGainRatioLabel.setText('Accuracy: ')
+            self.confusionMatrixGainRatioTab.setModel(TableModel(pd.DataFrame([])))
         
         self.predictBox.setEnabled(True)
         self.nodoRaiz = tree_gain
+        self.nodoRaizRatio = tree_gain_ratio
         self.createPredictTable(self.df.columns.drop(self.target))
 
     def nextGain(self):
@@ -249,11 +260,16 @@ class App(QMainWindow):
         row = []
         for column in range(0,len(self.df.columns.difference([self.target]))):
             row.append(self.tableToPredict.item(0, column).text())
-        listToPredict = [row, self.df.columns.drop(self.target).tolist()]
         dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
         prediccion = predict_cases(dfToPredict, self.nodoRaiz)
-        
         self.predictedLabel.setText(prediccion[0])
+
+        row = []
+        for column in range(0,len(self.df.columns.difference([self.target]))):
+            row.append(self.tableToPredict.item(0, column).text())
+        dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
+        prediccion = predict_cases(dfToPredict, self.nodoRaizRatio)
+        self.predictedLabelRatio.setText(prediccion[0])
 
 
 class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las tablas (Preview de datos y matrices de confusion)
