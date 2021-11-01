@@ -61,4 +61,23 @@ class Node:
             else:
                 graph_array_ratio.append(graph.copy())
             item.printTree(depth+1, graph, self, self.id_node, algorithm)
+    
+    def printTreeWithoutDetails(self, depth: int, graph, previous_node, name_previous_node: int, algorithm: str):
+        if self.chosen_att != '':
+            graph.node(name = str(self.id_node),label = f'Clase: {self.chosen_att}')
+        else:
+            if len(self.data.cases[self.data.class_column_name].value_counts())>1: 
+                self.childrenNodeColor = 'orange'
+            else:
+                self.childrenNodeColor = 'green'
+            graph.node(name = str(self.id_node), label= f'Clase: {self.curr_class} \n [{self.data.cases[self.data.class_column_name].value_counts().to_string()}]',color=self.childrenNodeColor,style='filled')
+        if depth != 0:
+            graph.edge(str(name_previous_node), str(self.id_node),label=str(self.val_attr),splines='line')
+        name_previous_node+=1
+        for item in self.children:
+            if algorithm == 'gain':
+                graph_array.append(graph.copy())
+            else:
+                graph_array_ratio.append(graph.copy())
+            item.printTreeWithoutDetails(depth+1, graph, self, self.id_node, algorithm)
         
