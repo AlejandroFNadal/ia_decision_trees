@@ -4,10 +4,12 @@ from src.setCases.setCases import SetCases
 from src.node.Node import Node
 from src.decisionTree.DecisionTree import decisionTree
 from src.predictions.Predictions import predict_cases
-from config.config import name_counter
+from config.config import name_counter, current_test_is_gain, tree_gain_ratio_data, tree_gain_data
 from src.split.split import split_dataset
 from src.train.train import train
 from src.preprocessing.preprocessing import remove_continuous_columns,impute_with_mode
+
+
 
 def MainFunction(df,threshold):
     threshold = 0.03
@@ -63,24 +65,29 @@ def SingleRun(df_train, df_test, threshold, gain_ratio:bool, target):
     else:
         func = 'gain'
     tree_gain = train(df_train, target,threshold,func)
+    graph = graphviz.Digraph()
+    tree_gain.printTree(0,graph,tree_gain,0, gain_ratio)
+
     df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
     df_test['correct_prediction_gain'] = df_test[['test_result_gain',target]].apply(lambda x: 1 if x['test_result_gain'] == x[target] else 0, axis=1)
     return df_test[df_test['correct_prediction_gain']==1]['correct_prediction_gain'].count()/len(df_test)
 
 def hiperpar():
-    target = 'Clase'
-    df = pd.read_csv('data/diabetes_dataset__2019sugar.csv')
+
+    target = 'class'
+    df = pd.read_csv('data/diabetes_data_upload.csv')
     removed_continuous = remove_continuous_columns(df)
     df = removed_continuous[1]
     df = impute_with_mode(df)
-    df_train, df_test = split_dataset(df,0.9,target)
-    thresholds = [0.01, 0.02, 0.025, 0.03, 0.05, 0.07, 0.08, 0.09, 0.095, 0.1, 0.2, 0.3, 0.305, 0.31, 0.315, 0.32, 0.325, 0.33,0.335, 0.34, 0.345, 0.35,0.355, 0.36, 0.365,0.37, 0.375, 0.38, 0.385, 0.39, 0.395, 0.4, 0.5]
+    df_train, df_test = split_dataset(df,0.99,target)
+    thresholds = [0.01]
     gain_results = []
     gain_ratio_results = []
     for elem in thresholds:
         val = SingleRun(df_train, df_test, elem, False, target)
         print(val)
         gain_results.append(val)
+    current_test_is_gain = False
     for elem in thresholds:
         val = SingleRun(df_train, df_test, elem, True, target)
         print(val)
@@ -95,5 +102,8 @@ def hiperpar():
     plot_result = df.plot('thresholds',['gain','gain_ratio'],figsize=(15,6),title='Ganancia vs Tasa de Ganancia')
     plot_fig = plot_result.get_figure()
     plot_fig.savefig('result.png')
-
+    tree_gain_data['avg_children'] /= tree_gain_data['node_c_decision']
+    tree_gain_ratio_data['avg_children'] /= tree_gain_ratio_data['node_c_decision']
+    print(f'Gain {tree_gain_data}')
+    print(f'Gain Ratio {tree_gain_ratio_data}')
 hiperpar()
