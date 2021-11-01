@@ -63,8 +63,11 @@ class App(QMainWindow):
             self.thresholdSelector2.setEnabled(False)
 
     def openFile(self):
+        """
+        Opens the file to use with the system file navegator tool
+        """        
         options = QFileDialog.Options()
-        file = QFileDialog.getOpenFileName(self,"QFileDialog.getOpenFileName()", "","Files (*.txt *.csv *.xlsx);;All Files (*)", options=options)
+        file = QFileDialog.getOpenFileName(self,"QFileDialog.getOpenFileName()", "","Files (*.txt *.csv);;All Files (*)", options=options)
         if file:
             self.fileName, _ = file
             self.fileNameText.setText("Nombre del archivo: " + (self.fileName).split('/')[-1]) # Muestra el nombre del archivo cargado
@@ -72,16 +75,19 @@ class App(QMainWindow):
             self.cargarDatosButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
             self.predictBox.setEnabled(False)
         else:
-            print("error")
+            pass
     
     def generateDataset(self):
+        """
+        Creates a dataset from the datafile. Just are accepted text and csv files
+        Remove the continous columns, shows it those column names on the interface
+        And enable the Generate Tree's tab
+        """        
         #Resetea qpixmap y graph of self.imageGain
         self.imageGain.clear()
         self.imageGainRatio.clear()
         if (self.fileName).split('.')[-1] in ['csv','txt']:     # Aca usamos la funcion de acuerdo al tipo de archivo 
                 self.df = pd.read_csv(self.fileName, sep=(self.separatorSelector.currentText()))   # CSV y TXT
-        elif (self.fileName).split('.')[-1] == 'xlsx':
-            self.df = pd.read_excel(self.fileName, engine='openpyxl')     # EXCEL
 
         removed_continuous = remove_continuous_columns(self.df, self.maxValuesAllowed.value())     # Se seleccionan y eliminan las columnas continuas
         self.df = removed_continuous[1]
@@ -93,6 +99,9 @@ class App(QMainWindow):
         self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
         
     def executeMainFunction(self): # Aca se ejecuta el algoritmo de generacion del arbol
+        """
+        This is the main function, where the values are reseted, threshold and split values are defined, trees are generated and calulate accuracy values
+        """        
         self.gainImage = 0
         self.gainRatioImage = 0
         graph_array.clear()
@@ -104,7 +113,8 @@ class App(QMainWindow):
             threshold2 = self.thresholdSelector2.value()  
         splitValue = self.spinBoxTrainTest.value() / 100
 
-        df = impute_with_mode(df, self.nullValue.text()) 
+        if self.modaCheck.isChecked():
+            df = impute_with_mode(df, self.nullValue.text()) 
 
         df_train, df_test = split_dataset(df,splitValue,self.target) # Se separan los valores para Train y Test
         graph = graphviz.Digraph()
@@ -153,6 +163,8 @@ class App(QMainWindow):
         self.createPredictTable(self.df.columns.drop(self.target))
 
     def nextGain(self):
+        """ Show the next step of the gain tree
+        """        
         self.gainImage = self.gainImage + 1
         self.prevImagenGain.setEnabled(True)
         if (self.gainImage < len(graph_array)):
@@ -163,6 +175,8 @@ class App(QMainWindow):
             self.sigImagenGain.setEnabled(False)
     
     def prevGain(self):
+        """ Show the previous step of the gain tree
+        """   
         if self.gainImage > 0:
             self.gainImage = self.gainImage - 1 
             self.showTreeGain(graph_array[self.gainImage], self.target)
@@ -172,6 +186,8 @@ class App(QMainWindow):
             self.prevImagenGain.setEnabled(False)
 
     def nextGainRatio(self):
+        """ Show the next step of the gain ratio tree
+        """   
         self.prevImagenGainRatio.setEnabled(True)
         self.gainRatioImage = self.gainRatioImage + 1
         if (self.gainRatioImage < len(graph_array_ratio)):
@@ -182,6 +198,8 @@ class App(QMainWindow):
             self.sigImagenGainRatio.setEnabled(False)
     
     def prevGainRatio(self):
+        """ Show the previous step of the gain ratio tree
+        """  
         if self.gainRatioImage > 0:
             self.gainRatioImage = self.gainRatioImage - 1 
             self.showTreeGainRatio(graph_array_ratio[self.gainRatioImage], self.target)
@@ -215,6 +233,13 @@ class App(QMainWindow):
         self.prevImagenGainRatio.setEnabled(True)
 
     def showTreeGain(self, grafico, target):
+        """
+        Shows a step of the gain tree
+
+        Args:
+            grafico ([dot]): [step of the gain tree selected in the interface]
+            target ([string]): [class to predict]
+        """        
         grafico.render(f'test_output/gain.dot')
         (grafico,) = pydot.graph_from_dot_file(f'test_output/gain.dot')
         grafico.write_png(f'test_output/gain.png')
@@ -225,6 +250,13 @@ class App(QMainWindow):
         # test resize(w,h)
             
     def showTreeGainRatio(self, grafico, target):
+        """
+        Shows a step of the gain ratio tree
+
+        Args:
+            grafico ([dot]): [step of the gain ratio tree selected in the interface]
+            target ([string]): [class to predict]
+        """ 
         grafico.render(f'test_output/gain_ratio.dot')
         (grafico,) = pydot.graph_from_dot_file(f'test_output/gain_ratio.dot')
         grafico.write_png(f'test_output/gain_ratio.png')
@@ -251,12 +283,23 @@ class App(QMainWindow):
             img.show()
 
     def createPredictTable(self,columns):
+        """
+        Creates an empty table with the column names acording to the tree generated
+        This table has a single empty row to recibe the values to predict the class
+
+        Args:
+            columns ([dataframe]): [column names of the dataframe used to generated the trees]
+        """        
         self.tableToPredict.setColumnCount(len(columns))
         self.tableToPredict.setRowCount(1)
         self.tableToPredict.setHorizontalHeaderLabels(columns.tolist())
         self.tableToPredict.setVerticalHeaderLabels(['Ingrese sus datos aqui:'])
 
     def predictData(self):
+        """
+        Takes the row values to predict and call the predict_cases function with both trees (gain and gain ratio)
+        After that, show the predict values of each tree
+        """        
         row = []
         for column in range(0,len(self.df.columns.difference([self.target]))):
             row.append(self.tableToPredict.item(0, column).text())
@@ -273,6 +316,12 @@ class App(QMainWindow):
 
 
 class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las tablas (Preview de datos y matrices de confusion)
+    """
+    Create a table with the atributes recived. 
+
+    Args:
+        QtCore ([module]): [module that has the table model class generator]
+    """    
     def __init__(self, data):
         super(TableModel, self).__init__()
         self._data = data

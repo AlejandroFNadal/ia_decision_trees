@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1097</width>
+    <width>1574</width>
     <height>751</height>
    </rect>
   </property>
@@ -448,7 +448,7 @@
                  </size>
                 </property>
                 <property name="text">
-                 <string>Utilizar thresholds distintos para Gain Ratio</string>
+                 <string>Utilizar thresholds distinto para Gain Ratio</string>
                 </property>
                </widget>
               </item>
@@ -973,8 +973,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1097</width>
-     <height>18</height>
+     <width>1574</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
