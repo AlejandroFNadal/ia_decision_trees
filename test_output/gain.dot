@@ -1,4 +1,18 @@
 digraph {
-	0 [label="Clase: NivelIngreso 
- Gain: 0.31"]
+	0 [label="Clase: NivelIngreso"]
+	1 [label="Clase: Edad"]
+	0 -> 1 [label=alto splines=line]
+	2 [label="Clase: no 
+ [no    1]" color=green style=filled]
+	1 -> 2 [label=menor35 splines=line]
+	3 [label="Clase: si 
+ [si    1]" color=green style=filled]
+	1 -> 3 [label=mayor35 splines=line]
+	4 [label="Clase: no 
+ [no    3]" color=green style=filled]
+	0 -> 4 [label=bajo splines=line]
+	5 [label="Clase: no 
+ [si    1
+no    1]" color=orange style=filled]
+	0 -> 5 [label=medio splines=line]
 }
