@@ -158,7 +158,7 @@
               <item>
                <widget class="QLabel" name="fileNameText">
                 <property name="text">
-                 <string>File name: </string>
+                 <string>Nombre del archivo: </string>
                 </property>
                </widget>
               </item>

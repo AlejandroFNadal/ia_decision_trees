@@ -34,7 +34,7 @@ class App(QMainWindow):
         self.predictBox.setEnabled(False)
 
         self.cargarArchivoButton.setStyleSheet('font: bold')
-        self.cargarArchivoButton.clicked.connect(self.openFile) #Una vez cargado el archivo, se habilita el boton de generar el arbol
+        self.cargarArchivoButton.clicked.connect(self.openFile) 
         self.cargarDatosButton.clicked.connect(self.generateDataset)
         self.generarArbolButton.clicked.connect(self.executeMainFunction)
 
@@ -70,7 +70,7 @@ class App(QMainWindow):
         file = QFileDialog.getOpenFileName(self,"QFileDialog.getOpenFileName()", "","Files (*.txt *.csv);;All Files (*)", options=options)
         if file:
             self.fileName, _ = file
-            self.fileNameText.setText("Nombre del archivo: " + (self.fileName).split('/')[-1]) # Muestra el nombre del archivo cargado
+            self.fileNameText.setText("Nombre del archivo: " + (self.fileName).split('/')[-1]) # Shows the file name
             self.cargarDatosButton.setEnabled(True)
             self.cargarDatosButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
             self.predictBox.setEnabled(False)
@@ -83,13 +83,13 @@ class App(QMainWindow):
         Remove the continous columns, shows it those column names on the interface
         And enable the Generate Tree's tab
         """        
-        #Resetea qpixmap y graph of self.imageGain
+        # Reset qpixmap y graph of self.imageGain
         self.imageGain.clear()
         self.imageGainRatio.clear()
-        if (self.fileName).split('.')[-1] in ['csv','txt']:     # Aca usamos la funcion de acuerdo al tipo de archivo 
+        if (self.fileName).split('.')[-1] in ['csv','txt']:     # here we load the file as a dataframe 
                 self.df = pd.read_csv(self.fileName, sep=(self.separatorSelector.currentText()))   # CSV y TXT
 
-        removed_continuous = remove_continuous_columns(self.df, self.maxValuesAllowed.value())     # Se seleccionan y eliminan las columnas continuas
+        removed_continuous = remove_continuous_columns(self.df, self.maxValuesAllowed.value())     # Select and delete the continous columns
         self.df = removed_continuous[1]
         self.deletedColumnsLabel.setText('Columnas eliminadas (variables continuas): ' + ', '.join(map(str,removed_continuous[0])))
         
@@ -98,7 +98,7 @@ class App(QMainWindow):
         self.generarArbolButton.setEnabled(True)
         self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
         
-    def executeMainFunction(self): # Aca se ejecuta el algoritmo de generacion del arbol
+    def executeMainFunction(self): 
         """
         This is the main function, where the values are reseted, threshold and split values are defined, trees are generated and calulate accuracy values
         """        
@@ -106,7 +106,7 @@ class App(QMainWindow):
         self.gainRatioImage = 0
         graph_array.clear()
         graph_array_ratio.clear()
-        self.target = self.df.columns[-1]       # Se selecciona la CLASE
+        self.target = self.df.columns[-1]       # We select the class as the las column
         df = self.df
         threshold = self.thresholdSelector.value()   
         if self.twoThresholdsCheckbox.isChecked():
@@ -116,11 +116,11 @@ class App(QMainWindow):
         if self.modaCheck.isChecked():
             df = impute_with_mode(df, self.nullValue.text()) 
 
-        df_train, df_test = split_dataset(df,splitValue,self.target) # Se separan los valores para Train y Test
+        df_train, df_test = split_dataset(df,splitValue,self.target) # Train and test split
         graph = graphviz.Digraph()
         graph_ratio = graphviz.Digraph()
 
-        # Se generan los arboles para ambos algoritmos
+        # Here the trees are generated. Gain and Gain ratio with the same or different threshold
         tree_gain = train(df_train, self.target,threshold,'gain')
         if self.twoThresholdsCheckbox.isChecked():
             tree_gain_ratio = train(df_train,self.target,threshold2,'gain_ratio')
@@ -134,15 +134,15 @@ class App(QMainWindow):
             self.treeGainImage = tree_gain.printTreeWithoutDetails(0, graph, tree_gain,name_counter,'gain')
             self.treeGainRatioImage = tree_gain_ratio.printTreeWithoutDetails(0, graph_ratio, tree_gain_ratio,name_counter,'gain_ratio')
 
-        self.tabShowTrees.setEnabled(True) # Habilita las tabs para ver los arboles
+        self.tabShowTrees.setEnabled(True) # Enanable the tab to see the trees
 
-        # Aca se llama a la funcion para mostrar la imagen del arbol
+        # Here we call the functions to show the trees
         graph_array.append(graph.copy())
         graph_array_ratio.append(graph_ratio.copy())
         self.showTreeGain(graph_array[self.gainImage], self.target)
         self.showTreeGainRatio(graph_array_ratio[self.gainRatioImage], self.target)
         
-        # Esto genera las matrices de confusion
+        # Generate the confusion matrix
         if not (df_test.empty):
             df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
             df_test['correct_prediction_gain'] = df_test[['test_result_gain',self.target]].apply(lambda x: 1 if x['test_result_gain'] == x[self.target] else 0, axis=1)
@@ -315,7 +315,7 @@ class App(QMainWindow):
         self.predictedLabelRatio.setText(prediccion[0])
 
 
-class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las tablas (Preview de datos y matrices de confusion)
+class TableModel(QtCore.QAbstractTableModel): # This class is for generate the tables in the UI (data preview and confusion matrix)
     """
     Create a table with the atributes recived. 
 
@@ -326,7 +326,7 @@ class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las t
         super(TableModel, self).__init__()
         self._data = data
 
-    def data(self, index, role): # Obtiene los valores
+    def data(self, index, role): # Obtain the values
         if role == Qt.DisplayRole:
             value = self._data.iloc[index.row(), index.column()]
             return str(value)
@@ -337,7 +337,7 @@ class TableModel(QtCore.QAbstractTableModel): # Esta clase es para generar las t
     def columnCount(self, index):
         return self._data.shape[1]
 
-    def headerData(self, section, orientation, role): # Obtiene los nombres de las columnas y/o filas 
+    def headerData(self, section, orientation, role): # Obtain the column names and row names
         if role == Qt.DisplayRole:
             if orientation == Qt.Horizontal:
                 return str(self._data.columns[section])
