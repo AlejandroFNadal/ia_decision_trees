@@ -10,5 +10,6 @@ def split_dataset(df, percentage,target):
         [set]: Returns the train and test sets.
     """    
     df_train = df.sample(frac = percentage)
+    #To get the test set we need to remove the rows from the training set
     df_test = df.drop(df_train.index)
     return (df_train, df_test)

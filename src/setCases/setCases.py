@@ -131,15 +131,34 @@ class SetCases:
         return result
 
     def is_pure(self) -> bool:
+        """Returns true if the set is pure, meaning that all cases have the same class value
+
+        Returns:
+            bool: if all cases have the same class value, returns True, otherwise False
+        """
+        #Get the amount of distinct values for the class column
         classes = self.cases[self.class_column_name].unique()
         if len(classes) == 1:
             return True
         return False
     
     def most_frequent_class(self) -> str:
+        """Returns the most frequent class value in the set
+
+        Returns:
+            str: name of the most frequent class value
+        """        
+        #If more than one value has the same most frequent value, return the first one
         return self.cases[self.class_column_name].mode().tolist()[0]
     
     def separate_data(self, attr) -> list: # Esto retorna un arreglo con dataframes
+        """Separates the cases in the set into subsets based on the value of an attribute
+        Args:
+            attr ([str]): name of the attribute to be used for separating the cases
+
+        Returns:
+            list: [DataFrame1,DataFrame2,...] array of dataframes, each one with the cases for one value of the attribute
+        """        
         attr_values = list(self.cases[attr].unique())
         frames = []
         for val in attr_values:
