@@ -1,18 +1,90 @@
 digraph {
-	0 [label="Clase: NivelIngreso"]
-	1 [label="Clase: Edad"]
-	0 -> 1 [label=alto splines=line]
-	2 [label="Clase: no 
- [no    1]" color=green style=filled]
-	1 -> 2 [label=menor35 splines=line]
-	3 [label="Clase: si 
- [si    1]" color=green style=filled]
-	1 -> 3 [label=mayor35 splines=line]
-	4 [label="Clase: no 
- [no    3]" color=green style=filled]
-	0 -> 4 [label=bajo splines=line]
-	5 [label="Clase: no 
- [si    1
-no    1]" color=orange style=filled]
-	0 -> 5 [label=medio splines=line]
+	0 [label="Clase: 21 
+ Gain: 0.2"]
+	1 [label="Clase: 10 
+ Gain: 0.28"]
+	0 -> 1 [label=f splines=line]
+	2 [label="Clase: 33 
+ Gain: 0.34"]
+	1 -> 2 [label=f splines=line]
+	3 [label="Clase: 35 
+ Gain: 0.22"]
+	2 -> 3 [label=f splines=line]
+	4 [label="Clase: won 
+ Gain: 0.061 
+ [won      578
+nowin     27]" color=orange style=filled]
+	3 -> 4 [label=t splines=line]
+	5 [label="Clase: 6 
+ Gain: 0.34"]
+	3 -> 5 [label=f splines=line]
+	6 [label="Clase: won 
+ Gain: 0 
+ [won    78]" color=green style=filled]
+	5 -> 6 [label=t splines=line]
+	7 [label="Clase: 11 
+ Gain: 0.19"]
+	5 -> 7 [label=f splines=line]
+	8 [label="Clase: 15 
+ Gain: 0.41"]
+	7 -> 8 [label=t splines=line]
+	9 [label="Clase: 1 
+ Gain: 0.35"]
+	8 -> 9 [label=n splines=line]
+	10 [label="Clase: 14 
+ Gain: 0.81"]
+	9 -> 10 [label=t splines=line]
+	11 [label="Clase: won 
+ Gain: 0 
+ [won    12]" color=green style=filled]
+	10 -> 11 [label=f splines=line]
+	12 [label="Clase: nowin 
+ Gain: 0 
+ [nowin    4]" color=green style=filled]
+	10 -> 12 [label=t splines=line]
+	13 [label="Clase: nowin 
+ Gain: 0.05 
+ [nowin    62
+won       2]" color=orange style=filled]
+	9 -> 13 [label=f splines=line]
+	14 [label="Clase: 1 
+ Gain: 0.6"]
+	8 -> 14 [label=b splines=line]
+	15 [label="Clase: 14 
+ Gain: 0.57"]
+	14 -> 15 [label=t splines=line]
+	16 [label="Clase: won 
+ Gain: 0 
+ [won    19]" color=green style=filled]
+	15 -> 16 [label=f splines=line]
+	17 [label="Clase: nowin 
+ Gain: 0 
+ [nowin    3]" color=green style=filled]
+	15 -> 17 [label=t splines=line]
+	18 [label="Clase: nowin 
+ Gain: 0 
+ [nowin    11]" color=green style=filled]
+	14 -> 18 [label=f splines=line]
+	19 [label="Clase: won 
+ Gain: 0 
+ [won    34]" color=green style=filled]
+	8 -> 19 [label=w splines=line]
+	20 [label="Clase: nowin 
+ Gain: 0.069 
+ [nowin    82
+won       2]" color=orange style=filled]
+	7 -> 20 [label=f splines=line]
+	21 [label="Clase: nowin 
+ Gain: 0.076 
+ [nowin    361
+won       33]" color=orange style=filled]
+	2 -> 21 [label=t splines=line]
+	22 [label="Clase: nowin 
+ Gain: 0 
+ [nowin    521]" color=green style=filled]
+	1 -> 22 [label=t splines=line]
+	23 [label="Clase: won 
+ Gain: 0 
+ [won    408]" color=green style=filled]
+	0 -> 23 [label=t splines=line]
 }

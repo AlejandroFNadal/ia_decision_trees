@@ -8,9 +8,9 @@ class Node:
         Args:
             data (SetCases): set of data object to be used in the node
             id_node (int): node identifier
-            val_attr ([type], optional): [description]. Defaults to None.
+            val_attr (str, optional): When node is leaf, it will contain the value of the chosen attribute. Defaults to None.
         """        
-        
+        # asign initial values for class attributes
         self.data = data
         self.children = []
         self.curr_class = ''
@@ -31,9 +31,9 @@ class Node:
         """Prints the tree generated with graphviz
 
         Args:
-            depth (int): intial depth of the tree
+            depth (int): intial depth of the tree, increases by each level
             graph ([Digraph]): graphviz Digraph object
-            previous_node ([Node]): [description]
+            previous_node ([Node]): node from previous level where the current instance of the function was called
             name_previous_node (int): previous node identifier
             algorithm (str): chosen algorithm to print the tree (gain or gain ratio)
         """
@@ -63,21 +63,35 @@ class Node:
             item.printTree(depth+1, graph, self, self.id_node, algorithm)
     
     def printTreeWithoutDetails(self, depth: int, graph, previous_node, name_previous_node: int, algorithm: str):
+        """Prints the tree generated with graphviz with only name and purity
+
+        Args:
+            depth (int): intial depth of the tree, increases by each level
+            graph ([Digraph]): graphviz Digraph object
+            previous_node ([Node]): node from previous level where the current instance of the function was called
+            name_previous_node (int): previous node identifier
+            algorithm (str): chosen algorithm to print the tree (gain or gain ratio)"""
         if self.chosen_att != '':
+            # decision node printing
             graph.node(name = str(self.id_node),label = f'Clase: {self.chosen_att}')
         else:
-            if len(self.data.cases[self.data.class_column_name].value_counts())>1: 
+            if len(self.data.cases[self.data.class_column_name].value_counts())>1:
+                # inpure leaf node
                 self.childrenNodeColor = 'orange'
             else:
+                # pure leaf node
                 self.childrenNodeColor = 'green'
             graph.node(name = str(self.id_node), label= f'Clase: {self.curr_class} \n [{self.data.cases[self.data.class_column_name].value_counts().to_string()}]',color=self.childrenNodeColor,style='filled')
         if depth != 0:
+            # none root edge creation, joins parent with current, as root has no parent, it is only called for non root nodes
             graph.edge(str(name_previous_node), str(self.id_node),label=str(self.val_attr),splines='line')
         name_previous_node+=1
         for item in self.children:
+            # We append the current generated graph to the graph array, so as to keep each step made in the tree
             if algorithm == 'gain':
                 graph_array.append(graph.copy())
             else:
                 graph_array_ratio.append(graph.copy())
+            # recursive call
             item.printTreeWithoutDetails(depth+1, graph, self, self.id_node, algorithm)
         
