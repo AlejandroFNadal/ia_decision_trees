@@ -103,6 +103,7 @@ class App(QMainWindow):
             self.generarArbolButton.setEnabled(False)
             self.generarArbolButton.setStyleSheet('font: bold;color: #777777;background-color : #cccccc')
         else:
+            self.control1column.setText("")
             self.generarArbolButton.setEnabled(True)
             self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
 
@@ -110,6 +111,10 @@ class App(QMainWindow):
         """
         This is the main function, where the values are reseted, threshold and split values are defined, trees are generated and calulate accuracy values
         """        
+        self.creatingTreeAlert.setText("El arbol se esta generando... Espere por favor.")
+        self.creatingTreeAlert.setStyleSheet('font: bold;color: #777777;background-color : #cccccc')
+        self.generarArbolButton.setEnabled(False) # Once the generation in inicialized, we desable the button
+
         self.gainImage = 0
         self.gainRatioImage = 0
         graph_array.clear()
@@ -168,6 +173,8 @@ class App(QMainWindow):
         self.predictBox.setEnabled(True)
         self.nodoRaiz = tree_gain
         self.nodoRaizRatio = tree_gain_ratio
+        self.creatingTreeAlert.setText("")
+        self.generarArbolButton.setEnabled(True)
         self.createPredictTable(self.df.columns.drop(self.target))
 
     def nextGain(self):
@@ -188,6 +195,7 @@ class App(QMainWindow):
         if self.gainImage > 0:
             self.gainImage = self.gainImage - 1 
             self.showTreeGain(graph_array[self.gainImage], self.target)
+            self.sigImagenGain.setEnabled(True)
             if self.gainImage <= 0:
                 self.prevImagenGain.setEnabled(False)
         else: 
@@ -211,6 +219,7 @@ class App(QMainWindow):
         if self.gainRatioImage > 0:
             self.gainRatioImage = self.gainRatioImage - 1 
             self.showTreeGainRatio(graph_array_ratio[self.gainRatioImage], self.target)
+            self.sigImagenGainRatio.setEnabled(True)
             if self.gainRatioImage <= 0:
                 self.prevImagenGainRatio.setEnabled(False)
         else: 
@@ -313,14 +322,14 @@ class App(QMainWindow):
             row.append(self.tableToPredict.item(0, column).text())
         dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
         prediccion = predict_cases(dfToPredict, self.nodoRaiz)
-        self.predictedLabel.setText(prediccion[0])
+        self.predictedLabel.setText(f"{self.target}: {prediccion[0]}")
 
         row = []
         for column in range(0,len(self.df.columns.difference([self.target]))):
             row.append(self.tableToPredict.item(0, column).text())
         dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
         prediccion = predict_cases(dfToPredict, self.nodoRaizRatio)
-        self.predictedLabelRatio.setText(prediccion[0])
+        self.predictedLabelRatio.setText(f"{self.target}: {prediccion[0]}")
 
 
 class TableModel(QtCore.QAbstractTableModel): # This class is for generate the tables in the UI (data preview and confusion matrix)
