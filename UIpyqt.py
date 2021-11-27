@@ -95,9 +95,17 @@ class App(QMainWindow):
         
         self.model = TableModel(self.df.head()) # Aca se cargan los datos en el resumen de los datos
         self.tableView.setModel(self.model)
-        self.generarArbolButton.setEnabled(True)
-        self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
         
+
+        if len(self.df.columns) < 2:
+            self.control1column.setText("Se ha detectado una sola columna. El programa requiere de al menos 2 para funcionar. Revise el delimitador o que su archivo posea al menos 2 columnas")
+            self.control1column.setStyleSheet("color: red")
+            self.generarArbolButton.setEnabled(False)
+            self.generarArbolButton.setStyleSheet('font: bold;color: #777777;background-color : #cccccc')
+        else:
+            self.generarArbolButton.setEnabled(True)
+            self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
+
     def executeMainFunction(self): 
         """
         This is the main function, where the values are reseted, threshold and split values are defined, trees are generated and calulate accuracy values
