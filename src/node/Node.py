@@ -48,7 +48,9 @@ class Node:
                 #If the leaf node has only one value of the class (pure), it sets the node color to green
                 self.childrenNodeColor = 'green'
             #We create the leaf node with the previous assigned color, and show the gain and amount of cases for each class attribute the node has
-            graph.node(name = str(self.id_node), label= f'Clase: {self.curr_class} \n Gain: {round(self.gain,3)} \n [{self.data.cases[self.data.class_column_name].value_counts().to_string()}] \n { str(round(((self.data.cases[self.data.class_column_name].value_counts()[0]) / sum(self.data.cases[self.data.class_column_name].value_counts()))*100,2)) }%',color=self.childrenNodeColor,style='filled')
+            label = f'Clase: {self.curr_class} \n Gain: {round(self.gain,3)} \n [{self.data.cases[self.data.class_column_name].value_counts().to_string()}] \n { str(round(((list(self.data.cases[self.data.class_column_name].value_counts())[0]) / sum(self.data.cases[self.data.class_column_name].value_counts()))*100,2)) }%'
+            
+            graph.node(name = str(self.id_node), label= label,color=self.childrenNodeColor,style='filled')
         # We create the edge between the current node and the previous node
         if depth != 0:
             graph.edge(str(name_previous_node), str(self.id_node),label=str(self.val_attr),splines='line')
@@ -81,7 +83,9 @@ class Node:
             else:
                 # pure leaf node
                 self.childrenNodeColor = 'green'
-            graph.node(name = str(self.id_node), label= f'Clase: {self.curr_class} \n { str(round(((self.data.cases[self.data.class_column_name].value_counts()[0]) / sum(self.data.cases[self.data.class_column_name].value_counts()))*100,2)) }%',color=self.childrenNodeColor,style='filled')
+                
+            label = f'Clase: {self.curr_class} \n { str(round(((list(self.data.cases[self.data.class_column_name].value_counts())[0]) / sum(self.data.cases[self.data.class_column_name].value_counts()))*100,2)) }%'
+            graph.node(name = str(self.id_node), label=label,color=self.childrenNodeColor,style='filled')
         if depth != 0:
             # none root edge creation, joins parent with current, as root has no parent, it is only called for non root nodes
             graph.edge(str(name_previous_node), str(self.id_node),label=str(self.val_attr),splines='line')
