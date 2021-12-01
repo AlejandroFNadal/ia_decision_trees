@@ -110,7 +110,6 @@ class App(QMainWindow):
         self.model = TableModel(self.df.head()) # Aca se cargan los datos en el resumen de los datos
         self.tableView.setModel(self.model)
         
-
         if len(self.df.columns) < 2:
             self.control1column.setText("Se ha detectado una sola columna. El programa requiere de al menos 2 para funcionar. Revise el delimitador o que su archivo posea al menos 2 columnas")
             self.control1column.setStyleSheet("color: red")
