@@ -1,4 +1,6 @@
 digraph {
-	0 [label="Clase: CuentaSueldo 
- Gain: 0.52"]
+	0 [label="Clase: 1 
+ Gain: 0 
+ [1    1] 
+ 100.0%" color=green style=filled]
 }

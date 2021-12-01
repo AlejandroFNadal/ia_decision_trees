@@ -26,10 +26,7 @@ def remove_continuous_columns(df,maxValues):
     for col in df_without_floats:
         cardinality = df_without_floats[col].nunique()
         #If cardinality is equal to the len of the dataset, it could be an index, so we remove it.
-        if cardinality == len(df_without_floats):
-            output[0].append(col)
-            df_without_floats.drop(col, axis=1, inplace=True)
-        elif cardinality > maxValues:
+        if cardinality > maxValues:
             output[0].append(col)
             df_without_floats.drop(col, axis=1,inplace=True)
     # Add the filtered dataframe to the second subarray of the output

@@ -2,8 +2,8 @@ import sys
 import pandas as pd
 import graphviz
 import pydot
-from PyQt5 import QtCore, uic
-from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
+from PyQt5 import QtCore, uic, QtGui
+from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog, QDialog, QLabel, QVBoxLayout, QMessageBox
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
 from PIL import Image
@@ -32,6 +32,10 @@ class App(QMainWindow):
         self.imageGain.setScaledContents(True)
         self.imageGainRatio.setScaledContents(True)
         self.predictBox.setEnabled(False)
+        screen_resolution = app.desktop().screenGeometry()
+        widthwindow, heightwindow = screen_resolution.width(), screen_resolution.height()
+        self.setMaximumWidth(widthwindow*0.9)
+        self.setMaximumHeight(heightwindow*0.9)
 
         self.cargarArchivoButton.setStyleSheet('font: bold')
         self.cargarArchivoButton.clicked.connect(self.openFile) 
@@ -55,7 +59,6 @@ class App(QMainWindow):
 
         self.predictButton.clicked.connect(self.predictData)
             
-
     def twoThresholds(self):
         if  self.twoThresholdsCheckbox.isChecked():
             self.thresholdSelector2.setEnabled(True)
@@ -89,10 +92,21 @@ class App(QMainWindow):
         if (self.fileName).split('.')[-1] in ['csv','txt']:     # here we load the file as a dataframe 
                 self.df = pd.read_csv(self.fileName, sep=(self.separatorSelector.currentText()))   # CSV y TXT
 
+
         removed_continuous = remove_continuous_columns(self.df, self.maxValuesAllowed.value())     # Select and delete the continous columns
         self.df = removed_continuous[1]
         self.deletedColumnsLabel.setText('Columnas eliminadas (variables continuas): ' + ', '.join(map(str,removed_continuous[0])))
         
+        #This alert to the user that a column looks like an id
+        posibles_id = []
+        for col in self.df:
+            cardinality = self.df[col].nunique()
+            if cardinality == len(self.df):
+                posibles_id.append(col)
+        
+        if posibles_id != []:
+            self.showAlert(posibles_id)
+
         self.model = TableModel(self.df.head()) # Aca se cargan los datos en el resumen de los datos
         self.tableView.setModel(self.model)
         
@@ -107,6 +121,12 @@ class App(QMainWindow):
             self.generarArbolButton.setEnabled(True)
             self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
 
+    def showAlert(self, posibles_id):
+        dlg = QMessageBox(self)
+        dlg.setWindowTitle("AVISO!")
+        dlg.setText("Se ha detectado que la/s siguiente/s columna/s pueden ser consideradas como IDs, por lo que esto podria generar un arbol que no generalice de manera correcta: \n" + str(posibles_id))
+        dlg.exec()
+
     def executeMainFunction(self): 
         """
         This is the main function, where the values are reseted, threshold and split values are defined, trees are generated and calulate accuracy values
@@ -115,7 +135,7 @@ class App(QMainWindow):
         self.creatingTreeAlert.setStyleSheet('font: bold;color: #777777;background-color : #cccccc')
         self.generarArbolButton.setEnabled(False) # Once the generation in inicialized, we desable the button
 
-        self.gainImage = 0
+        self.gainImage = 0 # Index for accessing the tree step
         self.gainRatioImage = 0
         graph_array.clear()
         graph_array_ratio.clear()
@@ -331,7 +351,6 @@ class App(QMainWindow):
         prediccion = predict_cases(dfToPredict, self.nodoRaizRatio)
         self.predictedLabelRatio.setText(f"{self.target}: {prediccion[0]}")
 
-
 class TableModel(QtCore.QAbstractTableModel): # This class is for generate the tables in the UI (data preview and confusion matrix)
     """
     Create a table with the atributes recived. 
@@ -367,3 +386,4 @@ if __name__ == '__main__':
     GUI = App()
     GUI.showMaximized()
     sys.exit(app.exec_())
+    

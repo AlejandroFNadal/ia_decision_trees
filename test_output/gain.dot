@@ -1,36 +1,6 @@
 digraph {
-	0 [label="Clase: CuentaSueldo 
- Gain: 0.31"]
-	1 [label="Clase: si 
+	0 [label="Clase: 1 
  Gain: 0 
- [si    1] 
+ [1    1] 
  100.0%" color=green style=filled]
-	0 -> 1 [label=si splines=line]
-	2 [label="Clase: NivelIngreso 
- Gain: 0.19"]
-	0 -> 2 [label=no splines=line]
-	3 [label="Clase: no 
- Gain: 0 
- [no    2] 
- 100.0%" color=green style=filled]
-	2 -> 3 [label=alto splines=line]
-	4 [label="Clase: CreditoPrendarioActual 
- Gain: 0.25"]
-	2 -> 4 [label=medio splines=line]
-	5 [label="Clase: no 
- Gain: 0.0 
- [si    1
-no    1] 
- 50.0%" color=orange style=filled]
-	4 -> 5 [label=si splines=line]
-	6 [label="Clase: no 
- Gain: 0 
- [no    1] 
- 100.0%" color=green style=filled]
-	4 -> 6 [label=no splines=line]
-	7 [label="Clase: no 
- Gain: 0 
- [no    1] 
- 100.0%" color=green style=filled]
-	2 -> 7 [label=bajo splines=line]
 }
