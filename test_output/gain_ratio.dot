@@ -1,6 +1,4 @@
 digraph {
-	0 [label="Clase: 1 
- Gain: 0 
- [1    1] 
- 100.0%" color=green style=filled]
+	0 [label="Clase: Edad 
+ Gain: 0.2"]
 }

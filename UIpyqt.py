@@ -126,6 +126,12 @@ class App(QMainWindow):
         dlg.setText("Se ha detectado que la/s siguiente/s columna/s pueden ser consideradas como IDs, por lo que esto podria generar un arbol que no generalice de manera correcta: \n" + str(posibles_id))
         dlg.exec()
 
+    def showAlertPredictCase(self):
+        dlg = QMessageBox(self)
+        dlg.setWindowTitle("AVISO!")
+        dlg.setText("Hay algunos atributos que no poseen valores. No se puede realizar la predicción hasta que todos los atributos tengan un valor.")
+        dlg.exec()
+
     def executeMainFunction(self): 
         """
         This is the main function, where the values are reseted, threshold and split values are defined, trees are generated and calulate accuracy values
@@ -335,20 +341,25 @@ class App(QMainWindow):
         """
         Takes the row values to predict and call the predict_cases function with both trees (gain and gain ratio)
         After that, show the predict values of each tree
-        """        
+        """       
         row = []
         for column in range(0,len(self.df.columns.difference([self.target]))):
             row.append(self.tableToPredict.item(0, column).text())
         dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
-        prediccion = predict_cases(dfToPredict, self.nodoRaiz)
-        self.predictedLabel.setText(f"{self.target}: {prediccion[0]}")
 
-        row = []
-        for column in range(0,len(self.df.columns.difference([self.target]))):
-            row.append(self.tableToPredict.item(0, column).text())
-        dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
-        prediccion = predict_cases(dfToPredict, self.nodoRaizRatio)
-        self.predictedLabelRatio.setText(f"{self.target}: {prediccion[0]}")
+        contiene_vacio = False
+        for atributo in row:
+            if atributo == '' or atributo == ' ':
+                contiene_vacio = True
+
+        if contiene_vacio == True:
+            self.showAlertPredictCase()
+        else:
+            prediccion = predict_cases(dfToPredict, self.nodoRaiz)
+            self.predictedLabel.setText(f"{self.target}: {prediccion[0]}")
+
+            prediccion = predict_cases(dfToPredict, self.nodoRaizRatio)
+            self.predictedLabelRatio.setText(f"{self.target}: {prediccion[0]}")
 
 class TableModel(QtCore.QAbstractTableModel): # This class is for generate the tables in the UI (data preview and confusion matrix)
     """

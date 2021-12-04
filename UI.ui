@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1080</width>
-    <height>720</height>
+    <width>1141</width>
+    <height>784</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -30,7 +30,7 @@
     </size>
    </property>
    <layout class="QGridLayout" name="gridLayout_7">
-    <item row="1" column="0">
+    <item row="0" column="0">
      <widget class="QTabWidget" name="accuracyTab">
       <property name="enabled">
        <bool>true</bool>
@@ -43,8 +43,8 @@
       </property>
       <property name="maximumSize">
        <size>
-        <width>1000</width>
-        <height>800</height>
+        <width>1200</width>
+        <height>900</height>
        </size>
       </property>
       <property name="currentIndex">
@@ -60,13 +60,13 @@
           <property name="minimumSize">
            <size>
             <width>100</width>
-            <height>200</height>
+            <height>250</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>1000</width>
-            <height>400</height>
+            <width>1200</width>
+            <height>600</height>
            </size>
           </property>
           <property name="title">
@@ -83,7 +83,7 @@
              </property>
              <property name="maximumSize">
               <size>
-               <width>1000</width>
+               <width>1200</width>
                <height>60</height>
               </size>
              </property>
@@ -97,7 +97,7 @@
              <property name="minimumSize">
               <size>
                <width>0</width>
-               <height>10</height>
+               <height>30</height>
               </size>
              </property>
              <property name="maximumSize">
@@ -113,10 +113,16 @@
            </item>
            <item>
             <widget class="QGroupBox" name="groupBox">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>100</height>
+              </size>
+             </property>
              <property name="maximumSize">
               <size>
-               <width>1000</width>
-               <height>400</height>
+               <width>1200</width>
+               <height>500</height>
               </size>
              </property>
              <property name="title">
@@ -133,7 +139,7 @@
                 </property>
                 <property name="maximumSize">
                  <size>
-                  <width>16777215</width>
+                  <width>1200</width>
                   <height>30</height>
                  </size>
                 </property>
@@ -144,10 +150,16 @@
               </item>
               <item row="0" column="0">
                <widget class="QTableView" name="tableView">
+                <property name="minimumSize">
+                 <size>
+                  <width>100</width>
+                  <height>50</height>
+                 </size>
+                </property>
                 <property name="maximumSize">
                  <size>
-                  <width>1000</width>
-                  <height>400</height>
+                  <width>1200</width>
+                  <height>500</height>
                  </size>
                 </property>
                </widget>
@@ -168,8 +180,8 @@
           </property>
           <property name="maximumSize">
            <size>
-            <width>1000</width>
-            <height>400</height>
+            <width>1200</width>
+            <height>300</height>
            </size>
           </property>
           <property name="title">
@@ -180,8 +192,14 @@
             <widget class="QGroupBox" name="cargarArchivoGroup">
              <property name="minimumSize">
               <size>
-               <width>900</width>
-               <height>50</height>
+               <width>200</width>
+               <height>80</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>1200</width>
+               <height>80</height>
               </size>
              </property>
              <property name="title">
@@ -288,7 +306,7 @@
              </property>
              <property name="maximumSize">
               <size>
-               <width>1000</width>
+               <width>1200</width>
                <height>60</height>
               </size>
              </property>
@@ -310,8 +328,11 @@
                   <height>16777215</height>
                  </size>
                 </property>
+                <property name="minimum">
+                 <number>5</number>
+                </property>
                 <property name="maximum">
-                 <number>9999</number>
+                 <number>200</number>
                 </property>
                 <property name="value">
                  <number>30</number>
@@ -331,7 +352,7 @@
              </property>
              <property name="maximumSize">
               <size>
-               <width>1000</width>
+               <width>1200</width>
                <height>60</height>
               </size>
              </property>
@@ -466,6 +487,9 @@
                   <height>70</height>
                  </size>
                 </property>
+                <property name="minimum">
+                 <number>10</number>
+                </property>
                 <property name="maximum">
                  <number>100</number>
                 </property>
@@ -523,7 +547,7 @@
                  </size>
                 </property>
                 <property name="minimum">
-                 <double>0.000000000000000</double>
+                 <double>0.010000000000000</double>
                 </property>
                 <property name="maximum">
                  <double>1.000000000000000</double>
@@ -564,7 +588,7 @@
                  </size>
                 </property>
                 <property name="minimum">
-                 <double>0.000000000000000</double>
+                 <double>0.010000000000000</double>
                 </property>
                 <property name="maximum">
                  <double>1.000000000000000</double>
@@ -617,12 +641,19 @@
           </layout>
          </widget>
         </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="creatingTreeAlert">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
         <item row="3" column="0" colspan="2">
          <widget class="QTabWidget" name="tabShowTrees">
           <property name="maximumSize">
            <size>
-            <width>1700</width>
-            <height>800</height>
+            <width>1200</width>
+            <height>900</height>
            </size>
           </property>
           <property name="currentIndex">
@@ -633,8 +664,8 @@
             <string>Arbol usando Gain</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_5">
-            <item row="2" column="1">
-             <widget class="QPushButton" name="firstImageGain">
+            <item row="3" column="2">
+             <widget class="QPushButton" name="viewImageSystemGain">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -643,61 +674,16 @@
               </property>
               <property name="maximumSize">
                <size>
-                <width>100</width>
+                <width>1000</width>
                 <height>40</height>
                </size>
               </property>
               <property name="text">
-               <string>Nodo Raiz</string>
+               <string>Abrir imagen con visualizador del sistema</string>
               </property>
              </widget>
             </item>
-            <item row="2" column="3">
-             <widget class="QPushButton" name="lastImageGain">
-              <property name="minimumSize">
-               <size>
-                <width>0</width>
-                <height>40</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>100</width>
-                <height>40</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Arbol completo</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1">
-             <widget class="QPushButton" name="prevImagenGain">
-              <property name="maximumSize">
-               <size>
-                <width>80</width>
-                <height>900</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>&lt;&lt; Previa  </string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="3">
-             <widget class="QPushButton" name="sigImagenGain">
-              <property name="maximumSize">
-               <size>
-                <width>80</width>
-                <height>900</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Siguiente &gt;&gt;</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="2">
+            <item row="1" column="2">
              <widget class="QLabel" name="imageGain">
               <property name="minimumSize">
                <size>
@@ -707,7 +693,7 @@
               </property>
               <property name="maximumSize">
                <size>
-                <width>800</width>
+                <width>1000</width>
                 <height>600</height>
                </size>
               </property>
@@ -719,16 +705,75 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="2">
-             <widget class="QPushButton" name="viewImageSystemGain">
+            <item row="1" column="1">
+             <widget class="QPushButton" name="prevImagenGain">
               <property name="maximumSize">
                <size>
-                <width>1700</width>
-                <height>40</height>
+                <width>80</width>
+                <height>900</height>
                </size>
               </property>
               <property name="text">
-               <string>Abrir imagen con visualizador del sistema</string>
+               <string>&lt;&lt; Prev. </string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QPushButton" name="sigImagenGain">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>900</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Sig. &gt;&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QPushButton" name="firstImageGain">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Ver Nodo
+Raiz</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QPushButton" name="lastImageGain">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Ver Arbol
+Completo</string>
               </property>
              </widget>
             </item>
@@ -739,45 +784,7 @@
             <string>Arbol usando Gain Ratio</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_6">
-            <item row="2" column="1">
-             <widget class="QPushButton" name="firstImageGainRatio">
-              <property name="minimumSize">
-               <size>
-                <width>0</width>
-                <height>40</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>100</width>
-                <height>40</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Nodo Raiz</string>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="3">
-             <widget class="QPushButton" name="lastImageGainRatio">
-              <property name="minimumSize">
-               <size>
-                <width>0</width>
-                <height>40</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>100</width>
-                <height>40</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Arbol completo</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1">
+            <item row="1" column="1">
              <widget class="QPushButton" name="prevImagenGainRatio">
               <property name="maximumSize">
                <size>
@@ -786,25 +793,18 @@
                </size>
               </property>
               <property name="text">
-               <string>&lt;&lt; Previa  </string>
+               <string>&lt;&lt; Prev. </string>
               </property>
              </widget>
             </item>
-            <item row="0" column="3">
-             <widget class="QPushButton" name="sigImagenGainRatio">
+            <item row="1" column="2">
+             <widget class="QLabel" name="imageGainRatio">
               <property name="maximumSize">
                <size>
-                <width>80</width>
-                <height>800</height>
+                <width>1000</width>
+                <height>600</height>
                </size>
               </property>
-              <property name="text">
-               <string>Siguiente &gt;&gt;</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="2">
-             <widget class="QLabel" name="imageGainRatio">
               <property name="text">
                <string>TextLabel</string>
               </property>
@@ -813,11 +813,17 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="2">
+            <item row="3" column="2">
              <widget class="QPushButton" name="viewImageSystemGainRatio">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
               <property name="maximumSize">
                <size>
-                <width>1700</width>
+                <width>1000</width>
                 <height>40</height>
                </size>
               </property>
@@ -826,15 +832,61 @@
               </property>
              </widget>
             </item>
+            <item row="0" column="1">
+             <widget class="QPushButton" name="firstImageGainRatio">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Ver Nodo
+Raiz</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QPushButton" name="sigImagenGainRatio">
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>800</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Sig. &gt;&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QPushButton" name="lastImageGainRatio">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Ver Arbol
+completo</string>
+              </property>
+             </widget>
+            </item>
            </layout>
           </widget>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QLabel" name="creatingTreeAlert">
-          <property name="text">
-           <string/>
-          </property>
          </widget>
         </item>
        </layout>
@@ -980,8 +1032,8 @@
           </property>
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>300</height>
+            <width>1200</width>
+            <height>350</height>
            </size>
           </property>
           <property name="font">
@@ -992,8 +1044,43 @@
           <property name="title">
            <string>Ingrese los datos para generar la prediccion</string>
           </property>
-          <layout class="QGridLayout" name="gridLayout_9">
-           <item row="1" column="0" colspan="3">
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QTableWidget" name="tableToPredict">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>75</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>75</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>1200</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string> Aviso: El ingreso de datos es sensible a mayusculas (Ejemplo: &quot;Si&quot; no es lo mismo que &quot;si&quot;).</string>
+             </property>
+            </widget>
+           </item>
+           <item>
             <widget class="QPushButton" name="predictButton">
              <property name="minimumSize">
               <size>
@@ -1006,46 +1093,12 @@
              </property>
             </widget>
            </item>
-           <item row="0" column="0" colspan="3">
-            <widget class="QTableWidget" name="tableToPredict">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>100</height>
-              </size>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="0">
-            <widget class="QLabel" name="label_5">
-             <property name="maximumSize">
-              <size>
-               <width>300</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <underline>true</underline>
-              </font>
-             </property>
-             <property name="text">
-              <string>Clase predicha con Gain Ratio: </string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="0">
+           <item>
             <widget class="QLabel" name="label_4">
              <property name="maximumSize">
               <size>
-               <width>250</width>
-               <height>16777215</height>
+               <width>1200</width>
+               <height>40</height>
               </size>
              </property>
              <property name="font">
@@ -1058,14 +1111,7 @@
              </property>
             </widget>
            </item>
-           <item row="3" column="1">
-            <widget class="QLabel" name="predictedLabelRatio">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="1">
+           <item>
             <widget class="QLabel" name="predictedLabel">
              <property name="font">
               <font>
@@ -1076,6 +1122,31 @@
                <strikeout>false</strikeout>
               </font>
              </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="maximumSize">
+              <size>
+               <width>1200</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <underline>true</underline>
+              </font>
+             </property>
+             <property name="text">
+              <string>Clase predicha con Gain Ratio: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="predictedLabelRatio">
              <property name="text">
               <string/>
              </property>
@@ -1095,8 +1166,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1080</width>
-     <height>22</height>
+     <width>1141</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
