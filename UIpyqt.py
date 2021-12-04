@@ -71,7 +71,7 @@ class App(QMainWindow):
         """        
         options = QFileDialog.Options()
         file = QFileDialog.getOpenFileName(self,"QFileDialog.getOpenFileName()", "","Files (*.txt *.csv);;All Files (*)", options=options)
-        if file:
+        if file[0] != '':
             self.fileName, _ = file
             self.fileNameText.setText("Nombre del archivo: " + (self.fileName).split('/')[-1]) # Shows the file name
             self.cargarDatosButton.setEnabled(True)
@@ -139,7 +139,7 @@ class App(QMainWindow):
         self.creatingTreeAlert.setText("El arbol se esta generando... Espere por favor.")
         self.creatingTreeAlert.setStyleSheet('font: bold;color: #777777;background-color : #cccccc')
         self.generarArbolButton.setEnabled(False) # Once the generation in inicialized, we desable the button
-
+        df_test = pd.DataFrame()
         self.gainImage = 0 # Index for accessing the tree step
         self.gainRatioImage = 0
         graph_array.clear()
@@ -182,6 +182,7 @@ class App(QMainWindow):
         
         # Generate the confusion matrix
         if not (df_test.empty):
+
             df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
             df_test['correct_prediction_gain'] = df_test[['test_result_gain',self.target]].apply(lambda x: 1 if x['test_result_gain'] == x[self.target] else 0, axis=1)
 
@@ -190,6 +191,7 @@ class App(QMainWindow):
 
             self.showAccuracy(df_test, self.target)
         else:
+
             self.accuracyGainLabel.setText('Accuracy: ')
             self.confusionMatrixGainTab.setModel(TableModel(pd.DataFrame([])))
             self.accuracyGainRatioLabel.setText('Accuracy: ')
@@ -341,15 +343,19 @@ class App(QMainWindow):
         """
         Takes the row values to predict and call the predict_cases function with both trees (gain and gain ratio)
         After that, show the predict values of each tree
-        """       
+        """     
+        contiene_vacio = False  
         row = []
         for column in range(0,len(self.df.columns.difference([self.target]))):
+            if self.tableToPredict.item(0,column) == None:
+                contiene_vacio = True
+                break
             row.append(self.tableToPredict.item(0, column).text())
-        dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
+        if not contiene_vacio:
+            dfToPredict = pd.DataFrame([row], columns = self.df.columns.drop(self.target).tolist())
 
-        contiene_vacio = False
         for atributo in row:
-            if atributo == '' or atributo == ' ':
+            if atributo == '' or atributo == ' ' or atributo == None:
                 contiene_vacio = True
 
         if contiene_vacio == True:
@@ -386,7 +392,8 @@ class TableModel(QtCore.QAbstractTableModel): # This class is for generate the t
     def headerData(self, section, orientation, role): # Obtain the column names and row names
         if role == Qt.DisplayRole:
             if orientation == Qt.Horizontal:
-                return str(self._data.columns[section])
+                if self._data.columns[section]:
+                    return str(self._data.columns[section])
 
             if orientation == Qt.Vertical:
                 return str(self._data.index[section])
