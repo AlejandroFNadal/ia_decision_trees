@@ -1,4 +1,63 @@
 digraph {
-	0 [label="Clase: NivelIngreso 
- Gain: 0.18"]
+	0 [label="Clase: Outlook 
+ Gain: 0.48"]
+	191 [label="Clase: Humidity 
+ Gain: 0.31"]
+	0 -> 191 [label=Rain splines=line]
+	192 [label="Clase: Wind 
+ Gain: 1.0"]
+	191 -> 192 [label=High splines=line]
+	193 [label="Clase: No 
+ Gain: 0 
+ [No    1] 
+ 100.0%" color=green style=filled]
+	192 -> 193 [label=Strong splines=line]
+	194 [label="Clase: Yes 
+ Gain: 0 
+ [Yes    1] 
+ 100.0%" color=green style=filled]
+	192 -> 194 [label=Weak splines=line]
+	195 [label="Clase: Yes 
+ Gain: 0 
+ [Yes    2] 
+ 100.0%" color=green style=filled]
+	191 -> 195 [label=Normal splines=line]
+	196 [label="Clase: Yes 
+ Gain: 0 
+ [Yes    1] 
+ 100.0%" color=green style=filled]
+	0 -> 196 [label=Drizzle splines=line]
+	197 [label="Clase: Yes 
+ Gain: 0 
+ [Yes    2] 
+ 100.0%" color=green style=filled]
+	0 -> 197 [label=Fog splines=line]
+	198 [label="Clase: No 
+ Gain: 0 
+ [No    1] 
+ 100.0%" color=green style=filled]
+	0 -> 198 [label=Hail splines=line]
+	199 [label="Clase: Temp 
+ Gain: 1.0"]
+	0 -> 199 [label=Sunny splines=line]
+	200 [label="Clase: Yes 
+ Gain: 0 
+ [Yes    1] 
+ 100.0%" color=green style=filled]
+	199 -> 200 [label=Cool splines=line]
+	201 [label="Clase: No 
+ Gain: 0 
+ [No    1] 
+ 100.0%" color=green style=filled]
+	199 -> 201 [label=Hot splines=line]
+	202 [label="Clase: Yes 
+ Gain: 0 
+ [Yes    1] 
+ 100.0%" color=green style=filled]
+	0 -> 202 [label=Overcast splines=line]
+	203 [label="Clase: No 
+ Gain: 0 
+ [No    1] 
+ 100.0%" color=green style=filled]
+	0 -> 203 [label=Snow splines=line]
 }

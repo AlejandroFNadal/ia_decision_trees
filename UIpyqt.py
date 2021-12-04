@@ -32,6 +32,7 @@ class App(QMainWindow):
         self.imageGain.setScaledContents(True)
         self.imageGainRatio.setScaledContents(True)
         self.predictBox.setEnabled(False)
+        self.predictButton.setEnabled(False)
         screen_resolution = app.desktop().screenGeometry()
         widthwindow, heightwindow = screen_resolution.width(), screen_resolution.height()
         self.setMaximumWidth(widthwindow*0.9)
@@ -120,6 +121,11 @@ class App(QMainWindow):
             self.generarArbolButton.setEnabled(True)
             self.generarArbolButton.setStyleSheet('font: bold;color: #000000;background-color : #94C973')
 
+        self.predictBox.setEnabled(False)
+        self.predictButton.setEnabled(False)
+        self.predictedLabel.setText("")
+        self.predictedLabelRatio.setText("")
+
     def showAlert(self, posibles_id):
         dlg = QMessageBox(self)
         dlg.setWindowTitle("AVISO!")
@@ -182,22 +188,23 @@ class App(QMainWindow):
         
         # Generate the confusion matrix
         if not (df_test.empty):
-
             df_test['test_result_gain'] = predict_cases(df_test,tree_gain)
             df_test['correct_prediction_gain'] = df_test[['test_result_gain',self.target]].apply(lambda x: 1 if x['test_result_gain'] == x[self.target] else 0, axis=1)
 
             df_test['test_result_gain_ratio'] = predict_cases(df_test,tree_gain_ratio)
             df_test['correct_prediction_gain_ratio'] = df_test[['test_result_gain_ratio',self.target]].apply(lambda x: 1 if x['test_result_gain_ratio'] == x[self.target] else 0, axis=1)
 
+            self.confusionMatrixGainTab.setEnabled(True)
+            self.confusionMatrixGainRatioTab.setEnabled(True)
             self.showAccuracy(df_test, self.target)
         else:
-
             self.accuracyGainLabel.setText('Accuracy: ')
-            self.confusionMatrixGainTab.setModel(TableModel(pd.DataFrame([])))
+            self.confusionMatrixGainTab.setEnabled(False)
             self.accuracyGainRatioLabel.setText('Accuracy: ')
-            self.confusionMatrixGainRatioTab.setModel(TableModel(pd.DataFrame([])))
+            self.confusionMatrixGainRatioTab.setEnabled(False)
         
         self.predictBox.setEnabled(True)
+        self.predictButton.setEnabled(True)
         self.nodoRaiz = tree_gain
         self.nodoRaizRatio = tree_gain_ratio
         self.creatingTreeAlert.setText("")
